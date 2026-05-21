@@ -1,18 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "update_page_elementor",
-      "id": "test-small",
-      "page_id": 1074,
-      "elementor_data": [
-        {
-          "id": "test",
-          "elType": "section",
-          "settings": {},
-          "elements": []
-        }
-      ]
-    }
-  ],
-  "last_updated": "2026-05-21T16:07:10.801795+00:00"
+  "commands": [],
+  "last_updated": "2026-05-21T16:07:23.748079"
 }
