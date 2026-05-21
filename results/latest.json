@@ -1,21 +1,170 @@
 {
   "results": [
     {
-      "action": "update_template",
-      "id": "restore-home",
-      "timestamp": "2026-05-21T15:55:47.950503",
+      "action": "search_replace",
+      "id": "fix-aug31-home",
+      "timestamp": "2026-05-21T15:56:30.491336",
       "result": {
         "success": true,
         "data": {
-          "id": 1996,
-          "updated": [
-            "elementor_data"
-          ]
+          "search": "March 31",
+          "replace": "August 31",
+          "dry_run": false,
+          "affected": [
+            {
+              "post_id": "1059",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1071",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1140",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1141",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1142",
+              "title": "Elementor Header #1033",
+              "count": 3
+            },
+            {
+              "post_id": "1146",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1147",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1178",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1179",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1189",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1190",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1194",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1195",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1196",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1199",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1202",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1205",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1206",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1209",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1210",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1222",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1223",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1227",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1228",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1992",
+              "title": "BMIIL \u2014 Header v7 (logo sized)",
+              "count": 1
+            },
+            {
+              "post_id": "1993",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1994",
+              "title": "Elementor Header #1033",
+              "count": 1
+            }
+          ],
+          "count": 27,
+          "message": "27 template(s) updated."
+        }
+      }
+    },
+    {
+      "action": "sync_all_templates",
+      "id": "verify-sync",
+      "timestamp": "2026-05-21T15:56:31.615648",
+      "result": {
+        "success": true,
+        "data": {
+          "synced": 25
         }
       }
     }
   ],
-  "last_run": "2026-05-21T15:55:49.760696",
+  "last_run": "2026-05-21T15:57:19.810816",
   "status": "completed",
-  "commands_run": 1
+  "commands_run": 2
 }
