@@ -1,0 +1,133 @@
+name: BMIIL WordPress Bridge
+
+on:
+  push:
+    paths:
+      - 'commands/pending.json'
+  workflow_dispatch:
+
+jobs:
+  execute:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Execute WordPress Commands
+        env:
+          WP_SITE: ${{ secrets.WP_SITE }}
+          WP_TOKEN: ${{ secrets.WP_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          python3 << 'SCRIPT'
+          import json, urllib.request, base64, os, datetime
+
+          site     = os.environ['WP_SITE']   # https://test.bmiil.com
+          wp_token = os.environ['WP_TOKEN']  # bmiil_claude_2026_xK9mP3qR7wN2vL8
+          gh_token = os.environ['GH_TOKEN']
+          repo     = "krishnamhnsingh/bmiil"
+
+          def wp(method, endpoint, data=None):
+              url  = f"{site}/wp-json/bmiil/v1/{endpoint}"
+              body = json.dumps(data).encode() if data else None
+              req  = urllib.request.Request(url, data=body, method=method)
+              req.add_header("X-BMIIL-Token", wp_token)
+              req.add_header("Content-Type", "application/json")
+              try:
+                  with urllib.request.urlopen(req, timeout=30) as r:
+                      return json.loads(r.read())
+              except Exception as e:
+                  return {"success": False, "error": str(e)}
+
+          def gh_put(path, content, msg):
+              url  = f"https://api.github.com/repos/{repo}/contents/{path}"
+              # get sha
+              req  = urllib.request.Request(url)
+              req.add_header("Authorization", f"token {gh_token}")
+              req.add_header("Accept", "application/vnd.github.v3+json")
+              sha = None
+              try:
+                  with urllib.request.urlopen(req) as r:
+                      sha = json.loads(r.read()).get("sha")
+              except: pass
+              payload = {"message": msg, "content": base64.b64encode(content.encode()).decode(), "branch": "main"}
+              if sha: payload["sha"] = sha
+              body = json.dumps(payload).encode()
+              req2 = urllib.request.Request(url, data=body, method="PUT")
+              req2.add_header("Authorization", f"token {gh_token}")
+              req2.add_header("Content-Type", "application/json")
+              req2.add_header("Accept", "application/vnd.github.v3+json")
+              with urllib.request.urlopen(req2) as r:
+                  return json.loads(r.read())
+
+          # Read pending commands
+          with open("commands/pending.json") as f:
+              queue = json.load(f)
+
+          commands = queue.get("commands", [])
+          results  = []
+
+          for cmd in commands:
+              action = cmd.get("action")
+              result = {"action": action, "id": cmd.get("id"), "timestamp": datetime.datetime.utcnow().isoformat()}
+
+              if action == "ping":
+                  result["result"] = wp("GET", "ping")
+
+              elif action == "get_pages":
+                  result["result"] = wp("GET", "pages")
+
+              elif action == "get_template":
+                  tid = cmd.get("template_id")
+                  result["result"] = wp("GET", f"templates/{tid}")
+                  # Also save snapshot to /templates/
+                  if result["result"].get("success"):
+                      tdata = result["result"]["data"]
+                      snap  = json.dumps(tdata, indent=2)
+                      gh_put(f"templates/{tdata['slug']}.json", snap, f"Snapshot: {tdata['title']}")
+
+              elif action == "update_template":
+                  tid      = cmd.get("template_id")
+                  new_data = cmd.get("elementor_data")
+                  result["result"] = wp("POST", f"templates/{tid}", {"elementor_data": new_data})
+
+              elif action == "update_page":
+                  pid    = cmd.get("page_id")
+                  fields = cmd.get("fields", {})
+                  result["result"] = wp("POST", f"pages/{pid}", fields)
+
+              elif action == "search_replace":
+                  result["result"] = wp("POST", "search-replace", {
+                      "search":  cmd.get("search"),
+                      "replace": cmd.get("replace"),
+                      "dry_run": cmd.get("dry_run", True)
+                  })
+
+              elif action == "sync_all_templates":
+                  templates = wp("GET", "templates")
+                  if templates.get("success"):
+                      for tmpl in templates["data"]:
+                          td = wp("GET", f"templates/{tmpl['id']}")
+                          if td.get("success"):
+                              snap = json.dumps(td["data"], indent=2)
+                              gh_put(f"templates/{tmpl['slug']}.json", snap, f"Sync: {tmpl['title']}")
+                      result["result"] = {"synced": len(templates["data"])}
+                  else:
+                      result["result"] = templates
+
+              else:
+                  result["result"] = {"error": f"Unknown action: {action}"}
+
+              results.append(result)
+              print(f"  {action}: {json.dumps(result.get('result',{}))[:100]}")
+
+          # Write results back to GitHub
+          output = json.dumps({"results": results, "last_run": datetime.datetime.utcnow().isoformat(), "status": "completed"}, indent=2)
+          gh_put("results/latest.json", output, f"Results: {len(results)} command(s) executed")
+
+          # Clear the command queue
+          empty = json.dumps({"commands": [], "last_updated": datetime.datetime.utcnow().isoformat()}, indent=2)
+          gh_put("commands/pending.json", empty, "Clear command queue after execution")
+
+          print(f"Done: {len(results)} commands executed")
+          SCRIPT
