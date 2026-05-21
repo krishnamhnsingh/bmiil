@@ -1,4 +1,17 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-21T08:58:02.178043"
+  "commands": [
+    {
+      "action": "ping",
+      "id": "v11-ping"
+    },
+    {
+      "action": "get_templates",
+      "id": "v11-list"
+    },
+    {
+      "action": "sync_all_templates",
+      "id": "v11-sync"
+    }
+  ],
+  "last_updated": "2026-05-21T09:02:36.216522+00:00"
 }
