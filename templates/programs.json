@@ -1,0 +1,398 @@
+{
+  "id": 1005,
+  "title": "Programs",
+  "slug": "programs",
+  "status": "draft",
+  "template_type": "page",
+  "elementor_data": [
+    {
+      "id": "04b2wrx",
+      "elType": "section",
+      "settings": {
+        "stretch_section": "section-stretched",
+        "content_width": {
+          "unit": "px",
+          "size": 1220
+        },
+        "background_color": "#08122A",
+        "padding": {
+          "unit": "px",
+          "top": 160,
+          "right": 40,
+          "bottom": 64,
+          "left": 40,
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "lp3a8xn",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "content_width": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "fmqoj2h",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span style=\"font-family:DM Mono;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);display:inline-block;\">Programs</span>",
+                "_padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 16,
+                  "left": 0,
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "7hag4p4",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Three Programs. One Mission.",
+                "header_size": "h1",
+                "align": "left",
+                "title_color": "#FFFFFF",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "typography_font_weight": "300"
+              }
+            },
+            {
+              "id": "ovbhi3r",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 8
+                }
+              }
+            },
+            {
+              "id": "283cdhx",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Whether you're a clinician with an idea, an engineer solving a real problem, or a startup ready to scale \u2014 BMIIL has a structured program built for exactly where you are right now.</p>",
+                "text_color": "rgba(255,255,255,0.55)",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f6fpcsb",
+      "elType": "section",
+      "settings": {
+        "stretch_section": "section-stretched",
+        "content_width": {
+          "unit": "px",
+          "size": 1220
+        },
+        "background_color": "#F7F3EC",
+        "padding": {
+          "unit": "px",
+          "top": 80,
+          "right": 40,
+          "bottom": 40,
+          "left": 40,
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "s21ns4e",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "content_width": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "24mxleo",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span style=\"font-family:DM Mono;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);display:inline-block;\">Our Programs</span>",
+                "_padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 16,
+                  "left": 0,
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "lj0odl2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Three tracks.<br><em>All roads lead to impact.</em>",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#08122A",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "300"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kq9es5h",
+      "elType": "section",
+      "settings": {
+        "stretch_section": "section-stretched",
+        "content_width": {
+          "unit": "px",
+          "size": 1220
+        },
+        "padding": {
+          "unit": "px",
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0,
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "sz7ulkz",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "content_width": {
+              "unit": "%",
+              "size": 100
+            },
+            "background_color": "#08122A",
+            "padding": {
+              "unit": "px",
+              "top": 64,
+              "right": 48,
+              "bottom": 64,
+              "left": 48,
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "q1jqqlr",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span style=\"font-family:DM Mono;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);display:inline-block;\">Core Track</span>",
+                "_padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 16,
+                  "left": 0,
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "te8fcbo",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Medtech Incubation",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#FFFFFF",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 40
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "mb7vlif",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-style:italic;color:rgba(255,255,255,0.5);\">\"From clinical insight to validated product.\"</p>",
+                "text_color": "rgba(255,255,255,0.5)",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            },
+            {
+              "id": "6zrp8to",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            },
+            {
+              "id": "ltxsnbb",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Our flagship program. Built for healthcare, biotech, and medical device innovators who have identified a real clinical problem and are ready to build a solution with rigor \u2014 from prototyping through regulatory compliance to investor readiness.</p>",
+                "text_color": "rgba(255,255,255,0.6)",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            },
+            {
+              "id": "yqlyepp",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 32
+                }
+              }
+            },
+            {
+              "id": "3r6k40e",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Explore Medtech Track \u2192",
+                "link": {
+                  "url": "/programs/medtech-incubation/",
+                  "is_external": "",
+                  "nofollow": ""
+                },
+                "button_type": "info",
+                "background_color": "#C49A2A",
+                "button_text_color": "#08122A",
+                "border_border": "",
+                "border_color": "",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 2,
+                  "right": 2,
+                  "bottom": 2,
+                  "left": 2,
+                  "isLinked": true
+                },
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "600",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 32,
+                  "bottom": 14,
+                  "left": 32,
+                  "isLinked": false
+                },
+                "hover_color": "#E2BF68"
+              }
+            }
+          ]
+        },
+        {
+          "id": "4jtwy6r",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "content_width": {
+              "unit": "%",
+              "size": 100
+            },
+            "background_color": "#0F1F45",
+            "padding": {
+              "unit": "px",
+              "top": 64,
+              "right": 48,
+              "bottom": 64,
+              "left": 48,
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "f2nfvbc",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "\n                  <div style=\"display:grid;grid-template-columns:1fr 1fr;gap:16px;\">\n                    <div style=\"text-align:center;padding:24px;background:rgba(196,154,42,0.08);border-radius:4px;border:1px solid rgba(196,154,42,0.2);\">\n                      <div style=\"font-family:Cormorant Garamond;font-size:40px;font-weight:700;color:#C49A2A;\">12</div>\n                      <div style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;\">Months</div>\n                    </div>\n                    <div style=\"text-align:center;padding:24px;background:rgba(196,154,42,0.08);border-radius:4px;border:1px solid rgba(196,154,42,0.2);\">\n                      <div style=\"font-family:Cormorant Garamond;font-size:40px;font-weight:700;color:#C49A2A;\">10</div>\n                      <div style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;\">Seats</div>\n                    </div>\n                  </div>\n                ",
+                "text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "modified": "2026-05-01 00:00:00"
+}
