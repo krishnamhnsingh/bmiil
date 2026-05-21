@@ -4,16 +4,34 @@ on:
   push:
     paths:
       - 'commands/pending.json'
+    branches:
+      - main
   workflow_dispatch:
+    inputs:
+      command:
+        description: 'Direct command JSON (optional)'
+        required: false
 
 jobs:
   execute:
     runs-on: ubuntu-latest
+    # CRITICAL: Skip runs triggered by the bot itself to prevent infinite loops
+    if: github.actor != 'github-actions[bot]'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+
+      - name: Check for pending commands
+        id: check
+        run: |
+          COUNT=$(python3 -c "import json; d=json.load(open('commands/pending.json')); print(len(d.get('commands',[])))")
+          echo "count=$COUNT" >> $GITHUB_OUTPUT
+          echo "Pending commands: $COUNT"
 
       - name: Execute WordPress Commands
+        if: steps.check.outputs.count > 0
         env:
           WP_SITE: ${{ secrets.WP_SITE }}
           WP_TOKEN: ${{ secrets.WP_TOKEN }}
@@ -22,8 +40,8 @@ jobs:
           python3 << 'SCRIPT'
           import json, urllib.request, base64, os, datetime
 
-          site     = os.environ['WP_SITE']   # https://test.bmiil.com
-          wp_token = os.environ['WP_TOKEN']  # bmiil_claude_2026_xK9mP3qR7wN2vL8
+          site     = os.environ['WP_SITE']
+          wp_token = os.environ['WP_TOKEN']
           gh_token = os.environ['GH_TOKEN']
           repo     = "krishnamhnsingh/bmiil"
 
@@ -40,9 +58,8 @@ jobs:
                   return {"success": False, "error": str(e)}
 
           def gh_put(path, content, msg):
-              url  = f"https://api.github.com/repos/{repo}/contents/{path}"
-              # get sha
-              req  = urllib.request.Request(url)
+              url = f"https://api.github.com/repos/{repo}/contents/{path}"
+              req = urllib.request.Request(url)
               req.add_header("Authorization", f"token {gh_token}")
               req.add_header("Accept", "application/vnd.github.v3+json")
               sha = None
@@ -60,16 +77,21 @@ jobs:
               with urllib.request.urlopen(req2) as r:
                   return json.loads(r.read())
 
-          # Read pending commands
           with open("commands/pending.json") as f:
               queue = json.load(f)
 
           commands = queue.get("commands", [])
-          results  = []
+          if not commands:
+              print("No commands to execute")
+              exit(0)
+
+          print(f"Executing {len(commands)} command(s)...")
+          results = []
 
           for cmd in commands:
               action = cmd.get("action")
               result = {"action": action, "id": cmd.get("id"), "timestamp": datetime.datetime.utcnow().isoformat()}
+              print(f"  Running: {action}")
 
               if action == "ping":
                   result["result"] = wp("GET", "ping")
@@ -77,14 +99,12 @@ jobs:
               elif action == "get_pages":
                   result["result"] = wp("GET", "pages")
 
+              elif action == "get_templates":
+                  result["result"] = wp("GET", "templates")
+
               elif action == "get_template":
                   tid = cmd.get("template_id")
                   result["result"] = wp("GET", f"templates/{tid}")
-                  # Also save snapshot to /templates/
-                  if result["result"].get("success"):
-                      tdata = result["result"]["data"]
-                      snap  = json.dumps(tdata, indent=2)
-                      gh_put(f"templates/{tdata['slug']}.json", snap, f"Snapshot: {tdata['title']}")
 
               elif action == "update_template":
                   tid      = cmd.get("template_id")
@@ -104,30 +124,45 @@ jobs:
                   })
 
               elif action == "sync_all_templates":
-                  templates = wp("GET", "templates")
-                  if templates.get("success"):
-                      for tmpl in templates["data"]:
+                  templates_resp = wp("GET", "templates")
+                  if templates_resp.get("success"):
+                      synced = 0
+                      for tmpl in templates_resp["data"]:
                           td = wp("GET", f"templates/{tmpl['id']}")
                           if td.get("success"):
                               snap = json.dumps(td["data"], indent=2)
-                              gh_put(f"templates/{tmpl['slug']}.json", snap, f"Sync: {tmpl['title']}")
-                      result["result"] = {"synced": len(templates["data"])}
+                              gh_put(f"templates/{tmpl['slug']}.json", snap, f"[sync] {tmpl['title']}")
+                              synced += 1
+                              print(f"    Synced: {tmpl['title']}")
+                      result["result"] = {"success": True, "data": {"synced": synced}}
                   else:
-                      result["result"] = templates
+                      result["result"] = templates_resp
+
+              elif action == "get_site_info":
+                  result["result"] = wp("GET", "info")
 
               else:
                   result["result"] = {"error": f"Unknown action: {action}"}
 
               results.append(result)
-              print(f"  {action}: {json.dumps(result.get('result',{}))[:100]}")
+              print(f"    Done: {str(result.get('result',{}))[:80]}")
 
-          # Write results back to GitHub
-          output = json.dumps({"results": results, "last_run": datetime.datetime.utcnow().isoformat(), "status": "completed"}, indent=2)
-          gh_put("results/latest.json", output, f"Results: {len(results)} command(s) executed")
+          # Write results
+          output = json.dumps({
+              "results": results,
+              "last_run": datetime.datetime.utcnow().isoformat(),
+              "status": "completed",
+              "commands_run": len(results)
+          }, indent=2)
+          gh_put("results/latest.json", output, f"[results] {len(results)} command(s) completed")
 
-          # Clear the command queue
+          # Clear queue
           empty = json.dumps({"commands": [], "last_updated": datetime.datetime.utcnow().isoformat()}, indent=2)
-          gh_put("commands/pending.json", empty, "Clear command queue after execution")
+          gh_put("commands/pending.json", empty, f"[bot] Clear queue — {len(results)} executed")
 
-          print(f"Done: {len(results)} commands executed")
+          print(f"\nCompleted: {len(results)} commands")
           SCRIPT
+
+      - name: Skip message
+        if: steps.check.outputs.count == 0
+        run: echo "No commands pending — skipping execution"
