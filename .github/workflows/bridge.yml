@@ -106,6 +106,21 @@ jobs:
                   tid = cmd.get("template_id")
                   result["result"] = wp("GET", f"templates/{tid}")
 
+
+              elif action == "get_page":
+                  pid = cmd.get("page_id")
+                  result["result"] = wp("GET", f"pages/{pid}")
+                  # Also save snapshot
+                  if result["result"].get("success"):
+                      pdata = result["result"]["data"]
+                      snap  = json.dumps(pdata, indent=2)
+                      gh_put(f"templates/page-{pid}-{pdata['slug']}.json", snap, f"[page] {pdata['title']}")
+
+              elif action == "update_page_elementor":
+                  pid      = cmd.get("page_id")
+                  new_data = cmd.get("elementor_data")
+                  result["result"] = wp("POST", f"pages/{pid}", {"elementor_data": new_data})
+
               elif action == "update_template":
                   tid      = cmd.get("template_id")
                   new_data = cmd.get("elementor_data")
