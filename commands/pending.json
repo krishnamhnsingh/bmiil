@@ -1,4 +1,17 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-21T00:00:00Z"
+  "commands": [
+    {
+      "action": "ping",
+      "id": "cmd-001"
+    },
+    {
+      "action": "get_pages",
+      "id": "cmd-002"
+    },
+    {
+      "action": "sync_all_templates",
+      "id": "cmd-003"
+    }
+  ],
+  "last_updated": "2026-05-21T08:52:41.273272"
 }
