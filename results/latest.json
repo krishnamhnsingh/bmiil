@@ -1,170 +1,164 @@
 {
   "results": [
     {
-      "action": "search_replace",
-      "id": "fix-aug31-home",
-      "timestamp": "2026-05-21T15:56:30.491336",
+      "action": "get_pages",
+      "id": "check-pages",
+      "timestamp": "2026-05-21T16:03:33.625053",
       "result": {
         "success": true,
-        "data": {
-          "search": "March 31",
-          "replace": "August 31",
-          "dry_run": false,
-          "affected": [
-            {
-              "post_id": "1059",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1071",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1140",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1141",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1142",
-              "title": "Elementor Header #1033",
-              "count": 3
-            },
-            {
-              "post_id": "1146",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1147",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1178",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1179",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1189",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1190",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1194",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1195",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1196",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1199",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1202",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1205",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1206",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1209",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1210",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1222",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1223",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1227",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1228",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1992",
-              "title": "BMIIL \u2014 Header v7 (logo sized)",
-              "count": 1
-            },
-            {
-              "post_id": "1993",
-              "title": "Elementor Header #1033",
-              "count": 1
-            },
-            {
-              "post_id": "1994",
-              "title": "Elementor Header #1033",
-              "count": 1
-            }
-          ],
-          "count": 27,
-          "message": "27 template(s) updated."
-        }
+        "data": [
+          {
+            "id": 1008,
+            "title": "About",
+            "slug": "about",
+            "status": "publish",
+            "url": "https://test.bmiil.com/about/",
+            "template": "elementor_header_footer",
+            "has_elementor": true,
+            "modified": "2026-05-10 16:48:18"
+          },
+          {
+            "id": 1079,
+            "title": "Accelerator Program",
+            "slug": "accelerator-program",
+            "status": "publish",
+            "url": "https://test.bmiil.com/accelerator-program/",
+            "template": "elementor_header_footer",
+            "has_elementor": true,
+            "modified": "2026-05-10 15:21:43"
+          },
+          {
+            "id": 1084,
+            "title": "Apply Now",
+            "slug": "apply-now",
+            "status": "publish",
+            "url": "https://test.bmiil.com/apply-now/",
+            "template": "elementor_header_footer",
+            "has_elementor": true,
+            "modified": "2026-05-10 16:28:00"
+          },
+          {
+            "id": 1089,
+            "title": "Ayush Program",
+            "slug": "ayush-program",
+            "status": "publish",
+            "url": "https://test.bmiil.com/ayush-program/",
+            "template": "elementor_header_footer",
+            "has_elementor": true,
+            "modified": "2026-05-09 11:40:59"
+          },
+          {
+            "id": 2004,
+            "title": "Careers",
+            "slug": "careers",
+            "status": "publish",
+            "url": "https://test.bmiil.com/careers/",
+            "template": "elementor_header_footer",
+            "has_elementor": false,
+            "modified": "2026-05-21 07:57:29"
+          },
+          {
+            "id": 1095,
+            "title": "Contact",
+            "slug": "contact",
+            "status": "publish",
+            "url": "https://test.bmiil.com/contact/",
+            "template": "elementor_header_footer",
+            "has_elementor": true,
+            "modified": "2026-05-09 11:44:55"
+          },
+          {
+            "id": 1074,
+            "title": "Home",
+            "slug": "home",
+            "status": "publish",
+            "url": "https://test.bmiil.com/",
+            "template": "elementor_header_footer",
+            "has_elementor": true,
+            "modified": "2026-05-15 11:11:46"
+          },
+          {
+            "id": 1100,
+            "title": "Investor",
+            "slug": "investor-deck",
+            "status": "publish",
+            "url": "https://test.bmiil.com/investor-deck/",
+            "template": "elementor_header_footer",
+            "has_elementor": true,
+            "modified": "2026-05-21 07:33:33"
+          },
+          {
+            "id": 1919,
+            "title": "Latest Events",
+            "slug": "latest-events",
+            "status": "publish",
+            "url": "https://test.bmiil.com/latest-events/",
+            "template": "elementor_header_footer",
+            "has_elementor": true,
+            "modified": "2026-05-12 07:40:45"
+          },
+          {
+            "id": 1106,
+            "title": "Medtech Incubation",
+            "slug": "medtech-incubation",
+            "status": "publish",
+            "url": "https://test.bmiil.com/medtech-incubation/",
+            "template": "elementor_header_footer",
+            "has_elementor": true,
+            "modified": "2026-05-21 07:36:41"
+          },
+          {
+            "id": 3,
+            "title": "Privacy Policy",
+            "slug": "privacy-policy",
+            "status": "draft",
+            "url": "https://test.bmiil.com/?page_id=3",
+            "template": "default",
+            "has_elementor": false,
+            "modified": "2026-05-05 10:11:32"
+          },
+          {
+            "id": 1112,
+            "title": "Programs",
+            "slug": "programs",
+            "status": "publish",
+            "url": "https://test.bmiil.com/programs/",
+            "template": "elementor_header_footer",
+            "has_elementor": true,
+            "modified": "2026-05-09 11:26:58"
+          },
+          {
+            "id": 1117,
+            "title": "Team",
+            "slug": "team",
+            "status": "publish",
+            "url": "https://test.bmiil.com/team/",
+            "template": "elementor_header_footer",
+            "has_elementor": true,
+            "modified": "2026-05-15 10:56:41"
+          }
+        ]
       }
     },
     {
-      "action": "sync_all_templates",
-      "id": "verify-sync",
-      "timestamp": "2026-05-21T15:56:31.615648",
+      "action": "get_template",
+      "id": "check-home-tpl",
+      "timestamp": "2026-05-21T16:03:34.832809",
       "result": {
         "success": true,
         "data": {
-          "synced": 25
+          "id": 1996,
+          "title": "Home \u2014 BMIIL",
+          "slug": "home-bmiil",
+          "status": "publish",
+          "template_type": "page",
+          "elementor_data": null,
+          "modified": "2026-05-15 11:10:59"
         }
       }
     }
   ],
-  "last_run": "2026-05-21T15:57:19.810816",
+  "last_run": "2026-05-21T16:03:35.772485",
   "status": "completed",
   "commands_run": 2
 }
