@@ -1,21 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "ping",
-      "id": "cmd-ping-001"
-    },
-    {
-      "action": "get_site_info",
-      "id": "cmd-info-001"
-    },
-    {
-      "action": "get_pages",
-      "id": "cmd-pages-001"
-    },
-    {
-      "action": "sync_all_templates",
-      "id": "cmd-sync-001"
-    }
-  ],
-  "last_updated": "2026-05-21T08:57:30.041617"
+  "commands": [],
+  "last_updated": "2026-05-21T08:58:02.178043"
 }
