@@ -6,5 +6,12 @@
   "url": "https://test.bmiil.com/",
   "template": "elementor_header_footer",
   "has_elementor": true,
-  "elementor_data": null
+  "elementor_data": [
+    {
+      "id": "test",
+      "elType": "section",
+      "settings": [],
+      "elements": []
+    }
+  ]
 }
