@@ -119,6 +119,14 @@ jobs:
               elif action == "update_page_elementor":
                   pid      = cmd.get("page_id")
                   new_data = cmd.get("elementor_data")
+                  # If payload_url provided, fetch data from GitHub raw URL
+                  payload_url = cmd.get("payload_url")
+                  if payload_url and not new_data:
+                      req_raw = urllib.request.Request(payload_url)
+                      req_raw.add_header("Authorization", f"token {gh_token}")
+                      req_raw.add_header("Accept", "application/vnd.github.v3.raw")
+                      with urllib.request.urlopen(req_raw, timeout=30) as pr:
+                          new_data = json.loads(pr.read())
                   result["result"] = wp("POST", f"pages/{pid}", {"elementor_data": new_data})
 
               elif action == "update_template":
