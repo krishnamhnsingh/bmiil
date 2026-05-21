@@ -1,242 +1,91 @@
 {
   "results": [
     {
-      "action": "ping",
-      "id": "v11-ping",
-      "timestamp": "2026-05-21T09:02:45.756082",
+      "action": "update_template",
+      "id": "fix-home",
+      "timestamp": "2026-05-21T15:50:30.186351",
       "result": {
         "success": true,
         "data": {
-          "message": "BMIIL Claude Connector is active.",
-          "site": "https://test.bmiil.com",
-          "wp_version": "7.0",
-          "time": "2026-05-21 09:02:46"
+          "id": 1996,
+          "updated": [
+            "elementor_data"
+          ]
         }
       }
     },
     {
-      "action": "get_templates",
-      "id": "v11-list",
-      "timestamp": "2026-05-21T09:02:47.273010",
-      "result": {
-        "success": true,
-        "data": [
-          {
-            "id": 1002,
-            "title": "About",
-            "slug": "about",
-            "status": "draft",
-            "template_type": "page",
-            "modified": "2026-05-01 00:00:00"
-          },
-          {
-            "id": 1253,
-            "title": "About \u2014 BMIIL",
-            "slug": "about-bmiil",
-            "status": "publish",
-            "template_type": "page",
-            "modified": "2026-05-10 16:47:42"
-          },
-          {
-            "id": 1037,
-            "title": "Accelerator \u2014 BMIIL",
-            "slug": "accelerator-bmiil",
-            "status": "publish",
-            "template_type": "page",
-            "modified": "2026-05-08 05:14:02"
-          },
-          {
-            "id": 1004,
-            "title": "Apply Now",
-            "slug": "apply-now",
-            "status": "draft",
-            "template_type": "page",
-            "modified": "2026-05-01 00:00:00"
-          },
-          {
-            "id": 1039,
-            "title": "Apply Now \u2014 BMIIL",
-            "slug": "apply-now-bmiil",
-            "status": "publish",
-            "template_type": "page",
-            "modified": "2026-05-08 05:14:02"
-          },
-          {
-            "id": 1041,
-            "title": "Ayush Incubation \u2014 BMIIL",
-            "slug": "ayush-incubation-bmiil",
-            "status": "publish",
-            "template_type": "page",
-            "modified": "2026-05-08 05:14:02"
-          },
-          {
-            "id": 1229,
-            "title": "BMIIL \u2014 Footer",
-            "slug": "bmiil-footer",
-            "status": "publish",
-            "template_type": "page",
-            "modified": "2026-05-10 16:15:05"
-          },
-          {
-            "id": 1991,
-            "title": "BMIIL \u2014 Header v7 (logo sized)",
-            "slug": "bmiil-header-v7-logo-sized",
-            "status": "publish",
-            "template_type": "page",
-            "modified": "2026-05-15 11:01:15"
-          },
-          {
-            "id": 1000,
-            "title": "BMIIL Kit \u2014 Global Settings",
-            "slug": "bmiil-kit",
-            "status": "draft",
-            "template_type": "kit",
-            "modified": "2026-05-01 00:00:00"
-          },
-          {
-            "id": 1003,
-            "title": "Contact",
-            "slug": "contact",
-            "status": "draft",
-            "template_type": "page",
-            "modified": "2026-05-01 00:00:00"
-          },
-          {
-            "id": 1043,
-            "title": "Contact \u2014 BMIIL",
-            "slug": "contact-bmiil",
-            "status": "publish",
-            "template_type": "page",
-            "modified": "2026-05-08 05:14:02"
-          },
-          {
-            "id": 9,
-            "title": "Default Kit",
-            "slug": "default-kit",
-            "status": "publish",
-            "template_type": "kit",
-            "modified": "2026-05-12 12:17:37"
-          },
-          {
-            "id": 1060,
-            "title": "Elementor Footer #1060",
-            "slug": "elementor-footer-1060",
-            "status": "publish",
-            "template_type": "footer",
-            "modified": "2026-05-10 16:15:47"
-          },
-          {
-            "id": 1033,
-            "title": "Elementor Header #1033",
-            "slug": "elementor-header-1033",
-            "status": "publish",
-            "template_type": "header",
-            "modified": "2026-05-15 11:02:30"
-          },
-          {
-            "id": 1961,
-            "title": "Elementor Single Post #1961",
-            "slug": "elementor-single-post-1961",
-            "status": "publish",
-            "template_type": "single-post",
-            "modified": "2026-05-12 12:29:52"
-          },
-          {
-            "id": 1001,
-            "title": "Home",
-            "slug": "home",
-            "status": "draft",
-            "template_type": "page",
-            "modified": "2026-05-01 00:00:00"
-          },
-          {
-            "id": 1996,
-            "title": "Home \u2014 BMIIL",
-            "slug": "home-bmiil",
-            "status": "publish",
-            "template_type": "page",
-            "modified": "2026-05-15 11:10:59"
-          },
-          {
-            "id": 1007,
-            "title": "Investors & Partners",
-            "slug": "investors",
-            "status": "draft",
-            "template_type": "page",
-            "modified": "2026-05-01 00:00:00"
-          },
-          {
-            "id": 1051,
-            "title": "Investors & Partners \u2014 BMIIL",
-            "slug": "investors-partners-bmiil",
-            "status": "publish",
-            "template_type": "page",
-            "modified": "2026-05-08 05:14:02"
-          },
-          {
-            "id": 1053,
-            "title": "Medtech Incubation \u2014 BMIIL",
-            "slug": "medtech-incubation-bmiil",
-            "status": "publish",
-            "template_type": "page",
-            "modified": "2026-05-08 05:14:02"
-          },
-          {
-            "id": 1005,
-            "title": "Programs",
-            "slug": "programs",
-            "status": "draft",
-            "template_type": "page",
-            "modified": "2026-05-01 00:00:00"
-          },
-          {
-            "id": 1055,
-            "title": "Programs \u2014 BMIIL",
-            "slug": "programs-bmiil",
-            "status": "publish",
-            "template_type": "page",
-            "modified": "2026-05-08 05:14:02"
-          },
-          {
-            "id": 1959,
-            "title": "Single Post Template",
-            "slug": "single-post-template",
-            "status": "publish",
-            "template_type": null,
-            "modified": "2026-05-12 11:46:01"
-          },
-          {
-            "id": 1006,
-            "title": "Team & Leadership",
-            "slug": "team",
-            "status": "draft",
-            "template_type": "page",
-            "modified": "2026-05-01 00:00:00"
-          },
-          {
-            "id": 1986,
-            "title": "Team & Leadership \u2014 BMIIL",
-            "slug": "team-leadership-bmiil",
-            "status": "publish",
-            "template_type": "page",
-            "modified": "2026-05-15 10:56:16"
-          }
-        ]
-      }
-    },
-    {
-      "action": "sync_all_templates",
-      "id": "v11-sync",
-      "timestamp": "2026-05-21T09:02:48.140213",
+      "action": "update_template",
+      "id": "fix-header",
+      "timestamp": "2026-05-21T15:50:31.926939",
       "result": {
         "success": true,
         "data": {
-          "synced": 25
+          "id": 1991,
+          "updated": [
+            "elementor_data"
+          ]
+        }
+      }
+    },
+    {
+      "action": "update_template",
+      "id": "fix-team",
+      "timestamp": "2026-05-21T15:50:32.845225",
+      "result": {
+        "success": true,
+        "data": {
+          "id": 1986,
+          "updated": [
+            "elementor_data"
+          ]
+        }
+      }
+    },
+    {
+      "action": "update_template",
+      "id": "fix-footer",
+      "timestamp": "2026-05-21T15:50:34.009787",
+      "result": {
+        "success": true,
+        "data": {
+          "id": 1229,
+          "updated": [
+            "elementor_data"
+          ]
+        }
+      }
+    },
+    {
+      "action": "update_template",
+      "id": "fix-about",
+      "timestamp": "2026-05-21T15:50:34.949216",
+      "result": {
+        "success": true,
+        "data": {
+          "id": 1253,
+          "updated": [
+            "elementor_data"
+          ]
+        }
+      }
+    },
+    {
+      "action": "update_template",
+      "id": "fix-investors",
+      "timestamp": "2026-05-21T15:50:36.264378",
+      "result": {
+        "success": true,
+        "data": {
+          "id": 1051,
+          "updated": [
+            "elementor_data"
+          ]
         }
       }
     }
   ],
-  "last_run": "2026-05-21T09:03:41.231589",
+  "last_run": "2026-05-21T15:50:37.475167",
   "status": "completed",
-  "commands_run": 3
+  "commands_run": 6
 }
