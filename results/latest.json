@@ -1,91 +1,466 @@
 {
   "results": [
     {
-      "action": "update_template",
-      "id": "fix-home",
-      "timestamp": "2026-05-21T15:50:30.186351",
+      "action": "search_replace",
+      "id": "sr-march",
+      "timestamp": "2026-05-21T15:51:35.896876",
       "result": {
         "success": true,
         "data": {
-          "id": 1996,
-          "updated": [
-            "elementor_data"
-          ]
+          "search": "March 31",
+          "replace": "August 31",
+          "dry_run": false,
+          "affected": [
+            {
+              "post_id": "1033",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1059",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1071",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1140",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1141",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1142",
+              "title": "Elementor Header #1033",
+              "count": 3
+            },
+            {
+              "post_id": "1146",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1147",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1178",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1179",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1189",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1190",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1194",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1195",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1196",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1199",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1202",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1205",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1206",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1209",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1210",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1222",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1223",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1227",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1228",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1992",
+              "title": "BMIIL \u2014 Header v7 (logo sized)",
+              "count": 1
+            },
+            {
+              "post_id": "1993",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1994",
+              "title": "Elementor Header #1033",
+              "count": 1
+            }
+          ],
+          "count": 28,
+          "message": "28 template(s) updated."
         }
       }
     },
     {
-      "action": "update_template",
-      "id": "fix-header",
-      "timestamp": "2026-05-21T15:50:31.926939",
+      "action": "search_replace",
+      "id": "sr-500",
+      "timestamp": "2026-05-21T15:51:37.297760",
       "result": {
         "success": true,
         "data": {
-          "id": 1991,
-          "updated": [
-            "elementor_data"
-          ]
+          "search": "500+ Bed",
+          "replace": "1200+ Bed",
+          "dry_run": false,
+          "affected": [],
+          "count": 0,
+          "message": "0 template(s) updated."
         }
       }
     },
     {
-      "action": "update_template",
-      "id": "fix-team",
-      "timestamp": "2026-05-21T15:50:32.845225",
+      "action": "search_replace",
+      "id": "sr-vision1",
+      "timestamp": "2026-05-21T15:51:38.339593",
       "result": {
         "success": true,
         "data": {
-          "id": 1986,
-          "updated": [
-            "elementor_data"
-          ]
+          "search": "Download Our Vision Brief",
+          "replace": "Read More",
+          "dry_run": false,
+          "affected": [
+            {
+              "post_id": "1001",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1074",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1078",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1132",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1133",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1134",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1135",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1136",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1137",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1185",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1186",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1187",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1212",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1213",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1214",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1245",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1246",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1247",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1261",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1262",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1263",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1997",
+              "title": "Home \u2014 BMIIL",
+              "count": 1
+            },
+            {
+              "post_id": "1998",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1999",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "2000",
+              "title": "Home",
+              "count": 1
+            }
+          ],
+          "count": 25,
+          "message": "25 template(s) updated."
         }
       }
     },
     {
-      "action": "update_template",
-      "id": "fix-footer",
-      "timestamp": "2026-05-21T15:50:34.009787",
+      "action": "search_replace",
+      "id": "sr-vision2",
+      "timestamp": "2026-05-21T15:51:39.314118",
       "result": {
         "success": true,
         "data": {
-          "id": 1229,
-          "updated": [
-            "elementor_data"
-          ]
+          "search": "Download Vision Brief",
+          "replace": "Read More",
+          "dry_run": false,
+          "affected": [],
+          "count": 0,
+          "message": "0 template(s) updated."
         }
       }
     },
     {
-      "action": "update_template",
-      "id": "fix-about",
-      "timestamp": "2026-05-21T15:50:34.949216",
+      "action": "search_replace",
+      "id": "sr-apply",
+      "timestamp": "2026-05-21T15:51:40.228072",
       "result": {
         "success": true,
         "data": {
-          "id": 1253,
-          "updated": [
-            "elementor_data"
-          ]
+          "search": "href=\"/apply/\"",
+          "replace": "href=\"https://test.bmiil.com/apply/\"",
+          "dry_run": false,
+          "affected": [
+            {
+              "post_id": "1033",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1074",
+              "title": "Home",
+              "count": 1
+            },
+            {
+              "post_id": "1991",
+              "title": "BMIIL \u2014 Header v7 (logo sized)",
+              "count": 1
+            },
+            {
+              "post_id": "1996",
+              "title": "Home \u2014 BMIIL",
+              "count": 1
+            }
+          ],
+          "count": 4,
+          "message": "4 template(s) updated."
         }
       }
     },
     {
-      "action": "update_template",
-      "id": "fix-investors",
-      "timestamp": "2026-05-21T15:50:36.264378",
+      "action": "search_replace",
+      "id": "sr-invlink",
+      "timestamp": "2026-05-21T15:51:41.127462",
       "result": {
         "success": true,
         "data": {
-          "id": 1051,
-          "updated": [
-            "elementor_data"
-          ]
+          "search": "href=\"/investors/\"",
+          "replace": "href=\"https://test.bmiil.com/investor-deck/\"",
+          "dry_run": false,
+          "affected": [
+            {
+              "post_id": "1033",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1074",
+              "title": "Home",
+              "count": 2
+            },
+            {
+              "post_id": "1991",
+              "title": "BMIIL \u2014 Header v7 (logo sized)",
+              "count": 1
+            },
+            {
+              "post_id": "1996",
+              "title": "Home \u2014 BMIIL",
+              "count": 2
+            }
+          ],
+          "count": 4,
+          "message": "4 template(s) updated."
+        }
+      }
+    },
+    {
+      "action": "search_replace",
+      "id": "sr-invdeck",
+      "timestamp": "2026-05-21T15:51:42.052381",
+      "result": {
+        "success": true,
+        "data": {
+          "search": "href=\"/investor-deck/\"",
+          "replace": "href=\"https://test.bmiil.com/investor-deck/\"",
+          "dry_run": false,
+          "affected": [],
+          "count": 0,
+          "message": "0 template(s) updated."
+        }
+      }
+    },
+    {
+      "action": "search_replace",
+      "id": "sr-news",
+      "timestamp": "2026-05-21T15:51:42.988854",
+      "result": {
+        "success": true,
+        "data": {
+          "search": "href=\"/news/\"",
+          "replace": "href=\"https://test.bmiil.com/latest-events/\"",
+          "dry_run": false,
+          "affected": [
+            {
+              "post_id": "1033",
+              "title": "Elementor Header #1033",
+              "count": 1
+            },
+            {
+              "post_id": "1991",
+              "title": "BMIIL \u2014 Header v7 (logo sized)",
+              "count": 1
+            }
+          ],
+          "count": 2,
+          "message": "2 template(s) updated."
+        }
+      }
+    },
+    {
+      "action": "sync_all_templates",
+      "id": "final-sync",
+      "timestamp": "2026-05-21T15:51:43.893203",
+      "result": {
+        "success": true,
+        "data": {
+          "synced": 25
         }
       }
     }
   ],
-  "last_run": "2026-05-21T15:50:37.475167",
+  "last_run": "2026-05-21T15:52:37.819148",
   "status": "completed",
-  "commands_run": 6
+  "commands_run": 9
 }
