@@ -1,16 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "search_replace",
-      "id": "fix-aug31-home",
-      "search": "March 31",
-      "replace": "August 31",
-      "dry_run": false
-    },
-    {
-      "action": "sync_all_templates",
-      "id": "verify-sync"
-    }
-  ],
-  "last_updated": "2026-05-21T15:56:18.165374+00:00"
+  "commands": [],
+  "last_updated": "2026-05-21T15:57:21.013098"
 }
