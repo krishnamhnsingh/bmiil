@@ -1,0 +1,605 @@
+{
+  "id": 1006,
+  "title": "Team & Leadership",
+  "slug": "team",
+  "status": "draft",
+  "template_type": "page",
+  "elementor_data": [
+    {
+      "id": "f20fzsr",
+      "elType": "section",
+      "settings": {
+        "stretch_section": "section-stretched",
+        "content_width": {
+          "unit": "px",
+          "size": 1220
+        },
+        "background_color": "#08122A",
+        "padding": {
+          "unit": "px",
+          "top": 160,
+          "right": 40,
+          "bottom": 80,
+          "left": 40,
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "tk1wn1a",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "content_width": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "qoa32w9",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span style=\"font-family:DM Mono;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);display:inline-block;\">Team & Leadership</span>",
+                "_padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 16,
+                  "left": 0,
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "kcm94tx",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Built by people who<br><em>know</em> the problem<br><strong>from the inside.</strong>",
+                "header_size": "h1",
+                "align": "left",
+                "title_color": "#FFFFFF",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "typography_font_weight": "300"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sacwhyl",
+      "elType": "section",
+      "settings": {
+        "stretch_section": "section-stretched",
+        "content_width": {
+          "unit": "px",
+          "size": 1220
+        },
+        "background_color": "#F7F3EC",
+        "padding": {
+          "unit": "px",
+          "top": 80,
+          "right": 40,
+          "bottom": 112,
+          "left": 40,
+          "isLinked": false
+        },
+        "gap": "custom",
+        "gap_custom": {
+          "unit": "px",
+          "size": 24
+        }
+      },
+      "elements": [
+        {
+          "id": "gmkc281",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "content_width": {
+              "unit": "%",
+              "size": 100
+            },
+            "background_color": "#FFFFFF",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": 1,
+              "right": 1,
+              "bottom": 1,
+              "left": 1,
+              "isLinked": true
+            },
+            "border_color": "#EDE8DE",
+            "border_radius": {
+              "unit": "px",
+              "top": 4,
+              "right": 4,
+              "bottom": 4,
+              "left": 4,
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": 40,
+              "right": 32,
+              "bottom": 40,
+              "left": 32,
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "8vwzvzh",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style=\"width:100px;height:100px;border-radius:50%;background:linear-gradient(135deg,#0F1F45,#08122A);border:2px solid rgba(196,154,42,0.25);display:flex;align-items:center;justify-content:center;margin:0 auto 24px;font-family:Cormorant Garamond;font-size:32px;font-weight:700;color:#C49A2A;\">VA</div>",
+                "text_color": "#C49A2A",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            },
+            {
+              "id": "s8js89e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Dr. Varun Agarwal",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#08122A",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "u3pfvqb",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;color:#C49A2A;font-family:DM Mono;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;margin-bottom:8px;\">Founder & Board Member</p><p style=\"text-align:center;color:#7A8BA8;font-size:12px;\">MBBS, MD \u2014 Orthopaedics & Spine Surgery</p>",
+                "text_color": "#7A8BA8",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            },
+            {
+              "id": "m657gyl",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            },
+            {
+              "id": "slr6ou3",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>A practicing spine surgeon and President of the UP Spine Surgeons Association, Dr. Varun brings the rarest combination in medtech \u2014 deep clinical knowledge and an entrepreneur's instinct for where the system fails patients.</p>",
+                "text_color": "#4A5C78",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "fdx7fc0",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "content_width": {
+              "unit": "%",
+              "size": 100
+            },
+            "background_color": "#FFFFFF",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": 1,
+              "right": 1,
+              "bottom": 1,
+              "left": 1,
+              "isLinked": true
+            },
+            "border_color": "#EDE8DE",
+            "border_radius": {
+              "unit": "px",
+              "top": 4,
+              "right": 4,
+              "bottom": 4,
+              "left": 4,
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": 40,
+              "right": 32,
+              "bottom": 40,
+              "left": 32,
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "grbpnw4",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style=\"width:100px;height:100px;border-radius:50%;background:linear-gradient(135deg,#0F1F45,#08122A);border:2px solid rgba(196,154,42,0.25);display:flex;align-items:center;justify-content:center;margin:0 auto 24px;font-family:Cormorant Garamond;font-size:32px;font-weight:700;color:#C49A2A;\">CL</div>",
+                "text_color": "#C49A2A",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            },
+            {
+              "id": "kv5xg04",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Claudius Lazarus",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#08122A",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "p54brac",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;color:#C49A2A;font-family:DM Mono;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;margin-bottom:8px;\">Co-Founder & CEO</p><p style=\"text-align:center;color:#7A8BA8;font-size:12px;\">Technology Entrepreneur</p>",
+                "text_color": "#7A8BA8",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            },
+            {
+              "id": "98n4mqx",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            },
+            {
+              "id": "uwvj796",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Co-founder and CEO of BMIIL, driving the vision to build India's most impactful Tier-2 medtech incubator.</p>",
+                "text_color": "#4A5C78",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "jvv189z",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "content_width": {
+              "unit": "%",
+              "size": 100
+            },
+            "background_color": "#FFFFFF",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": 1,
+              "right": 1,
+              "bottom": 1,
+              "left": 1,
+              "isLinked": true
+            },
+            "border_color": "#EDE8DE",
+            "border_radius": {
+              "unit": "px",
+              "top": 4,
+              "right": 4,
+              "bottom": 4,
+              "left": 4,
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": 40,
+              "right": 32,
+              "bottom": 40,
+              "left": 32,
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "87aotek",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style=\"width:100px;height:100px;border-radius:50%;background:linear-gradient(135deg,#0F1F45,#08122A);border:2px solid rgba(196,154,42,0.25);display:flex;align-items:center;justify-content:center;margin:0 auto 24px;font-family:Cormorant Garamond;font-size:32px;font-weight:700;color:#C49A2A;\">XX</div>",
+                "text_color": "#C49A2A",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            },
+            {
+              "id": "y9y2xnx",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Prof. [Name]",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#08122A",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "5m009m5",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;color:#C49A2A;font-family:DM Mono;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;margin-bottom:8px;\">Chief Scientific Advisor</p><p style=\"text-align:center;color:#7A8BA8;font-size:12px;\">PhD \u00b7 BIU Faculty</p>",
+                "text_color": "#7A8BA8",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            },
+            {
+              "id": "wz9912k",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            },
+            {
+              "id": "5vchj1z",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Leading scientific oversight and research partnerships across the incubator's programs.</p>",
+                "text_color": "#4A5C78",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "4aoc33p",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "content_width": {
+              "unit": "%",
+              "size": 100
+            },
+            "background_color": "#FFFFFF",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": 1,
+              "right": 1,
+              "bottom": 1,
+              "left": 1,
+              "isLinked": true
+            },
+            "border_color": "#EDE8DE",
+            "border_radius": {
+              "unit": "px",
+              "top": 4,
+              "right": 4,
+              "bottom": 4,
+              "left": 4,
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": 40,
+              "right": 32,
+              "bottom": 40,
+              "left": 32,
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "qt3y807",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style=\"width:100px;height:100px;border-radius:50%;background:linear-gradient(135deg,#0F1F45,#08122A);border:2px solid rgba(196,154,42,0.25);display:flex;align-items:center;justify-content:center;margin:0 auto 24px;font-family:Cormorant Garamond;font-size:32px;font-weight:700;color:#C49A2A;\">YY</div>",
+                "text_color": "#C49A2A",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            },
+            {
+              "id": "xw6weg0",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "[Name]",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#08122A",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "w7pyfhn",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;color:#C49A2A;font-family:DM Mono;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;margin-bottom:8px;\">Regulatory Affairs Lead</p><p style=\"text-align:center;color:#7A8BA8;font-size:12px;\">CDSCO \u00b7 FDA Specialist</p>",
+                "text_color": "#7A8BA8",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            },
+            {
+              "id": "y7w4fpw",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            },
+            {
+              "id": "10bxhw9",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>In-house expertise on CDSCO, FDA, AYUSH, and WHO compliance pathways.</p>",
+                "text_color": "#4A5C78",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "modified": "2026-05-01 00:00:00"
+}
