@@ -1,0 +1,10 @@
+{
+  "id": 1074,
+  "title": "Home",
+  "slug": "home",
+  "status": "publish",
+  "url": "https://test.bmiil.com/",
+  "template": "elementor_header_footer",
+  "has_elementor": true,
+  "elementor_data": null
+}
