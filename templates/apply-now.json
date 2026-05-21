@@ -1,0 +1,534 @@
+{
+  "id": 1004,
+  "title": "Apply Now",
+  "slug": "apply-now",
+  "status": "draft",
+  "template_type": "page",
+  "elementor_data": [
+    {
+      "id": "9h712ed",
+      "elType": "section",
+      "settings": {
+        "stretch_section": "section-stretched",
+        "content_width": {
+          "unit": "px",
+          "size": 1220
+        },
+        "background_color": "#08122A",
+        "padding": {
+          "unit": "px",
+          "top": 160,
+          "right": 40,
+          "bottom": 80,
+          "left": 40,
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "tbppw0d",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "content_width": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "fxzxgl5",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span style=\"font-family:DM Mono;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);display:inline-block;\">Cohort 1 \u2014 Applications Open</span>",
+                "_padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 16,
+                  "left": 0,
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "m43o8em",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "This is where<br>your <em>idea</em><br>becomes <strong>a company.</strong>",
+                "header_size": "h1",
+                "align": "left",
+                "title_color": "#FFFFFF",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 64
+                },
+                "typography_font_weight": "300"
+              }
+            },
+            {
+              "id": "v6l6re7",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            },
+            {
+              "id": "9bdi5jn",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>10\u201312 seats across three tracks. One cohort. Applications reviewed on a rolling basis \u2014 the sooner you apply, the better your chance.</p>",
+                "text_color": "rgba(255,255,255,0.55)",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d73ace7",
+      "elType": "section",
+      "settings": {
+        "stretch_section": "section-stretched",
+        "content_width": {
+          "unit": "px",
+          "size": 1220
+        },
+        "padding": {
+          "unit": "px",
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0,
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "qy58r2z",
+          "elType": "column",
+          "settings": {
+            "_column_size": 45,
+            "content_width": {
+              "unit": "%",
+              "size": 100
+            },
+            "background_color": "#08122A",
+            "padding": {
+              "unit": "px",
+              "top": 64,
+              "right": 48,
+              "bottom": 64,
+              "left": 48,
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "3p9uj9d",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span style=\"font-family:DM Mono;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);display:inline-block;\">Choose Your Track</span>",
+                "_padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 16,
+                  "left": 0,
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "tyofnzy",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style=\"padding:20px 24px;border:1px solid rgba(196,154,42,0.25);border-radius:4px;margin-bottom:16px;background:#08122A;cursor:pointer;\"><strong style=\"color:#FFFFFF;font-family:Cormorant Garamond;font-size:18px;\">Medtech Incubation</strong><p style=\"color:rgba(255,255,255,0.5);font-size:13px;margin:4px 0 0;\">Idea \u2192 Validated Product \u00b7 12 months</p></div><div style=\"padding:20px 24px;border:1px solid rgba(196,154,42,0.25);border-radius:4px;margin-bottom:16px;background:#0F1F45;cursor:pointer;\"><strong style=\"color:#FFFFFF;font-family:Cormorant Garamond;font-size:18px;\">Accelerator</strong><p style=\"color:rgba(255,255,255,0.5);font-size:13px;margin:4px 0 0;\">Traction \u2192 Scale \u00b7 6 months</p></div><div style=\"padding:20px 24px;border:1px solid rgba(196,154,42,0.25);border-radius:4px;margin-bottom:16px;background:#1A3A2A;cursor:pointer;\"><strong style=\"color:#FFFFFF;font-family:Cormorant Garamond;font-size:18px;\">Ayush Incubation</strong><p style=\"color:rgba(255,255,255,0.5);font-size:13px;margin:4px 0 0;\">Traditional Medicine \u2192 Market \u00b7 12 months</p></div>",
+                "text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "w999e4u",
+          "elType": "column",
+          "settings": {
+            "_column_size": 55,
+            "content_width": {
+              "unit": "%",
+              "size": 100
+            },
+            "background_color": "#F7F3EC",
+            "padding": {
+              "unit": "px",
+              "top": 64,
+              "right": 48,
+              "bottom": 64,
+              "left": 48,
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "8aj4p1q",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span style=\"font-family:DM Mono;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);display:inline-block;\">What to Expect</span>",
+                "_padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 16,
+                  "left": 0,
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "k1avtym",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "What to <em>expect</em><br>from the process.",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#08122A",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_weight": "300"
+              }
+            },
+            {
+              "id": "a2tbelb",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 24
+                }
+              }
+            },
+            {
+              "id": "95h31hk",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Takes 15\u201320 Minutes",
+                "description_text": "Three short sections. No deck required at this stage \u2014 just clear answers about you, your idea, and your track preference.",
+                "selected_icon": {
+                  "value": "",
+                  "library": ""
+                },
+                "title_color": "#1B2A4A",
+                "description_color": "#7A8BA8",
+                "title_typography_font_family": "Cormorant Garamond",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "description_typography_font_family": "DM Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "icon_color": "#C49A2A",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "position": "top",
+                "_padding": {
+                  "unit": "px",
+                  "top": 24,
+                  "right": 24,
+                  "bottom": 24,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "isLinked": true
+                },
+                "border_color": "#EDE8DE",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 4,
+                  "right": 4,
+                  "bottom": 4,
+                  "left": 4,
+                  "isLinked": true
+                },
+                "background_color": "#FFFFFF",
+                "_hover_border_top_color": "#C49A2A",
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 8,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(8,18,42,0.08)"
+                }
+              }
+            },
+            {
+              "id": "l9uzbhb",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            },
+            {
+              "id": "lgnwdkx",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Rolling Review",
+                "description_text": "We review applications as they come in. Early applicants get more time with the team. Don't wait until the deadline.",
+                "selected_icon": {
+                  "value": "",
+                  "library": ""
+                },
+                "title_color": "#1B2A4A",
+                "description_color": "#7A8BA8",
+                "title_typography_font_family": "Cormorant Garamond",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "description_typography_font_family": "DM Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "icon_color": "#C49A2A",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "position": "top",
+                "_padding": {
+                  "unit": "px",
+                  "top": 24,
+                  "right": 24,
+                  "bottom": 24,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "isLinked": true
+                },
+                "border_color": "#EDE8DE",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 4,
+                  "right": 4,
+                  "bottom": 4,
+                  "left": 4,
+                  "isLinked": true
+                },
+                "background_color": "#FFFFFF",
+                "_hover_border_top_color": "#C49A2A",
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 8,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(8,18,42,0.08)"
+                }
+              }
+            },
+            {
+              "id": "8gowhnc",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            },
+            {
+              "id": "8n627ju",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Interview Within 2 Weeks",
+                "description_text": "Shortlisted applicants are invited for a 30-minute video call \u2014 no presentations, just a conversation.",
+                "selected_icon": {
+                  "value": "",
+                  "library": ""
+                },
+                "title_color": "#1B2A4A",
+                "description_color": "#7A8BA8",
+                "title_typography_font_family": "Cormorant Garamond",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "description_typography_font_family": "DM Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "icon_color": "#C49A2A",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "position": "top",
+                "_padding": {
+                  "unit": "px",
+                  "top": 24,
+                  "right": 24,
+                  "bottom": 24,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "isLinked": true
+                },
+                "border_color": "#EDE8DE",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 4,
+                  "right": 4,
+                  "bottom": 4,
+                  "left": 4,
+                  "isLinked": true
+                },
+                "background_color": "#FFFFFF",
+                "_hover_border_top_color": "#C49A2A",
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 8,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(8,18,42,0.08)"
+                }
+              }
+            },
+            {
+              "id": "wxx6d14",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 32
+                }
+              }
+            },
+            {
+              "id": "3suubx1",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Start Your Application \u2192",
+                "link": {
+                  "url": "/apply/form/",
+                  "is_external": "",
+                  "nofollow": ""
+                },
+                "button_type": "info",
+                "background_color": "#C49A2A",
+                "button_text_color": "#08122A",
+                "border_border": "",
+                "border_color": "",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 2,
+                  "right": 2,
+                  "bottom": 2,
+                  "left": 2,
+                  "isLinked": true
+                },
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "600",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 32,
+                  "bottom": 14,
+                  "left": 32,
+                  "isLinked": false
+                },
+                "hover_color": "#E2BF68"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "modified": "2026-05-01 00:00:00"
+}
