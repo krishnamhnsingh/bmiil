@@ -1,0 +1,324 @@
+{
+  "id": 1007,
+  "title": "Investors & Partners",
+  "slug": "investors",
+  "status": "draft",
+  "template_type": "page",
+  "elementor_data": [
+    {
+      "id": "qrnlv1t",
+      "elType": "section",
+      "settings": {
+        "stretch_section": "section-stretched",
+        "content_width": {
+          "unit": "px",
+          "size": 1220
+        },
+        "background_color": "#08122A",
+        "padding": {
+          "unit": "px",
+          "top": 160,
+          "right": 40,
+          "bottom": 112,
+          "left": 40,
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "v0o99xw",
+          "elType": "column",
+          "settings": {
+            "_column_size": 55,
+            "content_width": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "o6ngbdx",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span style=\"font-family:DM Mono;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);display:inline-block;\">Investors & Partners</span>",
+                "_padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 16,
+                  "left": 0,
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "wj4upf4",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "A rare window into<br><em>Tier-2 India's</em><br><strong>healthcare future.</strong>",
+                "header_size": "h1",
+                "align": "left",
+                "title_color": "#FFFFFF",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "typography_font_weight": "300"
+              }
+            },
+            {
+              "id": "93m4h6f",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            },
+            {
+              "id": "ajd0o8i",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>800 million people. Severely underserved healthcare. A university-backed incubator with grant approvals, clinical infrastructure, and a founding team ready to build. This is the ground floor.</p>",
+                "text_color": "rgba(255,255,255,0.55)",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            },
+            {
+              "id": "q2gfl50",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 32
+                }
+              }
+            },
+            {
+              "id": "981hq5t",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Download Investor Deck",
+                "link": {
+                  "url": "/investor-deck/",
+                  "is_external": "",
+                  "nofollow": ""
+                },
+                "button_type": "info",
+                "background_color": "#C49A2A",
+                "button_text_color": "#08122A",
+                "border_border": "",
+                "border_color": "",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 2,
+                  "right": 2,
+                  "bottom": 2,
+                  "left": 2,
+                  "isLinked": true
+                },
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "600",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 32,
+                  "bottom": 14,
+                  "left": 32,
+                  "isLinked": false
+                },
+                "hover_color": "#E2BF68"
+              }
+            }
+          ]
+        },
+        {
+          "id": "a9byknx",
+          "elType": "column",
+          "settings": {
+            "_column_size": 45,
+            "content_width": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "f2oajat",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.08);color:rgba(255,255,255,0.7);font-size:14px;\">\u2713 Grant Approved \u2014 [Body Name]</p><p style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.08);color:rgba(255,255,255,0.7);font-size:14px;\">\u2713 LOI Received \u2014 [Partner Institution]</p><p style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.08);color:rgba(255,255,255,0.7);font-size:14px;\">\u2713 Hosted by Bareilly International University</p><p style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.08);color:rgba(255,255,255,0.7);font-size:14px;\">\u2713 Startup India Recognised</p>",
+                "text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            },
+            {
+              "id": "ng03i4d",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 32
+                }
+              }
+            },
+            {
+              "id": "k93d557",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style=\"padding:40px;background:#0F1F45;border:1px solid rgba(196,154,42,0.2);border-radius:4px;text-align:center;\"><div style=\"font-family:Cormorant Garamond;font-size:56px;font-weight:700;color:#C49A2A;\">\u20b9XX Cr</div><div style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:8px;\">Grant Pipeline Active</div></div>",
+                "text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pntbww7",
+      "elType": "section",
+      "settings": {
+        "stretch_section": "section-stretched",
+        "content_width": {
+          "unit": "px",
+          "size": 1220
+        },
+        "background_color": "#F7F3EC",
+        "padding": {
+          "unit": "px",
+          "top": 112,
+          "right": 40,
+          "bottom": 112,
+          "left": 40,
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "rsh0rwo",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "content_width": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "qjgun1r",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span style=\"font-family:DM Mono;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);display:inline-block;\">The Opportunity</span>",
+                "_padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 16,
+                  "left": 0,
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "kedgef5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "The <em>largest</em> gap in<br><strong>Indian healthcare.</strong>",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#08122A",
+                "typography_font_family": "Cormorant Garamond",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "300"
+              }
+            },
+            {
+              "id": "gb2gnq8",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            },
+            {
+              "id": "hg8v41o",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>India's \u20b99 lakh crore healthcare market is concentrated in 8 metros. The Tier-2 and Tier-3 belt \u2014 where the majority of India actually lives \u2014 has virtually no medtech innovation infrastructure. BMIIL is built to close that gap, starting from Bareilly.</p>",
+                "text_color": "#4A5C78",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "modified": "2026-05-01 00:00:00"
+}
