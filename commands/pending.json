@@ -1,46 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "update_template",
-      "id": "test-post-1033",
-      "template_id": 1033,
-      "elementor_data": [
-        {
-          "id": "nx9o12w",
-          "elType": "section",
-          "settings": {
-            "gap": "no",
-            "padding": {
-              "unit": "px",
-              "top": 0,
-              "right": 0,
-              "bottom": 0,
-              "left": 0,
-              "isLinked": false
-            }
-          },
-          "elements": [
-            {
-              "id": "im122kk",
-              "elType": "column",
-              "settings": {
-                "_column_size": 100
-              },
-              "elements": [
-                {
-                  "id": "6lrg1ha",
-                  "elType": "widget",
-                  "widgetType": "html",
-                  "settings": {
-                    "html": "<p>test</p>"
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "last_updated": "2026-05-22T04:53:13.537173+00:00"
+  "commands": [],
+  "last_updated": "2026-05-22T04:53:21.696995"
 }
