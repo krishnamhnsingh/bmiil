@@ -1,17 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "update_template",
-      "id": "hdr-1033",
-      "template_id": 1033,
-      "payload_path": "staging/header-fresh.json"
-    },
-    {
-      "action": "update_template",
-      "id": "hdr-1991",
-      "template_id": 1991,
-      "payload_path": "staging/header-fresh.json"
-    }
-  ],
-  "last_updated": "2026-05-22T04:51:49.256127+00:00"
+  "commands": [],
+  "last_updated": "2026-05-22T04:52:01.626574"
 }
