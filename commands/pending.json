@@ -1,4 +1,13 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-22T04:38:06.178027"
+  "commands": [
+    {
+      "action": "update_page",
+      "id": "fix-template",
+      "page_id": 1074,
+      "fields": {
+        "template": "elementor_header_footer"
+      }
+    }
+  ],
+  "last_updated": "2026-05-22T04:38:38.207911+00:00"
 }
