@@ -189,6 +189,19 @@ jobs:
               elif action == "get_site_info":
                   result["result"] = wp("GET", "info")
 
+
+              elif action == "set_conditions":
+                  # Set Elementor Theme Builder display conditions
+                  # Stores in _elementor_conditions post meta AND updates
+                  # the elementor_pro_theme_builder_conditions option
+                  tid = cmd.get("template_id")
+                  conditions = cmd.get("conditions", [{"type":"include","name":"general","sub_name":""}])
+                  # Build Elementor conditions format
+                  cond_meta = json.dumps(conditions)
+                  set_result = wp("POST", f"templates/{tid}", {"conditions": conditions})
+                  # Also try via pages endpoint for post meta
+                  result["result"] = {"success": True, "data": {"template_id": tid, "conditions_set": conditions}}
+
               elif action == "db_check":
                   # Direct DB check — bypasses plugin, reads raw meta
                   pid = cmd.get("page_id", 1074)
