@@ -144,8 +144,19 @@ jobs:
                   result["result"] = wp("POST", f"pages/{pid}", {"elementor_data": new_data})
 
               elif action == "update_template":
-                  tid      = cmd.get("template_id")
-                  new_data = cmd.get("elementor_data")
+                  tid        = cmd.get("template_id")
+                  new_data   = cmd.get("elementor_data")
+                  payload_path = cmd.get("payload_path")
+                  if payload_path and not new_data:
+                      api_url = f"https://api.github.com/repos/{repo}/contents/{payload_path}"
+                      req_api = urllib.request.Request(api_url)
+                      req_api.add_header("Authorization", f"token {gh_token}")
+                      req_api.add_header("Accept", "application/vnd.github.v3+json")
+                      req_api.add_header("Cache-Control", "no-cache")
+                      with urllib.request.urlopen(req_api, timeout=30) as pr:
+                          api_data = json.loads(pr.read())
+                          import base64 as b64
+                          new_data = json.loads(b64.b64decode(api_data["content"]).decode())
                   result["result"] = wp("POST", f"templates/{tid}", {"elementor_data": new_data})
 
               elif action == "update_page":
