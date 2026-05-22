@@ -1,4 +1,9 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-22T16:25:15.394770"
+  "commands": [
+    {
+      "action": "get_pages",
+      "id": "find-careers"
+    }
+  ],
+  "last_updated": "2026-05-22T16:29:15.143805+00:00"
 }
