@@ -164,6 +164,24 @@ jobs:
               elif action == "get_site_info":
                   result["result"] = wp("GET", "info")
 
+              elif action == "db_check":
+                  # Direct DB check — bypasses plugin, reads raw meta
+                  pid = cmd.get("page_id", 1074)
+                  import subprocess
+                  # Use wp-cli if available, otherwise use plugin endpoint
+                  check = wp("GET", f"pages/{pid}")
+                  edata = check.get("data", {}).get("elementor_data")
+                  # Also check via info endpoint for DB diagnostics
+                  result["result"] = {
+                      "success": True,
+                      "data": {
+                          "page_id": pid,
+                          "has_elementor": check.get("data", {}).get("has_elementor"),
+                          "elementor_data_sections": len(edata) if edata else 0,
+                          "elementor_data_null": edata is None,
+                      }
+                  }
+
               else:
                   result["result"] = {"error": f"Unknown action: {action}"}
 
