@@ -1,22 +1,3386 @@
 {
   "results": [
     {
-      "action": "update_page_elementor",
-      "id": "restore-home-v13",
-      "timestamp": "2026-05-22T04:23:08.417273",
+      "action": "get_page",
+      "id": "verify-final",
+      "timestamp": "2026-05-22T04:23:49.695761",
       "result": {
         "success": true,
         "data": {
           "id": 1074,
-          "updated": [
-            "elementor_data"
-          ],
-          "url": "https://test.bmiil.com/"
+          "title": "Home",
+          "slug": "home",
+          "status": "publish",
+          "url": "https://test.bmiil.com/",
+          "template": "elementor_header_footer",
+          "has_elementor": true,
+          "elementor_data": [
+            {
+              "id": "yten157",
+              "elType": "section",
+              "settings": {
+                "stretch_section": "section-stretched",
+                "content_width": {
+                  "unit": "px",
+                  "size": 1220
+                },
+                "background_color": "#08122A",
+                "min_height": {
+                  "unit": "vh",
+                  "size": 100
+                },
+                "content_position": "bottom",
+                "padding": {
+                  "unit": "px",
+                  "top": 140,
+                  "right": 40,
+                  "bottom": 112,
+                  "left": 40,
+                  "isLinked": false
+                },
+                "background_overlay_opacity": {
+                  "size": 0
+                },
+                "custom_id": "hero"
+              },
+              "elements": [
+                {
+                  "id": "m6cbqgp",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0lgeeys",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<span style=\"font-family:DM Mono;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);display:inline-block;\">India's Medtech Frontier \u2014 Bareilly, Uttar Pradesh</span>",
+                        "_padding": {
+                          "unit": "px",
+                          "top": 0,
+                          "right": 0,
+                          "bottom": 16,
+                          "left": 0,
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "5sgopt6",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Building the <em>Next Wave</em> of<br><strong>Healthcare Innovation</strong>",
+                        "header_size": "h1",
+                        "align": "left",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "vw",
+                          "size": 6
+                        },
+                        "typography_font_weight": "300",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1
+                        }
+                      }
+                    },
+                    {
+                      "id": "mahd1h7",
+                      "elType": "widget",
+                      "widgetType": "spacer",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 24
+                        }
+                      }
+                    },
+                    {
+                      "id": "venyt6r",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>BMIIL is India's first dedicated medtech incubator in Tier-2 India \u2014 combining Bareilly International University's clinical infrastructure with world-class mentorship to take healthcare startups from idea to market.</p>",
+                        "text_color": "rgba(255,255,255,0.55)",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "684amct",
+                      "elType": "widget",
+                      "widgetType": "spacer",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 32
+                        }
+                      }
+                    },
+                    {
+                      "id": "pi73s69",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore Programs",
+                        "link": {
+                          "url": "#programs"
+                        },
+                        "background_color": "#C49A2A",
+                        "button_text_color": "#08122A",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": 2,
+                          "right": 2,
+                          "bottom": 2,
+                          "left": 2,
+                          "isLinked": true
+                        },
+                        "typography_font_family": "DM Sans",
+                        "typography_font_weight": "600",
+                        "text_padding": {
+                          "unit": "px",
+                          "top": 14,
+                          "right": 32,
+                          "bottom": 14,
+                          "left": 32,
+                          "isLinked": false
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "641fc81",
+              "elType": "section",
+              "settings": {
+                "stretch_section": "section-stretched",
+                "content_width": {
+                  "unit": "px",
+                  "size": 1220
+                },
+                "background_color": "#0F1F45",
+                "border_top_border": "solid",
+                "border_top_width": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "border_top_color": "rgba(196,154,42,0.2)",
+                "border_bottom_border": "solid",
+                "border_bottom_width": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "border_bottom_color": "rgba(196,154,42,0.2)",
+                "padding": {
+                  "unit": "px",
+                  "top": 40,
+                  "right": 40,
+                  "bottom": 40,
+                  "left": 40,
+                  "isLinked": false
+                },
+                "custom_id": "stats"
+              },
+              "elements": [
+                {
+                  "id": "a9jn9ry",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 20,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4jpb76b",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "3",
+                        "header_size": "h3",
+                        "align": "center",
+                        "title_color": "#C49A2A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 42
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "f9kdhmi",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"text-align:center;font-family:DM Mono;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin:6px 0 0;\">Incubation Programs</p>",
+                        "text_color": "#7A8BA8",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "4lsb5tf",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 20,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "oh2u271",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "1200+",
+                        "header_size": "h3",
+                        "align": "center",
+                        "title_color": "#C49A2A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 42
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "9j2x62v",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"text-align:center;font-family:DM Mono;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin:6px 0 0;\">Bed Teaching Hospital</p><p style=\"text-align:center;font-family:DM Mono;font-size:9px;color:#C49A2A;opacity:0.5;letter-spacing:0.1em;\">Access via BIU</p>",
+                        "text_color": "#7A8BA8",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "go74g1b",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 20,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "2bkiboh",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "12+",
+                        "header_size": "h3",
+                        "align": "center",
+                        "title_color": "#C49A2A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 42
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "47a96nx",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"text-align:center;font-family:DM Mono;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin:6px 0 0;\">Specialised Labs</p>",
+                        "text_color": "#7A8BA8",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "icuabvq",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 20,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "jba5rjb",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "200+",
+                        "header_size": "h3",
+                        "align": "center",
+                        "title_color": "#C49A2A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 42
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "8tdb0ox",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"text-align:center;font-family:DM Mono;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin:6px 0 0;\">Research Faculty</p>",
+                        "text_color": "#7A8BA8",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "0vkplnd",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 20,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "9iel95a",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\u20b9XX Cr",
+                        "header_size": "h3",
+                        "align": "center",
+                        "title_color": "#C49A2A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 42
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "h9cm9w9",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"text-align:center;font-family:DM Mono;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin:6px 0 0;\">Grants Available</p><p style=\"text-align:center;font-family:DM Mono;font-size:9px;color:#C49A2A;opacity:0.5;letter-spacing:0.1em;\">DST / BIRAC Pipeline</p>",
+                        "text_color": "#7A8BA8",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "qt7uw8m",
+              "elType": "section",
+              "settings": {
+                "stretch_section": "section-stretched",
+                "content_width": {
+                  "unit": "px",
+                  "size": 1220
+                },
+                "background_color": "#F7F3EC",
+                "padding": {
+                  "unit": "px",
+                  "top": 112,
+                  "right": 40,
+                  "bottom": 80,
+                  "left": 40,
+                  "isLinked": false
+                },
+                "custom_id": "positioning"
+              },
+              "elements": [
+                {
+                  "id": "grj9llc",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "06yc1l9",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<span style=\"font-family:DM Mono;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);display:inline-block;\">Why BMIIL</span>",
+                        "_padding": {
+                          "unit": "px",
+                          "top": 0,
+                          "right": 0,
+                          "bottom": 16,
+                          "left": 0,
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "k9km46t",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "The <em>right place</em><br><strong>at the right time</strong>",
+                        "header_size": "h2",
+                        "align": "left",
+                        "title_color": "#08122A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "vw",
+                          "size": 3.5
+                        },
+                        "typography_font_weight": "300",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.15
+                        }
+                      }
+                    },
+                    {
+                      "id": "97dx9m0",
+                      "elType": "widget",
+                      "widgetType": "spacer",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 20
+                        }
+                      }
+                    },
+                    {
+                      "id": "balbfij",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>India's healthcare innovation is concentrated in 5 cities. Tier-2 India \u2014 home to 800 million people \u2014 has no medtech infrastructure. BMIIL is built to change that, starting from Bareilly with a model designed to replicate across North India.</p>",
+                        "text_color": "#4A5C78",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "yz0rz8h",
+                      "elType": "widget",
+                      "widgetType": "spacer",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 32
+                        }
+                      }
+                    },
+                    {
+                      "id": "0tjkcv1",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Read More",
+                        "link": {
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "button_type": "info",
+                        "background_color": "#C49A2A",
+                        "button_text_color": "#08122A",
+                        "border_border": "",
+                        "border_color": "",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": 2,
+                          "right": 2,
+                          "bottom": 2,
+                          "left": 2,
+                          "isLinked": true
+                        },
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_font_weight": "600",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "top": 14,
+                          "right": 32,
+                          "bottom": 14,
+                          "left": 32,
+                          "isLinked": false
+                        },
+                        "hover_color": "#E2BF68"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "diqe7uy",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "m8lrupq",
+                      "elType": "section",
+                      "settings": {
+                        "stretch_section": "section-stretched",
+                        "content_width": {
+                          "unit": "px",
+                          "size": 1220
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": 0,
+                          "right": 0,
+                          "bottom": 12,
+                          "left": 0,
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "7h0evsb",
+                          "elType": "column",
+                          "settings": {
+                            "_column_size": 50,
+                            "content_width": {
+                              "unit": "%",
+                              "size": 100
+                            }
+                          },
+                          "elements": [
+                            {
+                              "id": "83jwoun",
+                              "elType": "widget",
+                              "widgetType": "icon-box",
+                              "settings": {
+                                "title_text": "Clinical Access",
+                                "description_text": "Direct pipeline to BIU's multi-speciality hospital for problem identification and validation.",
+                                "selected_icon": {
+                                  "value": "",
+                                  "library": ""
+                                },
+                                "title_color": "#1B2A4A",
+                                "description_color": "#7A8BA8",
+                                "title_typography_font_family": "Cormorant Garamond",
+                                "title_typography_font_weight": "700",
+                                "title_typography_font_size": {
+                                  "unit": "px",
+                                  "size": 17
+                                },
+                                "description_typography_font_family": "DM Sans",
+                                "description_typography_font_size": {
+                                  "unit": "px",
+                                  "size": 13
+                                },
+                                "icon_color": "#C49A2A",
+                                "icon_size": {
+                                  "unit": "px",
+                                  "size": 32
+                                },
+                                "position": "top",
+                                "_padding": {
+                                  "unit": "px",
+                                  "top": 24,
+                                  "right": 24,
+                                  "bottom": 24,
+                                  "left": 24,
+                                  "isLinked": false
+                                },
+                                "border_border": "solid",
+                                "border_width": {
+                                  "unit": "px",
+                                  "top": 1,
+                                  "right": 1,
+                                  "bottom": 1,
+                                  "left": 1,
+                                  "isLinked": true
+                                },
+                                "border_color": "#EDE8DE",
+                                "border_radius": {
+                                  "unit": "px",
+                                  "top": 4,
+                                  "right": 4,
+                                  "bottom": 4,
+                                  "left": 4,
+                                  "isLinked": true
+                                },
+                                "background_color": "#FFFFFF",
+                                "_hover_border_top_color": "#C49A2A",
+                                "box_shadow_box_shadow_type": "yes",
+                                "box_shadow_box_shadow": {
+                                  "horizontal": 0,
+                                  "vertical": 8,
+                                  "blur": 40,
+                                  "spread": 0,
+                                  "color": "rgba(8,18,42,0.08)"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "id": "tjuu249",
+                          "elType": "column",
+                          "settings": {
+                            "_column_size": 50,
+                            "content_width": {
+                              "unit": "%",
+                              "size": 100
+                            }
+                          },
+                          "elements": [
+                            {
+                              "id": "a24mbmg",
+                              "elType": "widget",
+                              "widgetType": "icon-box",
+                              "settings": {
+                                "title_text": "Lab Infrastructure",
+                                "description_text": "Prototyping, biotech, and pharma labs across Medicine, Pharmacy, and Allied Health.",
+                                "selected_icon": {
+                                  "value": "",
+                                  "library": ""
+                                },
+                                "title_color": "#1B2A4A",
+                                "description_color": "#7A8BA8",
+                                "title_typography_font_family": "Cormorant Garamond",
+                                "title_typography_font_weight": "700",
+                                "title_typography_font_size": {
+                                  "unit": "px",
+                                  "size": 17
+                                },
+                                "description_typography_font_family": "DM Sans",
+                                "description_typography_font_size": {
+                                  "unit": "px",
+                                  "size": 13
+                                },
+                                "icon_color": "#C49A2A",
+                                "icon_size": {
+                                  "unit": "px",
+                                  "size": 32
+                                },
+                                "position": "top",
+                                "_padding": {
+                                  "unit": "px",
+                                  "top": 24,
+                                  "right": 24,
+                                  "bottom": 24,
+                                  "left": 24,
+                                  "isLinked": false
+                                },
+                                "border_border": "solid",
+                                "border_width": {
+                                  "unit": "px",
+                                  "top": 1,
+                                  "right": 1,
+                                  "bottom": 1,
+                                  "left": 1,
+                                  "isLinked": true
+                                },
+                                "border_color": "#EDE8DE",
+                                "border_radius": {
+                                  "unit": "px",
+                                  "top": 4,
+                                  "right": 4,
+                                  "bottom": 4,
+                                  "left": 4,
+                                  "isLinked": true
+                                },
+                                "background_color": "#FFFFFF",
+                                "_hover_border_top_color": "#C49A2A",
+                                "box_shadow_box_shadow_type": "yes",
+                                "box_shadow_box_shadow": {
+                                  "horizontal": 0,
+                                  "vertical": 8,
+                                  "blur": 40,
+                                  "spread": 0,
+                                  "color": "rgba(8,18,42,0.08)"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "rg2k8u1",
+                      "elType": "section",
+                      "settings": {
+                        "stretch_section": "section-stretched",
+                        "content_width": {
+                          "unit": "px",
+                          "size": 1220
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "hkypbqt",
+                          "elType": "column",
+                          "settings": {
+                            "_column_size": 50,
+                            "content_width": {
+                              "unit": "%",
+                              "size": 100
+                            }
+                          },
+                          "elements": [
+                            {
+                              "id": "xrwd26f",
+                              "elType": "widget",
+                              "widgetType": "icon-box",
+                              "settings": {
+                                "title_text": "Regulatory Support",
+                                "description_text": "In-house guidance on CDSCO, FDA, AYUSH, and WHO compliance pathways.",
+                                "selected_icon": {
+                                  "value": "",
+                                  "library": ""
+                                },
+                                "title_color": "#1B2A4A",
+                                "description_color": "#7A8BA8",
+                                "title_typography_font_family": "Cormorant Garamond",
+                                "title_typography_font_weight": "700",
+                                "title_typography_font_size": {
+                                  "unit": "px",
+                                  "size": 17
+                                },
+                                "description_typography_font_family": "DM Sans",
+                                "description_typography_font_size": {
+                                  "unit": "px",
+                                  "size": 13
+                                },
+                                "icon_color": "#C49A2A",
+                                "icon_size": {
+                                  "unit": "px",
+                                  "size": 32
+                                },
+                                "position": "top",
+                                "_padding": {
+                                  "unit": "px",
+                                  "top": 24,
+                                  "right": 24,
+                                  "bottom": 24,
+                                  "left": 24,
+                                  "isLinked": false
+                                },
+                                "border_border": "solid",
+                                "border_width": {
+                                  "unit": "px",
+                                  "top": 1,
+                                  "right": 1,
+                                  "bottom": 1,
+                                  "left": 1,
+                                  "isLinked": true
+                                },
+                                "border_color": "#EDE8DE",
+                                "border_radius": {
+                                  "unit": "px",
+                                  "top": 4,
+                                  "right": 4,
+                                  "bottom": 4,
+                                  "left": 4,
+                                  "isLinked": true
+                                },
+                                "background_color": "#FFFFFF",
+                                "_hover_border_top_color": "#C49A2A",
+                                "box_shadow_box_shadow_type": "yes",
+                                "box_shadow_box_shadow": {
+                                  "horizontal": 0,
+                                  "vertical": 8,
+                                  "blur": 40,
+                                  "spread": 0,
+                                  "color": "rgba(8,18,42,0.08)"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "id": "sby5v2d",
+                          "elType": "column",
+                          "settings": {
+                            "_column_size": 50,
+                            "content_width": {
+                              "unit": "%",
+                              "size": 100
+                            }
+                          },
+                          "elements": [
+                            {
+                              "id": "fnll4od",
+                              "elType": "widget",
+                              "widgetType": "icon-box",
+                              "settings": {
+                                "title_text": "Ayurveda + MedTech",
+                                "description_text": "Unique fusion track \u2014 scientifically validating traditional medicine with modern tools.",
+                                "selected_icon": {
+                                  "value": "",
+                                  "library": ""
+                                },
+                                "title_color": "#1B2A4A",
+                                "description_color": "#7A8BA8",
+                                "title_typography_font_family": "Cormorant Garamond",
+                                "title_typography_font_weight": "700",
+                                "title_typography_font_size": {
+                                  "unit": "px",
+                                  "size": 17
+                                },
+                                "description_typography_font_family": "DM Sans",
+                                "description_typography_font_size": {
+                                  "unit": "px",
+                                  "size": 13
+                                },
+                                "icon_color": "#C49A2A",
+                                "icon_size": {
+                                  "unit": "px",
+                                  "size": 32
+                                },
+                                "position": "top",
+                                "_padding": {
+                                  "unit": "px",
+                                  "top": 24,
+                                  "right": 24,
+                                  "bottom": 24,
+                                  "left": 24,
+                                  "isLinked": false
+                                },
+                                "border_border": "solid",
+                                "border_width": {
+                                  "unit": "px",
+                                  "top": 1,
+                                  "right": 1,
+                                  "bottom": 1,
+                                  "left": 1,
+                                  "isLinked": true
+                                },
+                                "border_color": "#EDE8DE",
+                                "border_radius": {
+                                  "unit": "px",
+                                  "top": 4,
+                                  "right": 4,
+                                  "bottom": 4,
+                                  "left": 4,
+                                  "isLinked": true
+                                },
+                                "background_color": "#FFFFFF",
+                                "_hover_border_top_color": "#C49A2A",
+                                "box_shadow_box_shadow_type": "yes",
+                                "box_shadow_box_shadow": {
+                                  "horizontal": 0,
+                                  "vertical": 8,
+                                  "blur": 40,
+                                  "spread": 0,
+                                  "color": "rgba(8,18,42,0.08)"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "1vjzpjf",
+              "elType": "section",
+              "settings": {
+                "stretch_section": "section-stretched",
+                "content_width": {
+                  "unit": "px",
+                  "size": 1220
+                },
+                "background_color": "#08122A",
+                "padding": {
+                  "unit": "px",
+                  "top": 80,
+                  "right": 40,
+                  "bottom": 80,
+                  "left": 40,
+                  "isLinked": false
+                },
+                "custom_id": "university"
+              },
+              "elements": [
+                {
+                  "id": "footjrc",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "gbec69e",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<span style=\"font-family:DM Mono;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);display:inline-block;\">Hosted By</span>",
+                        "_padding": {
+                          "unit": "px",
+                          "top": 0,
+                          "right": 0,
+                          "bottom": 16,
+                          "left": 0,
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "e9rstxc",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Proudly hosted by<br><strong>Bareilly International University</strong>",
+                        "header_size": "h2",
+                        "align": "left",
+                        "title_color": "#FFFFFF",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 36
+                        },
+                        "typography_font_weight": "300"
+                      }
+                    },
+                    {
+                      "id": "t62e9bw",
+                      "elType": "widget",
+                      "widgetType": "spacer",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 16
+                        }
+                      }
+                    },
+                    {
+                      "id": "cw22onl",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>One of North India's premier private universities, BIU provides BMIIL's startups with direct access to clinical environments, advanced research infrastructure, and a multidisciplinary faculty across Medicine, Ayurveda, Pharmacy, Nursing, Dental Sciences, and Allied Health.</p>",
+                        "text_color": "rgba(255,255,255,0.5)",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "ueywwcw",
+                      "elType": "widget",
+                      "widgetType": "spacer",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 24
+                        }
+                      }
+                    },
+                    {
+                      "id": "j4dewvc",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<ul style=\"list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:24px;\">\n          <li style=\"display:flex;align-items:center;gap:8px;\"><span style=\"width:6px;height:6px;border-radius:50%;background:#C49A2A;flex-shrink:0;display:inline-block;\"></span><span style=\"color:rgba(255,255,255,0.65);font-size:13px;\">Multi-speciality Teaching Hospital</span></li>\n          <li style=\"display:flex;align-items:center;gap:8px;\"><span style=\"width:6px;height:6px;border-radius:50%;background:#C49A2A;flex-shrink:0;display:inline-block;\"></span><span style=\"color:rgba(255,255,255,0.65);font-size:13px;\">NAAC Accredited Colleges</span></li>\n          <li style=\"display:flex;align-items:center;gap:8px;\"><span style=\"width:6px;height:6px;border-radius:50%;background:#C49A2A;flex-shrink:0;display:inline-block;\"></span><span style=\"color:rgba(255,255,255,0.65);font-size:13px;\">Industry Research Partnerships</span></li>\n          <li style=\"display:flex;align-items:center;gap:8px;\"><span style=\"width:6px;height:6px;border-radius:50%;background:#C49A2A;flex-shrink:0;display:inline-block;\"></span><span style=\"color:rgba(255,255,255,0.65);font-size:13px;\">Pilibhit Bypass Campus, Bareilly</span></li>\n        </ul>",
+                        "text_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "aktybrr",
+              "elType": "section",
+              "settings": {
+                "stretch_section": "section-stretched",
+                "content_width": {
+                  "unit": "px",
+                  "size": 1220
+                },
+                "background_color": "#F7F3EC",
+                "padding": {
+                  "unit": "px",
+                  "top": 112,
+                  "right": 40,
+                  "bottom": 0,
+                  "left": 40,
+                  "isLinked": false
+                },
+                "custom_id": "programs"
+              },
+              "elements": [
+                {
+                  "id": "w79iyff",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "mu4u8q6",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<span style=\"font-family:DM Mono;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);display:inline-block;\">Programs</span>",
+                        "_padding": {
+                          "unit": "px",
+                          "top": 0,
+                          "right": 0,
+                          "bottom": 16,
+                          "left": 0,
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "w71sfyd",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<strong>Three pathways.</strong><br><em>One destination.</em>",
+                        "header_size": "h2",
+                        "align": "left",
+                        "title_color": "#08122A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 48
+                        },
+                        "typography_font_weight": "300"
+                      }
+                    },
+                    {
+                      "id": "w5vnmba",
+                      "elType": "widget",
+                      "widgetType": "spacer",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 56
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "4rzbgem",
+              "elType": "section",
+              "settings": {
+                "stretch_section": "section-stretched",
+                "content_width": {
+                  "unit": "px",
+                  "size": 1220
+                },
+                "background_color": "#F7F3EC",
+                "padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 40,
+                  "bottom": 112,
+                  "left": 40,
+                  "isLinked": false
+                },
+                "gap": "custom",
+                "gap_custom": {
+                  "unit": "px",
+                  "size": 24
+                }
+              },
+              "elements": [
+                {
+                  "id": "q1yoyjp",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_color": "#08122A",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "isLinked": true
+                    },
+                    "border_color": "rgba(196,154,42,0.3)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 4,
+                      "right": 4,
+                      "bottom": 4,
+                      "left": 4,
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 40,
+                      "right": 32,
+                      "bottom": 40,
+                      "left": 32,
+                      "isLinked": false
+                    },
+                    "border_top_border": "solid",
+                    "border_top_width": {
+                      "unit": "px",
+                      "size": 3
+                    },
+                    "border_top_color": "#C49A2A"
+                  },
+                  "elements": [
+                    {
+                      "id": "lrbblge",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<span style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;background:rgba(196,154,42,0.1);border:1px solid rgba(196,154,42,0.3);padding:3px 10px;border-radius:2px;\">Our Core Track</span>",
+                        "text_color": "#C49A2A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 9
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "tmhc1mq",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Medtech Incubation",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#FFFFFF",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 28
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "b4pc21b",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>For healthcare, biotech & medical device startups ready to build, validate, and scale. Deep technical support from ideation to clinical validation.</p>",
+                        "text_color": "rgba(255,255,255,0.5)",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "66igtmz",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<ul style=\"list-style:none;padding:0;\"><li style=\"font-size:13px;padding:5px 0 5px 18px;position:relative;border-bottom:1px solid rgba(255,255,255,0.06);color:rgba(255,255,255,0.7);\">&bull; Medical devices & diagnostics</li><li style=\"font-size:13px;padding:5px 0 5px 18px;position:relative;border-bottom:1px solid rgba(255,255,255,0.06);color:rgba(255,255,255,0.7);\">&bull; Digital health & HealthTech</li><li style=\"font-size:13px;padding:5px 0 5px 18px;position:relative;border-bottom:1px solid rgba(255,255,255,0.06);color:rgba(255,255,255,0.7);\">&bull; Biotech & life sciences</li><li style=\"font-size:13px;padding:5px 0 5px 18px;position:relative;border-bottom:1px solid rgba(255,255,255,0.06);color:rgba(255,255,255,0.7);\">&bull; Lab access & prototyping</li><li style=\"font-size:13px;padding:5px 0 5px 18px;position:relative;border-bottom:1px solid rgba(255,255,255,0.06);color:rgba(255,255,255,0.7);\">&bull; CDSCO & FDA pathway guidance</li><li style=\"font-size:13px;padding:5px 0 5px 18px;position:relative;border-bottom:1px solid rgba(255,255,255,0.06);color:rgba(255,255,255,0.7);\">&bull; Investor & hospital network</li></ul>",
+                        "text_color": "rgba(255,255,255,0.7)",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "16x5r46",
+                      "elType": "widget",
+                      "widgetType": "spacer",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 16
+                        }
+                      }
+                    },
+                    {
+                      "id": "ycuuq9t",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore Track \u2192",
+                        "link": {
+                          "url": "#programs/medtech-incubation/",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "button_type": "info",
+                        "background_color": "#C49A2A",
+                        "button_text_color": "#08122A",
+                        "border_border": "",
+                        "border_color": "",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": 2,
+                          "right": 2,
+                          "bottom": 2,
+                          "left": 2,
+                          "isLinked": true
+                        },
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_font_weight": "600",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "top": 14,
+                          "right": 32,
+                          "bottom": 14,
+                          "left": 32,
+                          "isLinked": false
+                        },
+                        "hover_color": "#E2BF68"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "c51lds1",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "isLinked": true
+                    },
+                    "border_color": "#EDE8DE",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 4,
+                      "right": 4,
+                      "bottom": 4,
+                      "left": 4,
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 40,
+                      "right": 32,
+                      "bottom": 40,
+                      "left": 32,
+                      "isLinked": false
+                    },
+                    "border_top_border": "solid",
+                    "border_top_width": {
+                      "unit": "px",
+                      "size": 3
+                    },
+                    "border_top_color": "#C49A2A"
+                  },
+                  "elements": [
+                    {
+                      "id": "tb7sl9p",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<span style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;background:rgba(196,154,42,0.1);border:1px solid rgba(196,154,42,0.3);padding:3px 10px;border-radius:2px;\">Growth Stage</span>",
+                        "text_color": "#C49A2A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 9
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "jd0mjc5",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Accelerator",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#08122A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 28
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "fv5kgaq",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>For health & wellness startups ready to scale \u2014 with market access, investor networks, and international exposure.</p>",
+                        "text_color": "#7A8BA8",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "5ha8qdi",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<ul style=\"list-style:none;padding:0;\"><li style=\"font-size:13px;padding:5px 0 5px 18px;position:relative;border-bottom:1px solid rgba(255,255,255,0.06);color:#1B2A4A;\">&bull; Scale-ready startups</li><li style=\"font-size:13px;padding:5px 0 5px 18px;position:relative;border-bottom:1px solid rgba(255,255,255,0.06);color:#1B2A4A;\">&bull; Demo days & investor pitches</li><li style=\"font-size:13px;padding:5px 0 5px 18px;position:relative;border-bottom:1px solid rgba(255,255,255,0.06);color:#1B2A4A;\">&bull; Go-to-market strategy</li><li style=\"font-size:13px;padding:5px 0 5px 18px;position:relative;border-bottom:1px solid rgba(255,255,255,0.06);color:#1B2A4A;\">&bull; Corporate partnerships</li></ul>",
+                        "text_color": "#1B2A4A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "q2sn5nb",
+                      "elType": "widget",
+                      "widgetType": "spacer",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 16
+                        }
+                      }
+                    },
+                    {
+                      "id": "p21twat",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore Track \u2192",
+                        "link": {
+                          "url": "#programs/accelerator/",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "button_type": "info",
+                        "background_color": "#C49A2A",
+                        "button_text_color": "#08122A",
+                        "border_border": "",
+                        "border_color": "",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": 2,
+                          "right": 2,
+                          "bottom": 2,
+                          "left": 2,
+                          "isLinked": true
+                        },
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_font_weight": "600",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "top": 14,
+                          "right": 32,
+                          "bottom": 14,
+                          "left": 32,
+                          "isLinked": false
+                        },
+                        "hover_color": "#E2BF68"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "mavan6d",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "isLinked": true
+                    },
+                    "border_color": "#EDE8DE",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 4,
+                      "right": 4,
+                      "bottom": 4,
+                      "left": 4,
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 40,
+                      "right": 32,
+                      "bottom": 40,
+                      "left": 32,
+                      "isLinked": false
+                    },
+                    "border_top_border": "solid",
+                    "border_top_width": {
+                      "unit": "px",
+                      "size": 3
+                    },
+                    "border_top_color": "#C49A2A"
+                  },
+                  "elements": [
+                    {
+                      "id": "vzub9mx",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<span style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;background:rgba(196,154,42,0.1);border:1px solid rgba(196,154,42,0.3);padding:3px 10px;border-radius:2px;\">Unique Differentiator</span>",
+                        "text_color": "#C49A2A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 9
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "10j807b",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Ayush Incubation",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#08122A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 28
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "ytuawkq",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Scientifically validating traditional medicine \u2014 where Ayurveda meets rigorous research, IP protection, and global market access.</p>",
+                        "text_color": "#7A8BA8",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "9l8em4x",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<ul style=\"list-style:none;padding:0;\"><li style=\"font-size:13px;padding:5px 0 5px 18px;position:relative;border-bottom:1px solid rgba(255,255,255,0.06);color:#1B2A4A;\">&bull; Herbal products & formulations</li><li style=\"font-size:13px;padding:5px 0 5px 18px;position:relative;border-bottom:1px solid rgba(255,255,255,0.06);color:#1B2A4A;\">&bull; AYUSH & WHO compliance</li><li style=\"font-size:13px;padding:5px 0 5px 18px;position:relative;border-bottom:1px solid rgba(255,255,255,0.06);color:#1B2A4A;\">&bull; IP protection & patents</li><li style=\"font-size:13px;padding:5px 0 5px 18px;position:relative;border-bottom:1px solid rgba(255,255,255,0.06);color:#1B2A4A;\">&bull; Global nutraceutical market</li></ul>",
+                        "text_color": "#1B2A4A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "0w7l10q",
+                      "elType": "widget",
+                      "widgetType": "spacer",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 16
+                        }
+                      }
+                    },
+                    {
+                      "id": "gccymmx",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore Track \u2192",
+                        "link": {
+                          "url": "#programs/ayush/",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "button_type": "info",
+                        "background_color": "#C49A2A",
+                        "button_text_color": "#08122A",
+                        "border_border": "",
+                        "border_color": "",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": 2,
+                          "right": 2,
+                          "bottom": 2,
+                          "left": 2,
+                          "isLinked": true
+                        },
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_font_weight": "600",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "top": 14,
+                          "right": 32,
+                          "bottom": 14,
+                          "left": 32,
+                          "isLinked": false
+                        },
+                        "hover_color": "#E2BF68"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "37g3rhz",
+              "elType": "section",
+              "settings": {
+                "stretch_section": "section-stretched",
+                "content_width": {
+                  "unit": "px",
+                  "size": 1220
+                },
+                "background_color": "#EDE8DE",
+                "padding": {
+                  "unit": "px",
+                  "top": 112,
+                  "right": 40,
+                  "bottom": 0,
+                  "left": 40,
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "l225muy",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "cp9om63",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<span style=\"font-family:DM Mono;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);display:inline-block;\">Our Edge</span>",
+                        "_padding": {
+                          "unit": "px",
+                          "top": 0,
+                          "right": 0,
+                          "bottom": 16,
+                          "left": 0,
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "zdyyakv",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<em>Six reasons</em> to build<br><strong>your startup here</strong>",
+                        "header_size": "h2",
+                        "align": "left",
+                        "title_color": "#08122A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 48
+                        },
+                        "typography_font_weight": "300"
+                      }
+                    },
+                    {
+                      "id": "xksyeuv",
+                      "elType": "widget",
+                      "widgetType": "spacer",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 24
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "mcdnwu2",
+              "elType": "section",
+              "settings": {
+                "stretch_section": "section-stretched",
+                "content_width": {
+                  "unit": "px",
+                  "size": 1220
+                },
+                "background_color": "#EDE8DE",
+                "padding": {
+                  "unit": "px",
+                  "top": 12,
+                  "right": 40,
+                  "bottom": 12,
+                  "left": 40,
+                  "isLinked": false
+                },
+                "gap": "custom",
+                "gap_custom": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "custom_id": "why"
+              },
+              "elements": [
+                {
+                  "id": "a6r3yw7",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "isLinked": true
+                    },
+                    "border_color": "rgba(0,0,0,0.06)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 4,
+                      "right": 4,
+                      "bottom": 4,
+                      "left": 4,
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 35,
+                      "right": 35,
+                      "bottom": 35,
+                      "left": 35,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "vvvvw62",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<span style=\"font-family:Cormorant Garamond;font-size:56px;font-weight:700;color:#C49A2A;opacity:0.2;line-height:1;\">01</span>",
+                        "text_color": "#C49A2A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 56
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "t3jlsg2",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Tier-2 India Advantage",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#08122A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "f6mnp1g",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Lower burn, massive patient access, authentic problem statements from an underserved healthcare market that investors are increasingly watching.</p>",
+                        "text_color": "#7A8BA8",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "fg2tof0",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "isLinked": true
+                    },
+                    "border_color": "rgba(0,0,0,0.06)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 4,
+                      "right": 4,
+                      "bottom": 4,
+                      "left": 4,
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 35,
+                      "right": 35,
+                      "bottom": 35,
+                      "left": 35,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "zxqm9ei",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<span style=\"font-family:Cormorant Garamond;font-size:56px;font-weight:700;color:#C49A2A;opacity:0.2;line-height:1;\">02</span>",
+                        "text_color": "#C49A2A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 56
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "nt85317",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Captive Clinical Pipeline",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#08122A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "o78nyyn",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Direct access to BIU's teaching hospital gives startups immediate problem identification, validation partners, and pilot environments.</p>",
+                        "text_color": "#7A8BA8",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "eh6yqhk",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "isLinked": true
+                    },
+                    "border_color": "rgba(0,0,0,0.06)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 4,
+                      "right": 4,
+                      "bottom": 4,
+                      "left": 4,
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 35,
+                      "right": 35,
+                      "bottom": 35,
+                      "left": 35,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "htth2dt",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<span style=\"font-family:Cormorant Garamond;font-size:56px;font-weight:700;color:#C49A2A;opacity:0.2;line-height:1;\">03</span>",
+                        "text_color": "#C49A2A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 56
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "9zn8bsv",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Regulatory Navigation",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#08122A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "0hyiznr",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>In-house mentors experienced in CDSCO, FDA, AYUSH, and WHO pathways \u2014 reducing time-to-compliance by months.</p>",
+                        "text_color": "#7A8BA8",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tksmizm",
+              "elType": "section",
+              "settings": {
+                "stretch_section": "section-stretched",
+                "content_width": {
+                  "unit": "px",
+                  "size": 1220
+                },
+                "background_color": "#EDE8DE",
+                "padding": {
+                  "unit": "px",
+                  "top": 12,
+                  "right": 40,
+                  "bottom": 12,
+                  "left": 40,
+                  "isLinked": false
+                },
+                "gap": "custom",
+                "gap_custom": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "custom_id": ""
+              },
+              "elements": [
+                {
+                  "id": "6t7ztv2",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "isLinked": true
+                    },
+                    "border_color": "rgba(0,0,0,0.06)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 4,
+                      "right": 4,
+                      "bottom": 4,
+                      "left": 4,
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 35,
+                      "right": 35,
+                      "bottom": 35,
+                      "left": 35,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "818i9ai",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<span style=\"font-family:Cormorant Garamond;font-size:56px;font-weight:700;color:#C49A2A;opacity:0.2;line-height:1;\">04</span>",
+                        "text_color": "#C49A2A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 56
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "s0jlich",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "The Ayurveda Angle",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#08122A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "wp7xw48",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>No other medtech incubator in India offers a credible, evidence-based Ayurveda + technology fusion track backed by university research.</p>",
+                        "text_color": "#7A8BA8",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "ia5lnft",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "isLinked": true
+                    },
+                    "border_color": "rgba(0,0,0,0.06)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 4,
+                      "right": 4,
+                      "bottom": 4,
+                      "left": 4,
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 35,
+                      "right": 35,
+                      "bottom": 35,
+                      "left": 35,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "wy7xyzx",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<span style=\"font-family:Cormorant Garamond;font-size:56px;font-weight:700;color:#C49A2A;opacity:0.2;line-height:1;\">05</span>",
+                        "text_color": "#C49A2A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 56
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "trtspe3",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Grant Ecosystem Access",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#08122A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "qkcfu7c",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Active pipeline to DST, BIRAC, Startup India, and international grants \u2014 our team actively facilitates applications and submissions.</p>",
+                        "text_color": "#7A8BA8",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "7yvk0rj",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "isLinked": true
+                    },
+                    "border_color": "rgba(0,0,0,0.06)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 4,
+                      "right": 4,
+                      "bottom": 4,
+                      "left": 4,
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 35,
+                      "right": 35,
+                      "bottom": 35,
+                      "left": 35,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "tevtjdk",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<span style=\"font-family:Cormorant Garamond;font-size:56px;font-weight:700;color:#C49A2A;opacity:0.2;line-height:1;\">06</span>",
+                        "text_color": "#C49A2A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 56
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "db0qk82",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Multidisciplinary Faculty",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#08122A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "nfuq3dh",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>200+ researchers across Medicine, Pharmacy, Biotech, Dental and Allied Health available as subject matter experts and co-innovators.</p>",
+                        "text_color": "#7A8BA8",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "eht49k0",
+              "elType": "section",
+              "settings": {
+                "stretch_section": "section-stretched",
+                "content_width": {
+                  "unit": "px",
+                  "size": 1220
+                },
+                "background_color": "#F7F3EC",
+                "padding": {
+                  "unit": "px",
+                  "top": 112,
+                  "right": 40,
+                  "bottom": 0,
+                  "left": 40,
+                  "isLinked": false
+                },
+                "custom_id": "team"
+              },
+              "elements": [
+                {
+                  "id": "blu5s18",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "fusl3dl",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<span style=\"font-family:DM Mono;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);display:inline-block;\">Leadership</span>",
+                        "_padding": {
+                          "unit": "px",
+                          "top": 0,
+                          "right": 0,
+                          "bottom": 16,
+                          "left": 0,
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "101tqe7",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<strong>The team</strong><br>behind the mission",
+                        "header_size": "h2",
+                        "align": "left",
+                        "title_color": "#08122A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 48
+                        },
+                        "typography_font_weight": "300"
+                      }
+                    },
+                    {
+                      "id": "5xpoury",
+                      "elType": "widget",
+                      "widgetType": "spacer",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 8
+                        }
+                      }
+                    },
+                    {
+                      "id": "ozqzwnc",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Led by practitioners, researchers, and institution builders \u2014 people who have spent careers in healthcare, not just business.</p>",
+                        "text_color": "#4A5C78",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "cwog68e",
+                      "elType": "widget",
+                      "widgetType": "spacer",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 56
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ci9mng1",
+              "elType": "section",
+              "settings": {
+                "stretch_section": "section-stretched",
+                "content_width": {
+                  "unit": "px",
+                  "size": 1220
+                },
+                "background_color": "#F7F3EC",
+                "padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 40,
+                  "bottom": 40,
+                  "left": 40,
+                  "isLinked": false
+                },
+                "gap": "custom",
+                "gap_custom": {
+                  "unit": "px",
+                  "size": 24
+                }
+              },
+              "elements": [
+                {
+                  "id": "9q83u57",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "isLinked": true
+                    },
+                    "border_color": "#EDE8DE",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 4,
+                      "right": 4,
+                      "bottom": 4,
+                      "left": 4,
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 32,
+                      "right": 24,
+                      "bottom": 32,
+                      "left": 24,
+                      "isLinked": false
+                    },
+                    "text_align": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "ps4lklp",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style=\"width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,#0F1F45,#08122A);border:2px solid rgba(196,154,42,0.25);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-family:Cormorant Garamond;font-size:26px;font-weight:700;color:#C49A2A;\">VA</div>",
+                        "text_color": "#C49A2A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 26
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "yu63ysy",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Dr. Varun Agarwal",
+                        "header_size": "h4",
+                        "align": "center",
+                        "title_color": "#08122A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "bjfigg2",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"text-align:center;font-size:12px;color:#7A8BA8;letter-spacing:0.05em;\">Founder & Board Member</p><p style=\"text-align:center;font-family:DM Mono;font-size:10px;color:#C49A2A;letter-spacing:0.1em;\">MBBS \u00b7 MD Ortho & Spine</p>",
+                        "text_color": "#7A8BA8",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "l6jbc6e",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "isLinked": true
+                    },
+                    "border_color": "#EDE8DE",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 4,
+                      "right": 4,
+                      "bottom": 4,
+                      "left": 4,
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 32,
+                      "right": 24,
+                      "bottom": 32,
+                      "left": 24,
+                      "isLinked": false
+                    },
+                    "text_align": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "qa2en5w",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style=\"width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,#0F1F45,#08122A);border:2px solid rgba(196,154,42,0.25);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-family:Cormorant Garamond;font-size:26px;font-weight:700;color:#C49A2A;\">CL</div>",
+                        "text_color": "#C49A2A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 26
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "4b5b3dh",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Claudius Lazarus",
+                        "header_size": "h4",
+                        "align": "center",
+                        "title_color": "#08122A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "gfoj2r6",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"text-align:center;font-size:12px;color:#7A8BA8;letter-spacing:0.05em;\">Co-Founder & CEO</p><p style=\"text-align:center;font-family:DM Mono;font-size:10px;color:#C49A2A;letter-spacing:0.1em;\">Tech Entrepreneur</p>",
+                        "text_color": "#7A8BA8",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "rmhnusf",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "isLinked": true
+                    },
+                    "border_color": "#EDE8DE",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 4,
+                      "right": 4,
+                      "bottom": 4,
+                      "left": 4,
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 32,
+                      "right": 24,
+                      "bottom": 32,
+                      "left": 24,
+                      "isLinked": false
+                    },
+                    "text_align": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "b658juy",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style=\"width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,#0F1F45,#08122A);border:2px solid rgba(196,154,42,0.25);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-family:Cormorant Garamond;font-size:26px;font-weight:700;color:#C49A2A;\">XX</div>",
+                        "text_color": "#C49A2A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 26
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "x3n9byu",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Prof. [Name]",
+                        "header_size": "h4",
+                        "align": "center",
+                        "title_color": "#08122A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "6qgufcf",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"text-align:center;font-size:12px;color:#7A8BA8;letter-spacing:0.05em;\">Chief Scientific Advisor</p><p style=\"text-align:center;font-family:DM Mono;font-size:10px;color:#C49A2A;letter-spacing:0.1em;\">PhD \u00b7 BIU Faculty</p>",
+                        "text_color": "#7A8BA8",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "fa5os6t",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "isLinked": true
+                    },
+                    "border_color": "#EDE8DE",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 4,
+                      "right": 4,
+                      "bottom": 4,
+                      "left": 4,
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 32,
+                      "right": 24,
+                      "bottom": 32,
+                      "left": 24,
+                      "isLinked": false
+                    },
+                    "text_align": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "ywab26v",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style=\"width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,#0F1F45,#08122A);border:2px solid rgba(196,154,42,0.25);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-family:Cormorant Garamond;font-size:26px;font-weight:700;color:#C49A2A;\">YY</div>",
+                        "text_color": "#C49A2A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 26
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "d8c0sxp",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "[Name]",
+                        "header_size": "h4",
+                        "align": "center",
+                        "title_color": "#08122A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "on2hhrn",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"text-align:center;font-size:12px;color:#7A8BA8;letter-spacing:0.05em;\">Regulatory Affairs Lead</p><p style=\"text-align:center;font-family:DM Mono;font-size:10px;color:#C49A2A;letter-spacing:0.1em;\">CDSCO \u00b7 FDA Specialist</p>",
+                        "text_color": "#7A8BA8",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kolnjqh",
+              "elType": "section",
+              "settings": {
+                "stretch_section": "section-stretched",
+                "content_width": {
+                  "unit": "px",
+                  "size": 1220
+                },
+                "background_color": "#F7F3EC"
+              },
+              "elements": [
+                {
+                  "id": "ung5d0s",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "text_align": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "74rxdjm",
+                      "elType": "widget",
+                      "widgetType": "spacer",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 16
+                        }
+                      }
+                    },
+                    {
+                      "id": "yui6i93",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Meet the Full Team \u2192",
+                        "link": {
+                          "url": "/team/",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "button_type": "info",
+                        "background_color": "transparent",
+                        "button_text_color": "#1B2A4A",
+                        "border_border": "solid",
+                        "border_color": "rgba(0,0,0,0.15)",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": 2,
+                          "right": 2,
+                          "bottom": 2,
+                          "left": 2,
+                          "isLinked": true
+                        },
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_font_weight": "600",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "top": 14,
+                          "right": 32,
+                          "bottom": 14,
+                          "left": 32,
+                          "isLinked": false
+                        },
+                        "hover_color": ""
+                      }
+                    },
+                    {
+                      "id": "kymn01o",
+                      "elType": "widget",
+                      "widgetType": "spacer",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 56
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "xhuqsk3",
+              "elType": "section",
+              "settings": {
+                "stretch_section": "section-stretched",
+                "content_width": {
+                  "unit": "px",
+                  "size": 1220
+                },
+                "background_color": "#08122A",
+                "padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "isLinked": false
+                },
+                "custom_id": "cta"
+              },
+              "elements": [
+                {
+                  "id": "ktq81j2",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_color": "#0F1F45",
+                    "padding": {
+                      "unit": "px",
+                      "top": 80,
+                      "right": 64,
+                      "bottom": 80,
+                      "left": 64,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "y33xoiy",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#C49A2A;margin-bottom:20px;\">For Startups &amp; Researchers</p>",
+                        "text_color": "#C49A2A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 10
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "xf1e6wp",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<strong>Ready to build</strong><br>something real?",
+                        "header_size": "h2",
+                        "align": "left",
+                        "title_color": "#FFFFFF",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 40
+                        },
+                        "typography_font_weight": "300"
+                      }
+                    },
+                    {
+                      "id": "7ykoz2g",
+                      "elType": "widget",
+                      "widgetType": "spacer",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 16
+                        }
+                      }
+                    },
+                    {
+                      "id": "cbm2yut",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Apply for our inaugural cohort. Limited seats. Full support \u2014 from idea to investor-ready company.</p>",
+                        "text_color": "rgba(255,255,255,0.5)",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "drwpfvh",
+                      "elType": "widget",
+                      "widgetType": "spacer",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 32
+                        }
+                      }
+                    },
+                    {
+                      "id": "qr0e9n0",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Apply Now",
+                        "link": {
+                          "url": "/apply/",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "button_type": "info",
+                        "background_color": "#C49A2A",
+                        "button_text_color": "#08122A",
+                        "border_border": "",
+                        "border_color": "",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": 2,
+                          "right": 2,
+                          "bottom": 2,
+                          "left": 2,
+                          "isLinked": true
+                        },
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_font_weight": "600",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "top": 14,
+                          "right": 32,
+                          "bottom": 14,
+                          "left": 32,
+                          "isLinked": false
+                        },
+                        "hover_color": "#E2BF68"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "lsedph8",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_color": "#C49A2A",
+                    "padding": {
+                      "unit": "px",
+                      "top": 80,
+                      "right": 64,
+                      "bottom": 80,
+                      "left": 64,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "y7mir1n",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:rgba(8,18,42,0.6);margin-bottom:20px;\">For Investors &amp; Partners</p>",
+                        "text_color": "#1B2A4A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 10
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "5qw4krj",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<strong>See the</strong><br>opportunity.",
+                        "header_size": "h2",
+                        "align": "left",
+                        "title_color": "#08122A",
+                        "typography_font_family": "Cormorant Garamond",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 40
+                        },
+                        "typography_font_weight": "300"
+                      }
+                    },
+                    {
+                      "id": "7xf2qd1",
+                      "elType": "widget",
+                      "widgetType": "spacer",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 16
+                        }
+                      }
+                    },
+                    {
+                      "id": "fmpnpx0",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Download our investor overview, explore partnership structures, or schedule a campus visit to see the infrastructure firsthand.</p>",
+                        "text_color": "rgba(8,18,42,0.65)",
+                        "typography_typography": "custom",
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8
+                        }
+                      }
+                    },
+                    {
+                      "id": "vr42hhx",
+                      "elType": "widget",
+                      "widgetType": "spacer",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 32
+                        }
+                      }
+                    },
+                    {
+                      "id": "apm0f67",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Get the Investor Deck",
+                        "link": {
+                          "url": "/investors/",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "button_type": "info",
+                        "background_color": "#08122A",
+                        "button_text_color": "#FFFFFF",
+                        "border_border": "",
+                        "border_color": "",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": 2,
+                          "right": 2,
+                          "bottom": 2,
+                          "left": 2,
+                          "isLinked": true
+                        },
+                        "typography_font_family": "DM Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_font_weight": "600",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "top": 14,
+                          "right": 32,
+                          "bottom": 14,
+                          "left": 32,
+                          "isLinked": false
+                        },
+                        "hover_color": ""
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       }
     }
   ],
-  "last_run": "2026-05-22T04:23:10.716388",
+  "last_run": "2026-05-22T04:23:58.081672",
   "status": "completed",
   "commands_run": 1
 }
