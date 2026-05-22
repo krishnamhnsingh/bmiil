@@ -1,4 +1,9 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-22T16:17:37.116365"
+  "commands": [
+    {
+      "action": "get_media",
+      "id": "find-logo"
+    }
+  ],
+  "last_updated": "2026-05-22T16:18:48.166357+00:00"
 }
