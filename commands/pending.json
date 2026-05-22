@@ -1,4 +1,11 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-22T16:29:24.690637"
+  "commands": [
+    {
+      "action": "update_page_elementor",
+      "id": "push-careers",
+      "page_id": 2004,
+      "payload_path": "staging/careers-page.json"
+    }
+  ],
+  "last_updated": "2026-05-22T16:29:40.827711+00:00"
 }
