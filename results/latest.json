@@ -1,22 +1,32 @@
 {
   "results": [
     {
-      "action": "update_page_elementor",
-      "id": "restore-home-a7c",
-      "timestamp": "2026-05-22T04:28:52.006638",
+      "action": "get_page",
+      "id": "verify-1074",
+      "timestamp": "2026-05-22T04:29:31.851967",
+      "result": {
+        "success": false,
+        "error": "HTTP Error 404: Not Found"
+      }
+    },
+    {
+      "action": "search_replace",
+      "id": "aug31",
+      "timestamp": "2026-05-22T04:29:33.107498",
       "result": {
         "success": true,
         "data": {
-          "id": 1074,
-          "updated": [
-            "elementor_data"
-          ],
-          "url": "https://test.bmiil.com/"
+          "search": "March 31",
+          "replace": "August 31",
+          "dry_run": false,
+          "affected": [],
+          "count": 0,
+          "message": "0 template(s) updated."
         }
       }
     }
   ],
-  "last_run": "2026-05-22T04:28:53.482807",
+  "last_run": "2026-05-22T04:29:34.011213",
   "status": "completed",
-  "commands_run": 1
+  "commands_run": 2
 }
