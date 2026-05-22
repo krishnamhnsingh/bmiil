@@ -220,6 +220,17 @@ jobs:
                       }
                   }
 
+              elif action == "get_media":
+                  result["result"] = wp("GET", "media")
+
+              elif action == "set_favicon":
+                  attachment_id = cmd.get("attachment_id", 0)
+                  filename      = cmd.get("filename", "")
+                  result["result"] = wp("POST", "set-favicon", {
+                      "attachment_id": attachment_id,
+                      "filename": filename
+                  })
+
               else:
                   result["result"] = {"error": f"Unknown action: {action}"}
 
