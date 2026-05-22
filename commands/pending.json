@@ -1,11 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "update_page_elementor",
-      "id": "fix-eyebrow-padding",
-      "page_id": 1074,
-      "payload_path": "staging/home-1074-restore.json"
-    }
-  ],
-  "last_updated": "2026-05-22T16:25:04.764351+00:00"
+  "commands": [],
+  "last_updated": "2026-05-22T16:25:15.394770"
 }
