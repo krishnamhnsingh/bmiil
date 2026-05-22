@@ -1,24 +1,26 @@
 {
   "results": [
     {
-      "action": "update_page",
-      "id": "fix-homepage-template",
-      "timestamp": "2026-05-22T04:37:19.015310",
+      "action": "get_template",
+      "id": "read-1991",
+      "timestamp": "2026-05-22T04:38:03.455558",
       "result": {
         "success": true,
         "data": {
-          "id": 1074,
-          "updated": [
-            "template"
-          ],
-          "url": "https://test.bmiil.com/"
+          "id": 1991,
+          "title": "BMIIL \u2014 Header v7 (logo sized)",
+          "slug": "bmiil-header-v7-logo-sized",
+          "status": "publish",
+          "template_type": "page",
+          "elementor_data": null,
+          "modified": "2026-05-15 11:01:15"
         }
       }
     },
     {
       "action": "get_template",
-      "id": "read-header",
-      "timestamp": "2026-05-22T04:37:20.224562",
+      "id": "read-1033",
+      "timestamp": "2026-05-22T04:38:04.421100",
       "result": {
         "success": true,
         "data": {
@@ -33,7 +35,7 @@
       }
     }
   ],
-  "last_run": "2026-05-22T04:37:20.937761",
+  "last_run": "2026-05-22T04:38:05.463759",
   "status": "completed",
   "commands_run": 2
 }
