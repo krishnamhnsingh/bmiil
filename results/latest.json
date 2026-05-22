@@ -1,20 +1,35 @@
 {
   "results": [
     {
-      "action": "set_favicon",
-      "id": "set-favicon",
-      "timestamp": "2026-05-22T16:19:37.976363",
+      "action": "update_template",
+      "id": "hdr-1033",
+      "timestamp": "2026-05-22T16:20:41.467045",
       "result": {
         "success": true,
         "data": {
-          "attachment_id": 1979,
-          "favicon_url": "https://test.bmiil.com/wp-content/uploads/2026/05/BMIIL-LOGO.png",
-          "message": "Favicon set successfully."
+          "id": 1033,
+          "updated": [
+            "elementor_data"
+          ]
+        }
+      }
+    },
+    {
+      "action": "update_template",
+      "id": "hdr-1991",
+      "timestamp": "2026-05-22T16:20:42.693476",
+      "result": {
+        "success": true,
+        "data": {
+          "id": 1991,
+          "updated": [
+            "elementor_data"
+          ]
         }
       }
     }
   ],
-  "last_run": "2026-05-22T16:19:39.167948",
+  "last_run": "2026-05-22T16:20:43.554329",
   "status": "completed",
-  "commands_run": 1
+  "commands_run": 2
 }
