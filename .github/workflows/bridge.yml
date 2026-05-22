@@ -121,12 +121,26 @@ jobs:
                   new_data = cmd.get("elementor_data")
                   # If payload_url provided, fetch data from GitHub raw URL
                   payload_url = cmd.get("payload_url")
-                  if payload_url and not new_data:
-                      req_raw = urllib.request.Request(payload_url)
-                      req_raw.add_header("Authorization", f"token {gh_token}")
-                      req_raw.add_header("Accept", "application/vnd.github.v3.raw")
-                      with urllib.request.urlopen(req_raw, timeout=30) as pr:
-                          new_data = json.loads(pr.read())
+                  payload_path = cmd.get("payload_path")  # e.g. "staging/home-1074-restore.json"
+                  if (payload_url or payload_path) and not new_data:
+                      if payload_path:
+                          # Use GitHub API to get file contents (bypasses CDN cache)
+                          api_url = f"https://api.github.com/repos/{repo}/contents/{payload_path}"
+                          req_api = urllib.request.Request(api_url)
+                          req_api.add_header("Authorization", f"token {gh_token}")
+                          req_api.add_header("Accept", "application/vnd.github.v3+json")
+                          req_api.add_header("Cache-Control", "no-cache")
+                          with urllib.request.urlopen(req_api, timeout=30) as pr:
+                              api_data = json.loads(pr.read())
+                              import base64 as b64
+                              new_data = json.loads(b64.b64decode(api_data["content"]).decode())
+                      elif payload_url:
+                          req_raw = urllib.request.Request(payload_url)
+                          req_raw.add_header("Authorization", f"token {gh_token}")
+                          req_raw.add_header("Accept", "application/vnd.github.v3.raw")
+                          req_raw.add_header("Cache-Control", "no-cache")
+                          with urllib.request.urlopen(req_raw, timeout=30) as pr:
+                              new_data = json.loads(pr.read())
                   result["result"] = wp("POST", f"pages/{pid}", {"elementor_data": new_data})
 
               elif action == "update_template":
