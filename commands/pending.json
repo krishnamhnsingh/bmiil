@@ -1,11 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "update_page_elementor",
-      "id": "investor-redesign",
-      "page_id": 1100,
-      "payload_path": "staging/investor-deck-redesign.json"
-    }
-  ],
-  "last_updated": "2026-05-23T12:11:36.688760+00:00"
+  "commands": [],
+  "last_updated": "2026-05-23T12:11:47.641318"
 }
