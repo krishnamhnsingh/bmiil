@@ -1,6 +1,11 @@
 {
   "id": 2018,
+  "title": "Apply Now",
   "slug": "apply-now",
+  "status": "publish",
+  "url": "https://test.bmiil.com/apply-now/",
+  "template": "elementor_header_footer",
+  "has_elementor": true,
   "elementor_data": [
     {
       "id": "149a3a5",
