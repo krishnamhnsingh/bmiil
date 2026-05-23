@@ -1,4 +1,11 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-23T11:01:48.149490"
+  "commands": [
+    {
+      "action": "update_page_elementor",
+      "id": "fix-team",
+      "page_id": 1117,
+      "payload_path": "staging/team-page-fixed.json"
+    }
+  ],
+  "last_updated": "2026-05-23T11:02:46.911985+00:00"
 }
