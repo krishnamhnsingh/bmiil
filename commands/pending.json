@@ -1,4 +1,11 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-23T11:29:02.630955"
+  "commands": [
+    {
+      "action": "update_page_elementor",
+      "id": "restyle-catalysts",
+      "page_id": 1117,
+      "payload_path": "staging/team-catalysts-restyled.json"
+    }
+  ],
+  "last_updated": "2026-05-23T11:45:46.467247+00:00"
 }
