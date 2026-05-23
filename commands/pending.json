@@ -1,40 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "search_replace",
-      "id": "fix-news",
-      "search": "https://test.bmiil.com/news/",
-      "replace": "https://test.bmiil.com/latest-events/",
-      "dry_run": false
-    },
-    {
-      "action": "search_replace",
-      "id": "fix-investors",
-      "search": "https://test.bmiil.com/investors/",
-      "replace": "https://test.bmiil.com/investor-deck/",
-      "dry_run": false
-    },
-    {
-      "action": "search_replace",
-      "id": "fix-grants",
-      "search": "https://test.bmiil.com/investors/#grants",
-      "replace": "https://test.bmiil.com/startup-funds/",
-      "dry_run": false
-    },
-    {
-      "action": "search_replace",
-      "id": "fix-apply",
-      "search": "https://test.bmiil.com/apply/#process",
-      "replace": "https://test.bmiil.com/apply-now/",
-      "dry_run": false
-    },
-    {
-      "action": "search_replace",
-      "id": "fix-regulatory",
-      "search": "https://test.bmiil.com/programs/#regulatory",
-      "replace": "https://test.bmiil.com/grants-proposals/",
-      "dry_run": false
-    }
-  ],
-  "last_updated": "2026-05-23T15:14:34.900427+00:00"
+  "commands": [],
+  "last_updated": "2026-05-23T15:14:48.160600"
 }
