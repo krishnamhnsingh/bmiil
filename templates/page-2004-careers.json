@@ -1,6 +1,11 @@
 {
   "id": 2004,
+  "title": "Careers",
   "slug": "careers",
+  "status": "publish",
+  "url": "https://test.bmiil.com/careers/",
+  "template": "elementor_header_footer",
+  "has_elementor": true,
   "elementor_data": [
     {
       "id": "40g9uzs",
