@@ -1,0 +1,433 @@
+{
+  "id": 2052,
+  "title": "Startup Funds",
+  "slug": "startup-funds",
+  "status": "publish",
+  "url": "https://test.bmiil.com/startup-funds/",
+  "template": "elementor_header_footer",
+  "has_elementor": true,
+  "elementor_data": [
+    {
+      "id": "ad3974e",
+      "elType": "container",
+      "settings": {
+        "flex_direction": "column",
+        "background_background": "classic",
+        "__globals__": {
+          "background_color": "",
+          "shape_divider_top_color": "globals/colors?id=2a18e6b",
+          "shape_divider_bottom_color": "globals/colors?id=2a18e6b"
+        },
+        "shape_divider_top": "tilt",
+        "shape_divider_bottom": "tilt",
+        "link_note": "",
+        "background_gradient_notice": "",
+        "background_hover_gradient_notice": "",
+        "background_overlay_gradient_notice": "",
+        "background_overlay_hover_gradient_notice": "",
+        "position_description": "",
+        "jkit_glass_blur_level": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "jkit_glass_blur_level_tablet": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "jkit_glass_blur_level_mobile": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "jkit_sticky_section": "",
+        "jkit_sticky_device": "desktop",
+        "jkit_sticky_trigger": "down",
+        "jkit_sticky_position": "sticky",
+        "jkit_sticky_top_position": {
+          "unit": "px",
+          "size": 0,
+          "sizes": []
+        },
+        "jkit_sticky_bottom_position": {
+          "unit": "px",
+          "size": 0,
+          "sizes": []
+        },
+        "jkit_sticky_background_color": "",
+        "jkit_sticky_hide_on_scroll": "",
+        "jkit_sticky_hide_threshold": "",
+        "jkit_sticky_x_axis_animation": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "jkit_sticky_y_axis_animation": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "jkit_sticky_transition": {
+          "unit": "px",
+          "size": 0.1,
+          "sizes": []
+        },
+        "jkit_sticky_zindex": 100,
+        "jkit_sticky_shadow_box_shadow_type": "",
+        "jkit_sticky_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 0,
+          "blur": 10,
+          "spread": 0,
+          "color": "rgba(0,0,0,0.5)"
+        },
+        "jkit_sticky_shadow_box_shadow_position": " ",
+        "transform_sticky_notice": ""
+      },
+      "elements": [
+        {
+          "id": "a7df61d",
+          "elType": "widget",
+          "settings": {
+            "title": "Startup Funds",
+            "__globals__": {
+              "title_color": "globals/colors?id=cf4575c",
+              "typography_typography": "globals/typography?id=67538df"
+            },
+            "align": "center",
+            "_margin": {
+              "unit": "px",
+              "top": "50",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": ""
+            },
+            "_position_description": "",
+            "jkit_transform_rotate": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_transform_rotate_tablet": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_transform_rotate_mobile": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_glass_blur_level": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_glass_blur_level_tablet": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_glass_blur_level_mobile": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "_background_gradient_notice": "",
+            "_background_hover_gradient_notice": ""
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "1c5dd63",
+          "elType": "widget",
+          "settings": {
+            "editor": "<p><span class=\"T286Pc\" data-sfc-cp=\"\" data-complete=\"true\"><strong class=\"Yjhzub\" data-complete=\"true\">Backing Brilliance, Funding the Future</strong></span></p>",
+            "_padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": ""
+            },
+            "_padding_tablet": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": ""
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": "globals/colors?id=d10daa4"
+            },
+            "_margin_tablet": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": ""
+            },
+            "_padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": ""
+            },
+            "align": "center",
+            "typography_typography": "custom",
+            "typography_font_family": "Source Sans Pro",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "18",
+              "sizes": []
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": "17",
+              "sizes": []
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": "16",
+              "sizes": []
+            },
+            "typography_font_weight": "400",
+            "typography_font_style": "italic",
+            "text_color": "#FB912B",
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "_position_description": "",
+            "jkit_transform_rotate": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_transform_rotate_tablet": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_transform_rotate_mobile": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_glass_blur_level": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_glass_blur_level_tablet": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_glass_blur_level_mobile": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "_background_gradient_notice": "",
+            "_background_hover_gradient_notice": ""
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "a77b829",
+      "elType": "container",
+      "settings": {
+        "margin": {
+          "unit": "px",
+          "top": "20",
+          "right": "0",
+          "bottom": "20",
+          "left": "0",
+          "isLinked": false
+        },
+        "link_note": "",
+        "background_gradient_notice": "",
+        "background_hover_gradient_notice": "",
+        "background_overlay_gradient_notice": "",
+        "background_overlay_hover_gradient_notice": "",
+        "position_description": "",
+        "jkit_glass_blur_level": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "jkit_glass_blur_level_tablet": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "jkit_glass_blur_level_mobile": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "jkit_sticky_section": "",
+        "jkit_sticky_device": "desktop",
+        "jkit_sticky_trigger": "down",
+        "jkit_sticky_position": "sticky",
+        "jkit_sticky_top_position": {
+          "unit": "px",
+          "size": 0,
+          "sizes": []
+        },
+        "jkit_sticky_bottom_position": {
+          "unit": "px",
+          "size": 0,
+          "sizes": []
+        },
+        "jkit_sticky_background_color": "",
+        "jkit_sticky_hide_on_scroll": "",
+        "jkit_sticky_hide_threshold": "",
+        "jkit_sticky_x_axis_animation": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "jkit_sticky_y_axis_animation": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "jkit_sticky_transition": {
+          "unit": "px",
+          "size": 0.1,
+          "sizes": []
+        },
+        "jkit_sticky_zindex": 100,
+        "jkit_sticky_shadow_box_shadow_type": "",
+        "jkit_sticky_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 0,
+          "blur": 10,
+          "spread": 0,
+          "color": "rgba(0,0,0,0.5)"
+        },
+        "jkit_sticky_shadow_box_shadow_position": " ",
+        "transform_sticky_notice": ""
+      },
+      "elements": [
+        {
+          "id": "a217df4",
+          "elType": "widget",
+          "settings": {
+            "title": "Top 25 Government Grants For Startups in India - 2025",
+            "header_size": "h4",
+            "align": "start",
+            "__globals__": {
+              "title_color": "globals/colors?id=cf4575c"
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "20",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "_position_description": "",
+            "jkit_transform_rotate": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_transform_rotate_tablet": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_transform_rotate_mobile": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_glass_blur_level": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_glass_blur_level_tablet": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_glass_blur_level_mobile": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "_background_gradient_notice": "",
+            "_background_hover_gradient_notice": ""
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "416bb66",
+          "elType": "widget",
+          "settings": {
+            "html": "<figure>\r\n<table data-animation-nesting=\"\" data-complete=\"true\" data-sae=\"\">\r\n<thead>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<th colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong>SI No.</strong><button tabindex=\"0\" data-amic=\"true\" data-icl-uuid=\"d09cc59f-8d7a-439d-8825-52dc35b9d795\" data-wiz-attrbind=\"disabled=J3NHN_1a/C5gNJc;aria-label=J3NHN_1a/bOjMyf;class=J3NHN_1a/UpSNec\" data-ved=\"2ahUKEwiM55_A35CSAxXDyzgGHd2iKCAQye0OegYIAQgFEAE\"></button></th>\r\n<th colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong>Grant Name</strong></th>\r\n<th colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong>Description</strong></th>\r\n<th colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong>Website</strong></th>\r\n</tr>\r\n</thead>\r\n<tbody data-complete=\"true\">\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">1</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">Startup India Seed Fund (SISFS)</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Grants for idea validation and product development</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://seedfund.startupindia.gov.in\" target=\"_blank\">seedfund.startupindia.gov.in</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">2</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">Genesis</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Incubation support for innovative startups</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://msh.meity.gov.in/schemes/genesis\" target=\"_blank\">msh.meity.gov.in/schemes/genesis</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">3</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">MSME Innovative Scheme</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Up to 15L for innovative MSME projects</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://msme.gov.in\" target=\"_blank\">msme.gov.in</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">4</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">Biotechnology Ignition Grant (BIG)</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Up to 50L for biotech startups</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://birac.nic.in\" target=\"_blank\">birac.nic.in</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">5</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">Digital India Bhashini Initiative</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Grants for Indian language based tech/AI innovations</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://bhashini.gov.in\" target=\"_blank\">bhashini.gov.in</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">6</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">NIDHI-PRAYAS</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">10L prototyping grant</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://nidhi.dst.gov.in\" target=\"_blank\">nidhi.dst.gov.in</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">7</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">Multiplier Grants Scheme (MGS)</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Govt matches industry R&amp;D funding</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://indiascienceandtechnology.gov.in\" target=\"_blank\">indiascienceandtechnology.gov.in</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">8</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">Rashtriya Krishi Vikas Yojana (RAFTAAR)</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Grants for agri-tech startups</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://rkvy.da.gov.in\" target=\"_blank\">rkvy.da.gov.in</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">9</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">Smart India Hackathon (SIH)</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Innovation grants for student and professional teams</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://sih.gov.in\" target=\"_blank\">sih.gov.in</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">10</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">TIDE 2.0 Scheme</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">ICT-focused startup support via Meity incubators</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://msh.meity.gov.in/schemes/tide\" target=\"_blank\">msh.meity.gov.in/schemes/tide</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">11</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">Credit Guarantee Fund (CGTMSE)</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Collateral free loans up to 2Cr for MSMEs</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://cgtmse.in\" target=\"_blank\">cgtmse.in</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">12</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">IDEX</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Grants for defense and aerospace tech startups</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://idex.gov.in\" target=\"_blank\">idex.gov.in</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">13</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">STPI Grant</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Incubation and funding for IT &amp; ESDM startups</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://stpi.in\" target=\"_blank\">stpi.in</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">14</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">SAMRIDH Scheme</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Up to 40L for product development and scaling</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://msh.meity.gov.in/schemes/samridh\" target=\"_blank\">msh.meity.gov.in/schemes/samridh</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">15</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">SIP-EIT</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Patent filing support for electronics &amp; IT startups</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://indiascienceandtechnology.gov.in\" target=\"_blank\">indiascienceandtechnology.gov.in</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">16</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">ASPIRE Scheme</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Promotes rural innovation &amp; livelihood based entrepreneurship</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://aspire.msme.gov.in\" target=\"_blank\">aspire.msme.gov.in</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">17</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">NXP Startup Program</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Support for edge tech startups with market access</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://nxp.com\" target=\"_blank\">nxp.com</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">18</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">CLCSS</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">15% capital subsidy for tech upgradation for MSMEs</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://clcss.dcmsme.gov.in\" target=\"_blank\">clcss.dcmsme.gov.in</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">19</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">Dairy Processing Infrastructure Development Fund (DIDF)</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Grants for dairy processing units and supply chain infrastructure</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://dahd.gov.in/schemes/programmes/didf\" target=\"_blank\">dahd.gov.in/schemes/programmes/didf</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">20</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">TDB Grants</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Grants for tech development and commercialization</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://tdb.gov.in/modes-funding\" target=\"_blank\">tdb.gov.in/modes-funding</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">21</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">NSIC Subsidy</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Marketing, finance and tech support for MSMEs</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://nsic.co.in\" target=\"_blank\">nsic.co.in</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">22</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">MGIRI Grants</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Grants for startups focused on village &amp; industries</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://mgiri.org\" target=\"_blank\">mgiri.org</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">23</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">KSUM Innovation Grant</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Up to 30L for Kerala based startups</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://grants.startupmission.in\" target=\"_blank\">grants.startupmission.in</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">24</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">NIDHI-EIR</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Fellowship support for early-stage entrepreneurs</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://nidhi-eir.in\" target=\"_blank\">nidhi-eir.in</a></td>\r\n</tr>\r\n<tr data-sfc-cp=\"\" data-complete=\"true\">\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">25</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><strong data-complete=\"true\">National Innovation Foundation (NIF) Grants</strong></td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\">Support for grassroots, frugal innovation</td>\r\n<td colspan=\"undefined\" data-sfc-cp=\"\" data-complete=\"true\"><a href=\"https://nif.org.in\" target=\"_blank\">nif.org.in</a></td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n</figure>\r\n",
+            "_position_description": "",
+            "jkit_transform_rotate": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_transform_rotate_tablet": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_transform_rotate_mobile": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_glass_blur_level": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_glass_blur_level_tablet": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "jkit_glass_blur_level_mobile": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "_background_gradient_notice": "",
+            "_background_hover_gradient_notice": ""
+          },
+          "elements": [],
+          "widgetType": "html"
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}
