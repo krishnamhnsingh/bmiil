@@ -1,11 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "update_page_elementor",
-      "id": "restore-investor-deck",
-      "page_id": 1100,
-      "payload_path": "staging/investor-deck-restore.json"
-    }
-  ],
-  "last_updated": "2026-05-23T12:09:10.025847+00:00"
+  "commands": [],
+  "last_updated": "2026-05-23T12:09:20.608841"
 }
