@@ -1,147 +1,800 @@
 {
   "results": [
     {
-      "action": "get_pages",
-      "id": "all-pages",
-      "timestamp": "2026-05-23T08:05:51.706948",
+      "action": "get_page",
+      "id": "sync-apply-2018",
+      "timestamp": "2026-05-23T08:06:30.460514",
       "result": {
         "success": true,
-        "data": [
-          {
-            "id": 1008,
-            "title": "About",
-            "slug": "about",
-            "status": "publish",
-            "url": "https://test.bmiil.com/about/",
-            "template": "elementor_header_footer",
-            "has_elementor": true,
-            "modified": "2026-05-10 16:48:18"
-          },
-          {
-            "id": 1079,
-            "title": "Accelerator Program",
-            "slug": "accelerator-program",
-            "status": "publish",
-            "url": "https://test.bmiil.com/accelerator-program/",
-            "template": "elementor_header_footer",
-            "has_elementor": true,
-            "modified": "2026-05-10 15:21:43"
-          },
-          {
-            "id": 2018,
-            "title": "Apply Now",
-            "slug": "apply-now",
-            "status": "publish",
-            "url": "https://test.bmiil.com/apply-now/",
-            "template": "elementor_header_footer",
-            "has_elementor": true,
-            "modified": "2026-05-23 06:17:17"
-          },
-          {
-            "id": 1089,
-            "title": "Ayush Program",
-            "slug": "ayush-program",
-            "status": "publish",
-            "url": "https://test.bmiil.com/ayush-program/",
-            "template": "elementor_header_footer",
-            "has_elementor": true,
-            "modified": "2026-05-09 11:40:59"
-          },
-          {
-            "id": 2004,
-            "title": "Careers",
-            "slug": "careers",
-            "status": "publish",
-            "url": "https://test.bmiil.com/careers/",
-            "template": "elementor_header_footer",
-            "has_elementor": true,
-            "modified": "2026-05-23 07:52:16"
-          },
-          {
-            "id": 1095,
-            "title": "Contact",
-            "slug": "contact",
-            "status": "publish",
-            "url": "https://test.bmiil.com/contact/",
-            "template": "elementor_header_footer",
-            "has_elementor": true,
-            "modified": "2026-05-09 11:44:55"
-          },
-          {
-            "id": 1074,
-            "title": "Home",
-            "slug": "home",
-            "status": "publish",
-            "url": "https://test.bmiil.com/",
-            "template": "elementor_header_footer",
-            "has_elementor": true,
-            "modified": "2026-05-22 04:43:02"
-          },
-          {
-            "id": 1100,
-            "title": "Investor",
-            "slug": "investor-deck",
-            "status": "publish",
-            "url": "https://test.bmiil.com/investor-deck/",
-            "template": "elementor_header_footer",
-            "has_elementor": true,
-            "modified": "2026-05-21 07:33:33"
-          },
-          {
-            "id": 1919,
-            "title": "Latest Events",
-            "slug": "latest-events",
-            "status": "publish",
-            "url": "https://test.bmiil.com/latest-events/",
-            "template": "elementor_header_footer",
-            "has_elementor": true,
-            "modified": "2026-05-12 07:40:45"
-          },
-          {
-            "id": 1106,
-            "title": "Medtech Incubation",
-            "slug": "medtech-incubation",
-            "status": "publish",
-            "url": "https://test.bmiil.com/medtech-incubation/",
-            "template": "elementor_header_footer",
-            "has_elementor": true,
-            "modified": "2026-05-21 07:36:41"
-          },
-          {
-            "id": 3,
-            "title": "Privacy Policy",
-            "slug": "privacy-policy",
-            "status": "draft",
-            "url": "https://test.bmiil.com/?page_id=3",
-            "template": "default",
-            "has_elementor": false,
-            "modified": "2026-05-05 10:11:32"
-          },
-          {
-            "id": 1112,
-            "title": "Programs",
-            "slug": "programs",
-            "status": "publish",
-            "url": "https://test.bmiil.com/programs/",
-            "template": "elementor_header_footer",
-            "has_elementor": true,
-            "modified": "2026-05-09 11:26:58"
-          },
-          {
-            "id": 1117,
-            "title": "Team",
-            "slug": "team",
-            "status": "publish",
-            "url": "https://test.bmiil.com/team/",
-            "template": "elementor_header_footer",
-            "has_elementor": true,
-            "modified": "2026-05-15 10:56:41"
-          }
-        ]
+        "data": {
+          "id": 2018,
+          "title": "Apply Now",
+          "slug": "apply-now",
+          "status": "publish",
+          "url": "https://test.bmiil.com/apply-now/",
+          "template": "elementor_header_footer",
+          "has_elementor": true,
+          "elementor_data": [
+            {
+              "id": "149a3a5",
+              "elType": "container",
+              "settings": {
+                "padding": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "0",
+                  "bottom": "50",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "__globals__": {
+                  "background_color": "globals/colors?id=secondary"
+                },
+                "link_note": "",
+                "background_gradient_notice": "",
+                "background_hover_gradient_notice": "",
+                "background_overlay_gradient_notice": "",
+                "background_overlay_hover_gradient_notice": "",
+                "position_description": "",
+                "jkit_glass_blur_level": {
+                  "unit": "px",
+                  "size": "",
+                  "sizes": []
+                },
+                "jkit_glass_blur_level_tablet": {
+                  "unit": "px",
+                  "size": "",
+                  "sizes": []
+                },
+                "jkit_glass_blur_level_mobile": {
+                  "unit": "px",
+                  "size": "",
+                  "sizes": []
+                },
+                "jkit_sticky_section": "",
+                "jkit_sticky_device": "desktop",
+                "jkit_sticky_trigger": "down",
+                "jkit_sticky_position": "sticky",
+                "jkit_sticky_top_position": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "jkit_sticky_bottom_position": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "jkit_sticky_background_color": "",
+                "jkit_sticky_hide_on_scroll": "",
+                "jkit_sticky_hide_threshold": "",
+                "jkit_sticky_x_axis_animation": {
+                  "unit": "px",
+                  "size": "",
+                  "sizes": []
+                },
+                "jkit_sticky_y_axis_animation": {
+                  "unit": "px",
+                  "size": "",
+                  "sizes": []
+                },
+                "jkit_sticky_transition": {
+                  "unit": "px",
+                  "size": 0.1,
+                  "sizes": []
+                },
+                "jkit_sticky_zindex": 100,
+                "jkit_sticky_shadow_box_shadow_type": "",
+                "jkit_sticky_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 0,
+                  "blur": 10,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.5)"
+                },
+                "jkit_sticky_shadow_box_shadow_position": " ",
+                "transform_sticky_notice": ""
+              },
+              "elements": [
+                {
+                  "id": "9dfdfe7",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "Apply for Incubation \u2014 BMIIL",
+                    "header_size": "h4",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_position_description": "",
+                    "jkit_transform_rotate": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_transform_rotate_tablet": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_transform_rotate_mobile": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_glass_blur_level": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_glass_blur_level_tablet": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_glass_blur_level_mobile": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "_background_gradient_notice": "",
+                    "_background_hover_gradient_notice": "",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=146fe6d"
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "f8cd709",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "Fill this form to apply for incubation.",
+                    "header_size": "h6",
+                    "_position_description": "",
+                    "jkit_transform_rotate": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_transform_rotate_tablet": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_transform_rotate_mobile": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_glass_blur_level": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_glass_blur_level_tablet": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_glass_blur_level_mobile": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "_background_gradient_notice": "",
+                    "_background_hover_gradient_notice": "",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=146fe6d"
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "5dc115f",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "Required Fields are marked *",
+                    "header_size": "p",
+                    "title_color": "#C81212",
+                    "_position_description": "",
+                    "jkit_transform_rotate": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_transform_rotate_tablet": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_transform_rotate_mobile": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_glass_blur_level": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_glass_blur_level_tablet": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_glass_blur_level_mobile": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "_background_gradient_notice": "",
+                    "_background_hover_gradient_notice": ""
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "5ac6d59",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "background_background": "classic",
+                "padding": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "0",
+                  "bottom": "100",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=secondary"
+                },
+                "link_note": "",
+                "background_gradient_notice": "",
+                "background_hover_gradient_notice": "",
+                "background_overlay_gradient_notice": "",
+                "background_overlay_hover_gradient_notice": "",
+                "position_description": "",
+                "jkit_glass_blur_level": {
+                  "unit": "px",
+                  "size": "",
+                  "sizes": []
+                },
+                "jkit_glass_blur_level_tablet": {
+                  "unit": "px",
+                  "size": "",
+                  "sizes": []
+                },
+                "jkit_glass_blur_level_mobile": {
+                  "unit": "px",
+                  "size": "",
+                  "sizes": []
+                },
+                "jkit_sticky_section": "",
+                "jkit_sticky_device": "desktop",
+                "jkit_sticky_trigger": "down",
+                "jkit_sticky_position": "sticky",
+                "jkit_sticky_top_position": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "jkit_sticky_bottom_position": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "jkit_sticky_background_color": "",
+                "jkit_sticky_hide_on_scroll": "",
+                "jkit_sticky_hide_threshold": "",
+                "jkit_sticky_x_axis_animation": {
+                  "unit": "px",
+                  "size": "",
+                  "sizes": []
+                },
+                "jkit_sticky_y_axis_animation": {
+                  "unit": "px",
+                  "size": "",
+                  "sizes": []
+                },
+                "jkit_sticky_transition": {
+                  "unit": "px",
+                  "size": 0.1,
+                  "sizes": []
+                },
+                "jkit_sticky_zindex": 100,
+                "jkit_sticky_shadow_box_shadow_type": "",
+                "jkit_sticky_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 0,
+                  "blur": 10,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.5)"
+                },
+                "jkit_sticky_shadow_box_shadow_position": " ",
+                "transform_sticky_notice": ""
+              },
+              "elements": [
+                {
+                  "id": "bd0edb1",
+                  "elType": "widget",
+                  "settings": {
+                    "form_name": "Apply Now",
+                    "form_fields": [
+                      {
+                        "field_type": "step",
+                        "_id": "f7d737a",
+                        "field_label": "Basic Information",
+                        "previous_button": "<< Prev",
+                        "next_button": "Next >>",
+                        "custom_id": "field_f7d737a"
+                      },
+                      {
+                        "custom_id": "field_20826e7",
+                        "field_label": "Startup Name",
+                        "placeholder": "Startup Name",
+                        "width": "50",
+                        "dynamic": {
+                          "active": true
+                        },
+                        "required": "true",
+                        "_id": "20826e7"
+                      },
+                      {
+                        "custom_id": "name",
+                        "field_label": "Founder's Name",
+                        "placeholder": "Founder's Name",
+                        "width": "50",
+                        "dynamic": {
+                          "active": true
+                        },
+                        "_id": "1c52d41",
+                        "required": "true"
+                      },
+                      {
+                        "custom_id": "field_7467ad5",
+                        "field_label": "Designation",
+                        "placeholder": "Designation",
+                        "width": "50",
+                        "dynamic": {
+                          "active": true
+                        },
+                        "_id": "7467ad5"
+                      },
+                      {
+                        "custom_id": "email",
+                        "field_type": "email",
+                        "required": "true",
+                        "field_label": "Email Address",
+                        "placeholder": "Email Address",
+                        "width": "50",
+                        "_id": "0b4b4e4"
+                      },
+                      {
+                        "custom_id": "field_460bbd2",
+                        "field_type": "number",
+                        "required": "true",
+                        "field_label": "Phone / WhatsApp ",
+                        "placeholder": "Phone / WhatsApp ",
+                        "width": "50",
+                        "_id": "460bbd2"
+                      },
+                      {
+                        "custom_id": "field_08af543",
+                        "field_type": "url",
+                        "field_label": "Website / Social Media",
+                        "placeholder": "https:// or @handle",
+                        "width": "50",
+                        "_id": "08af543"
+                      },
+                      {
+                        "custom_id": "field_4368981",
+                        "field_label": "City & State of Operation",
+                        "placeholder": "City & State of Operation",
+                        "width": "50",
+                        "_id": "4368981"
+                      },
+                      {
+                        "custom_id": "field_13d1e6b",
+                        "field_type": "select",
+                        "field_label": "Preferred Mode of Incubation",
+                        "placeholder": "City & State of Operation",
+                        "width": "50",
+                        "field_options": "-- Select --\nPhysical (On-Site at BMIIL)\nVirtual / Remote\nHybrid",
+                        "_id": "13d1e6b"
+                      },
+                      {
+                        "_id": "c2e0b98",
+                        "field_type": "step",
+                        "field_label": "Startup Overview",
+                        "custom_id": "field_c2e0b98",
+                        "previous_button": "<< Prev",
+                        "next_button": "Next >>"
+                      },
+                      {
+                        "custom_id": "message",
+                        "field_type": "textarea",
+                        "field_label": "Brief Description (100\u2013200 words) *",
+                        "placeholder": "Describe your product, customers, and the need it meets",
+                        "_id": "90bcd50",
+                        "required": "true"
+                      },
+                      {
+                        "_id": "93f24af",
+                        "field_type": "select",
+                        "field_label": "Sector / Domain",
+                        "field_options": "MedTech\nHealthTech\nAyurveda / Wellness\nBiomedical Devices\nDiagnostics\nAI / Data in Healthcare\nOther",
+                        "width": "50",
+                        "custom_id": "field_93f24af"
+                      },
+                      {
+                        "field_label": "Year of Incorporation / Registration",
+                        "placeholder": "YYYY OR NA",
+                        "field_options": "-- Select --\nIdea Stage\nPrototype Stage\nEarly Revenue Stage\nScaling Stage",
+                        "width": "50",
+                        "custom_id": "field_6923ff7",
+                        "_id": "6923ff7"
+                      },
+                      {
+                        "field_type": "select",
+                        "field_label": "Team Size",
+                        "placeholder": "YYYY OR NA",
+                        "field_options": "-- Select --\n1-3\n4-10\n11-25\n25+",
+                        "width": "50",
+                        "custom_id": "field_a9d53c0",
+                        "_id": "a9d53c0"
+                      },
+                      {
+                        "field_type": "step",
+                        "field_label": " Innovation & Impact",
+                        "width": "50",
+                        "custom_id": "field_e638daf",
+                        "_id": "e638daf"
+                      },
+                      {
+                        "field_label": "What Problem Are You Solving?",
+                        "placeholder": "List Key Partners or Customers",
+                        "required": "true",
+                        "field_options": "-- Select --\nIdea Stage\nPrototype Stage\nEarly Revenue Stage\nScaling Stage",
+                        "custom_id": "field_4b6fb78",
+                        "_id": "4b6fb78",
+                        "field_type": "textarea"
+                      },
+                      {
+                        "field_label": "What Is Innovative About Your Solution? *",
+                        "required": "true",
+                        "field_options": "-- Select --\nIdea Stage\nPrototype Stage\nEarly Revenue Stage\nScaling Stage",
+                        "custom_id": "field_bb0c54d",
+                        "_id": "bb0c54d",
+                        "field_type": "textarea"
+                      },
+                      {
+                        "field_label": "What Makes Your Startup Unique (USP)?",
+                        "required": "true",
+                        "field_options": "-- Select --\nIdea Stage\nPrototype Stage\nEarly Revenue Stage\nScaling Stage",
+                        "custom_id": "field_35d1a38",
+                        "_id": "35d1a38",
+                        "field_type": "textarea"
+                      },
+                      {
+                        "field_type": "radio",
+                        "field_label": "Are you using or planning any Ayurvedic / indigenous knowledge-based innovation?",
+                        "field_options": "Yes\nNo",
+                        "custom_id": "field_c4291e0",
+                        "_id": "c4291e0"
+                      },
+                      {
+                        "placeholder": "If Yes briefly describe how?",
+                        "required": "true",
+                        "field_options": "Yes\nNo",
+                        "custom_id": "field_8fe2099",
+                        "_id": "8fe2099"
+                      },
+                      {
+                        "field_type": "step",
+                        "field_label": "Current Progress",
+                        "placeholder": "If Yes briefly describe how?",
+                        "required": "true",
+                        "field_options": "Yes\nNo",
+                        "custom_id": "field_b2b54ff",
+                        "_id": "b2b54ff"
+                      },
+                      {
+                        "field_type": "select",
+                        "field_label": "Do You Have a Prototype / MVP?",
+                        "placeholder": "If Yes briefly describe how?",
+                        "field_options": "-- Select --\nYes\nNo\nUnder Development",
+                        "custom_id": "field_ad2cb72",
+                        "_id": "ad2cb72"
+                      },
+                      {
+                        "field_type": "select",
+                        "field_label": "Have You Conducted Any Clinical Validation or Testing?",
+                        "placeholder": "If Yes briefly describe how?",
+                        "field_options": "-- Select --\nYes\nNo\n",
+                        "custom_id": "field_750ffed",
+                        "_id": "750ffed"
+                      },
+                      {
+                        "field_label": "Any Existing Partnerships or Customers?",
+                        "placeholder": "List Key Partners or Customers",
+                        "field_options": "-- Select --\nIdea Stage\nPrototype Stage\nEarly Revenue Stage\nScaling Stage",
+                        "width": "50",
+                        "custom_id": "field_f766ce9",
+                        "_id": "f766ce9"
+                      },
+                      {
+                        "field_type": "select",
+                        "field_label": "Funding Status",
+                        "field_options": "-- Selec--\nBootstrapped\nAngel Funded\nGrant Received\nSeeking Funding",
+                        "width": "50",
+                        "custom_id": "field_83fb5c6",
+                        "_id": "83fb5c6"
+                      },
+                      {
+                        "field_type": "step",
+                        "field_label": " Incubation Needs",
+                        "field_options": "-- Selec--\nBootstrapped\nAngel Funded\nGrant Received\nSeeking Funding",
+                        "width": "50",
+                        "custom_id": "field_cabb148",
+                        "previous_button": "<<",
+                        "next_button": ">>",
+                        "_id": "cabb148"
+                      },
+                      {
+                        "_id": "649f1d6",
+                        "field_type": "checkbox",
+                        "field_label": "What Kind of Support Are You Looking For? (select all that apply)",
+                        "field_options": "Infrastructure / Lab Access\nRegulatory Guidance\nBusiness Development Support\nAyurvedic Research Collaboration\nMentorship\nFunding / Investor Connect\nClinical Trial Support",
+                        "custom_id": "field_649f1d6"
+                      },
+                      {
+                        "_id": "7f85e8b",
+                        "field_type": "select",
+                        "field_label": "How Did You Hear About BMIIL?",
+                        "field_options": "-- Select --\nUniversity / College\nStartup Event\nOnline / Social Media\nReferral\nOther",
+                        "custom_id": "field_7f85e8b"
+                      },
+                      {
+                        "_id": "7d0a7cc",
+                        "field_type": "upload",
+                        "field_label": "Upload Pitch Deck (PDF, max 10MB)",
+                        "file_sizes": 10,
+                        "file_types": "pdf",
+                        "custom_id": "field_7d0a7cc"
+                      },
+                      {
+                        "_id": "488b189",
+                        "field_type": "upload",
+                        "field_label": "Upload Company Registration / Proof (optional)",
+                        "file_sizes": 10,
+                        "file_types": "pdf",
+                        "custom_id": "field_488b189"
+                      },
+                      {
+                        "_id": "367bb60",
+                        "field_type": "upload",
+                        "field_label": "Upload Any Additional Document (optional)",
+                        "file_sizes": 10,
+                        "file_types": "pdf",
+                        "custom_id": "field_367bb60"
+                      },
+                      {
+                        "_id": "0879516",
+                        "field_type": "step",
+                        "field_label": "Declaration",
+                        "previous_button": "<< Prev",
+                        "next_button": "Next >>",
+                        "custom_id": "field_0879516"
+                      },
+                      {
+                        "_id": "f3dfaf8",
+                        "field_type": "acceptance",
+                        "field_label": "I hereby declare that all the information provided above is true to the best of my knowledge. I understand that submission of this form does not guarantee selection for incubation at BMIIL.",
+                        "required": "true",
+                        "custom_id": "field_f3dfaf8"
+                      }
+                    ],
+                    "step_next_label": "Next",
+                    "step_previous_label": "Previous",
+                    "button_text": "Apply for Incubation",
+                    "email_to": "info@bmiil.com",
+                    "email_subject": "New Apply Now message from \"Bareilly Medtech Incubation &amp; Innovation Labs\"",
+                    "email_content": "[all-fields]",
+                    "email_from": "info@bmiil.com",
+                    "email_from_name": "Bareilly Medtech Incubation &amp; Innovation Labs",
+                    "email_to_2": "biubareilly1000@gmail.com",
+                    "email_subject_2": "New message from \"Bareilly Medtech Incubation &amp; Innovation Labs\"",
+                    "email_content_2": "[all-fields]",
+                    "email_from_2": "email@bmiil.com",
+                    "email_from_name_2": "Bareilly Medtech Incubation &amp; Innovation Labs",
+                    "email_reply_to_2": "biubareilly1000@gmail.com",
+                    "activecampaign_fields_map": [],
+                    "convertkit_fields_map": [],
+                    "drip_fields_map": [],
+                    "getresponse_fields_map": [],
+                    "mailchimp_fields_map": [],
+                    "mailerlite_fields_map": [],
+                    "success_message": "Your submission was successful.",
+                    "error_message": "Your submission failed because of an error.",
+                    "server_message": "Your submission failed because of a server error.",
+                    "invalid_message": "Your submission failed because the form is invalid.",
+                    "required_field_message": "This field is required.",
+                    "mark_required": "yes",
+                    "button_align": "end",
+                    "button_content_align": "center",
+                    "html_spacing": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "column_gap": {
+                      "unit": "px",
+                      "size": 60,
+                      "sizes": []
+                    },
+                    "submissions_action_message": "",
+                    "activecampaign_api_key_msg": "",
+                    "convertkit_api_key_msg": "",
+                    "drip_api_key_msg": "",
+                    "getresponse_api_key_msg": "",
+                    "mailchimp_api_key_msg": "",
+                    "mailerlite_api_key_msg": "",
+                    "_position_description": "",
+                    "jkit_transform_rotate": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_transform_rotate_tablet": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_transform_rotate_mobile": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_glass_blur_level": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_glass_blur_level_tablet": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "jkit_glass_blur_level_mobile": {
+                      "unit": "px",
+                      "size": "",
+                      "sizes": []
+                    },
+                    "_background_gradient_notice": "",
+                    "_background_hover_gradient_notice": "",
+                    "row_gap": {
+                      "unit": "px",
+                      "size": 31,
+                      "sizes": []
+                    },
+                    "label_spacing": {
+                      "unit": "px",
+                      "size": 10,
+                      "sizes": []
+                    },
+                    "__globals__": {
+                      "step_inactive_primary_color": "globals/colors?id=accent",
+                      "label_color": "globals/colors?id=de3d41e",
+                      "step_active_primary_color": "globals/colors?id=de3d41e"
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "form"
+                }
+              ],
+              "isInner": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "action": "get_page",
+      "id": "sync-contact-1095",
+      "timestamp": "2026-05-23T08:06:32.106021",
+      "result": {
+        "success": true,
+        "data": {
+          "id": 1095,
+          "title": "Contact",
+          "slug": "contact",
+          "status": "publish",
+          "url": "https://test.bmiil.com/contact/",
+          "template": "elementor_header_footer",
+          "has_elementor": true,
+          "elementor_data": [
+            {
+              "id": "1af8101",
+              "elType": "section",
+              "settings": {
+                "stretch_section": "section-stretched",
+                "content_width": {
+                  "unit": "px",
+                  "size": 1220
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "isLinked": false
+                },
+                "gap": "no",
+                "layout": "full_width"
+              },
+              "elements": [
+                {
+                  "id": "63917bcb",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "content_width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "53d47dc0",
+                      "elType": "widget",
+                      "settings": {
+                        "html": "\n<div style=\"background:#08122A;padding:160px 0 64px;border-bottom:1px solid rgba(196,154,42,0.15);position:relative;overflow:hidden;\">\n  <div style=\"position:absolute;inset:0;background-image:linear-gradient(rgba(196,154,42,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(196,154,42,0.03) 1px,transparent 1px);background-size:60px 60px;pointer-events:none;\"></div>\n  <div style=\"max-width:1220px;margin:0 auto;padding:0 2.5rem;position:relative;z-index:1;\">\n    <div style=\"font-family:DM Mono;font-size:10px;color:rgba(255,255,255,0.3);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:3rem;\"><a href=\"/\" style=\"color:rgba(255,255,255,0.3);text-decoration:none;\">Home</a> <span style=\"opacity:.4;\">/</span> <span style=\"color:{GOLD};\">Contact</span></div>\n    <div style=\"display:flex;align-items:center;gap:12px;margin-bottom:1.8rem;\"><div style=\"width:40px;height:1px;background:#C49A2A;flex-shrink:0;\"></div><span style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#C49A2A;\">Get in Touch</span></div>\n    <h1 style=\"font-family:Cormorant Garamond;font-size:clamp(2.5rem,5vw,5rem);font-weight:300;line-height:1.04;color:#FFFFFF;margin:0 0 1.8rem;\">Every great startup<br>begins with a conversation.</h1>\n    <p style=\"font-size:1rem;line-height:1.7;color:rgba(255,255,255,0.5);max-width:600px;margin:1.5rem 0 0;\">We're a small team and we read every message ourselves. Tell us who you are and what you're working on \u2014 we'll take it from there.</p>\n  </div>\n</div>\n\n<div style=\"background:#F7F3EC;padding:7rem 0;\">\n  <div style=\"max-width:1220px;margin:0 auto;padding:0 2.5rem;display:grid;grid-template-columns:1fr 1fr;gap:5rem;\">\n\n    <!-- Left: Enquiry types + details -->\n    <div>\n      <p style=\"display:inline-block;font-family:DM Mono;font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);margin:0 0 20px 0;\">Enquiry Type</p>\n      <h3 style=\"font-family:Cormorant Garamond;font-size:1.5rem;font-weight:300;color:#08122A;margin:0 0 1.5rem;\">I'm reaching out as a\u2026</h3>\n      <div style=\"display:flex;flex-direction:column;gap:0.8rem;margin-bottom:3rem;\">\n        <div style=\"display:flex;gap:1.2rem;padding:1.2rem 1.5rem;border:1px solid #EDE8DE;border-radius:4px;background:#FFFFFF;cursor:pointer;align-items:flex-start;\">\n  <span style=\"font-size:1.3rem;flex-shrink:0;\">\ud83d\udca1</span>\n  <div><div style=\"font-family:Cormorant Garamond;font-size:1rem;font-weight:700;color:#08122A;margin-bottom:2px;\">General Enquiry</div><div style=\"font-size:12px;color:#7A8BA8;\">Any question at all</div></div>\n</div>\n        <div style=\"display:flex;gap:1.2rem;padding:1.2rem 1.5rem;border:1px solid #EDE8DE;border-radius:4px;background:#FFFFFF;cursor:pointer;align-items:flex-start;\">\n  <span style=\"font-size:1.3rem;flex-shrink:0;\">\ud83d\ude80</span>\n  <div><div style=\"font-family:Cormorant Garamond;font-size:1rem;font-weight:700;color:#08122A;margin-bottom:2px;\">I'm a Founder</div><div style=\"font-size:12px;color:#7A8BA8;\">Program or application questions</div></div>\n</div>\n        <div style=\"display:flex;gap:1.2rem;padding:1.2rem 1.5rem;border:1px solid #EDE8DE;border-radius:4px;background:#FFFFFF;cursor:pointer;align-items:flex-start;\">\n  <span style=\"font-size:1.3rem;flex-shrink:0;\">\ud83d\udcbc</span>\n  <div><div style=\"font-family:Cormorant Garamond;font-size:1rem;font-weight:700;color:#08122A;margin-bottom:2px;\">I'm an Investor</div><div style=\"font-size:12px;color:#7A8BA8;\">Partnership or portfolio interest</div></div>\n</div>\n        <div style=\"display:flex;gap:1.2rem;padding:1.2rem 1.5rem;border:1px solid #EDE8DE;border-radius:4px;background:#FFFFFF;cursor:pointer;align-items:flex-start;\">\n  <span style=\"font-size:1.3rem;flex-shrink:0;\">\ud83c\udfe5</span>\n  <div><div style=\"font-family:Cormorant Garamond;font-size:1rem;font-weight:700;color:#08122A;margin-bottom:2px;\">Corporate / Hospital Partner</div><div style=\"font-size:12px;color:#7A8BA8;\">Strategic partnership enquiry</div></div>\n</div>\n        <div style=\"display:flex;gap:1.2rem;padding:1.2rem 1.5rem;border:1px solid #EDE8DE;border-radius:4px;background:#FFFFFF;cursor:pointer;align-items:flex-start;\">\n  <span style=\"font-size:1.3rem;flex-shrink:0;\">\ud83d\udcf0</span>\n  <div><div style=\"font-family:Cormorant Garamond;font-size:1rem;font-weight:700;color:#08122A;margin-bottom:2px;\">Press / Media</div><div style=\"font-size:12px;color:#7A8BA8;\">Coverage or interview request</div></div>\n</div>\n      </div>\n\n      <div style=\"background:#08122A;border-radius:4px;padding:2.5rem;\">\n        <p style=\"display:inline-block;font-family:DM Mono;font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.1);margin:0 0 20px 0;\">Contact Details</p>\n        <div style=\"display:flex;flex-direction:column;gap:1.2rem;\">\n          <div style=\"display:flex;gap:1.2rem;align-items:flex-start;\"><div style=\"width:42px;height:42px;min-width:42px;border-radius:3px;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.25);display:flex;align-items:center;justify-content:center;font-size:1.1rem;\">\u2709\ufe0f</div><div><h4 style=\"font-size:13px;font-weight:600;color:rgba(255,255,255,0.7);margin:0 0 0.3rem;\">General Enquiries</h4><p style=\"font-size:12px;color:rgba(255,255,255,0.35);margin:0;line-height:1.6;\"><a href=\"mailto:info@bmiil.com\" style=\"color:{GOLD};text-decoration:none;\">info@bmiil.com</a></p><p style=\"font-size:12px;color:rgba(255,255,255,0.35);margin:0;line-height:1.6;\">Response within 24\u201348 hours</p></div></div>\n          <div style=\"display:flex;gap:1.2rem;align-items:flex-start;\"><div style=\"width:42px;height:42px;min-width:42px;border-radius:3px;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.25);display:flex;align-items:center;justify-content:center;font-size:1.1rem;\">\ud83d\udccb</div><div><h4 style=\"font-size:13px;font-weight:600;color:rgba(255,255,255,0.7);margin:0 0 0.3rem;\">Program Applications</h4><p style=\"font-size:12px;color:rgba(255,255,255,0.35);margin:0;line-height:1.6;\"><a href=\"/apply/\" style=\"color:{GOLD};text-decoration:none;\">Apply via online form \u2192</a></p><p style=\"font-size:12px;color:rgba(255,255,255,0.35);margin:0;line-height:1.6;\">Or email: apply@bmiil.com</p></div></div>\n          <div style=\"display:flex;gap:1.2rem;align-items:flex-start;\"><div style=\"width:42px;height:42px;min-width:42px;border-radius:3px;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.25);display:flex;align-items:center;justify-content:center;font-size:1.1rem;\">\ud83d\udcbc</div><div><h4 style=\"font-size:13px;font-weight:600;color:rgba(255,255,255,0.7);margin:0 0 0.3rem;\">Investor & Partner Relations</h4><p style=\"font-size:12px;color:rgba(255,255,255,0.35);margin:0;line-height:1.6;\"><a href=\"mailto:partners@bmiil.com\" style=\"color:{GOLD};text-decoration:none;\">partners@bmiil.com</a></p><p style=\"font-size:12px;color:rgba(255,255,255,0.35);margin:0;line-height:1.6;\">Response within 24 hours</p></div></div>\n          <div style=\"display:flex;gap:1.2rem;align-items:flex-start;\"><div style=\"width:42px;height:42px;min-width:42px;border-radius:3px;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.25);display:flex;align-items:center;justify-content:center;font-size:1.1rem;\">\ud83d\udccd</div><div><h4 style=\"font-size:13px;font-weight:600;color:rgba(255,255,255,0.7);margin:0 0 0.3rem;\">Campus Address</h4><p style=\"font-size:12px;color:rgba(255,255,255,0.35);margin:0;line-height:1.6;\">Bareilly International University</p><p style=\"font-size:12px;color:rgba(255,255,255,0.35);margin:0;line-height:1.6;\">Pilibhit Bypass Road, Bareilly \u2014 243006</p><p style=\"font-size:12px;color:rgba(255,255,255,0.35);margin:0;line-height:1.6;\">Uttar Pradesh, India</p></div></div>\n        </div>\n      </div>\n    </div>\n\n    <!-- Right: Form -->\n    <div>\n      <p style=\"display:inline-block;font-family:DM Mono;font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);margin:0 0 20px 0;\">Send Us a Message</p>\n      <h3 style=\"font-family:Cormorant Garamond;font-size:1.5rem;font-weight:300;color:#08122A;margin:0 0 0.5rem;\">We read every message.</h3>\n      <p style=\"font-size:14px;color:#7A8BA8;margin:0 0 2rem;\">Tell us who you are and what's on your mind.</p>\n\n      <div style=\"display:flex;flex-direction:column;gap:1rem;\">\n        <div style=\"display:grid;grid-template-columns:1fr 1fr;gap:1rem;\">\n          <div><label style=\"font-size:12px;font-weight:600;color:#1B2A4A;display:block;margin-bottom:6px;\">First Name *</label><input type=\"text\" placeholder=\"First name\" style=\"width:100%;padding:10px 14px;border:1px solid #EDE8DE;border-radius:3px;font-size:14px;background:#FFFFFF;box-sizing:border-box;\"></div>\n          <div><label style=\"font-size:12px;font-weight:600;color:#1B2A4A;display:block;margin-bottom:6px;\">Last Name *</label><input type=\"text\" placeholder=\"Last name\" style=\"width:100%;padding:10px 14px;border:1px solid #EDE8DE;border-radius:3px;font-size:14px;background:#FFFFFF;box-sizing:border-box;\"></div>\n        </div>\n        <div><label style=\"font-size:12px;font-weight:600;color:#1B2A4A;display:block;margin-bottom:6px;\">Email Address *</label><input type=\"email\" placeholder=\"your@email.com\" style=\"width:100%;padding:10px 14px;border:1px solid #EDE8DE;border-radius:3px;font-size:14px;background:#FFFFFF;box-sizing:border-box;\"></div>\n        <div><label style=\"font-size:12px;font-weight:600;color:#1B2A4A;display:block;margin-bottom:6px;\">Organisation</label><input type=\"text\" placeholder=\"Company or institution (optional)\" style=\"width:100%;padding:10px 14px;border:1px solid #EDE8DE;border-radius:3px;font-size:14px;background:#FFFFFF;box-sizing:border-box;\"></div>\n        <div><label style=\"font-size:12px;font-weight:600;color:#1B2A4A;display:block;margin-bottom:6px;\">I'm reaching out as a\u2026 *</label><select style=\"width:100%;padding:10px 14px;border:1px solid #EDE8DE;border-radius:3px;font-size:14px;background:#FFFFFF;box-sizing:border-box;\"><option>Select your role</option><option>Founder / Entrepreneur</option><option>Researcher / Academic</option><option>Investor / Fund Manager</option><option>Corporate / Hospital Partner</option><option>Student</option><option>Press / Media</option><option>Other</option></select></div>\n        <div><label style=\"font-size:12px;font-weight:600;color:#1B2A4A;display:block;margin-bottom:6px;\">Your Message *</label><textarea placeholder=\"Tell us what's on your mind\u2026\" rows=\"5\" style=\"width:100%;padding:10px 14px;border:1px solid #EDE8DE;border-radius:3px;font-size:14px;background:#FFFFFF;resize:vertical;box-sizing:border-box;font-family:DM Sans;\"></textarea></div>\n        <button style=\"background:#C49A2A;color:#08122A;font-weight:600;font-size:14px;letter-spacing:1px;padding:14px 32px;border:none;border-radius:2px;cursor:pointer;text-align:left;\">Send Message \u2192</button>\n        <p style=\"font-size:11px;color:#7A8BA8;margin:0;\">\ud83d\udd12 Your information is never shared with third parties.</p>\n      </div>\n    </div>\n  </div>\n</div>"
+                      },
+                      "elements": [],
+                      "widgetType": "html"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            }
+          ]
+        }
       }
     }
   ],
-  "last_run": "2026-05-23T08:05:52.667331",
+  "last_run": "2026-05-23T08:06:33.473372",
   "status": "completed",
-  "commands_run": 1
+  "commands_run": 2
 }
