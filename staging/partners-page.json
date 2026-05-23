@@ -1,0 +1,206 @@
+[
+  {
+    "id": "6pxtew8",
+    "elType": "section",
+    "settings": {
+      "stretch_section": "section-stretched",
+      "content_width": {
+        "unit": "px",
+        "size": 1220
+      },
+      "padding": {
+        "unit": "px",
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0,
+        "isLinked": false
+      },
+      "gap": "no"
+    },
+    "elements": [
+      {
+        "id": "752j5sw",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "content_width": {
+            "unit": "%",
+            "size": 100
+          },
+          "padding": {
+            "unit": "px",
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0,
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "d03n0iq",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+              "html": "<div style=\"background:#08122A;padding:160px 0 80px;border-bottom:1px solid rgba(196,154,42,0.15);position:relative;overflow:hidden;\"><div style=\"position:absolute;inset:0;background-image:linear-gradient(rgba(196,154,42,0.06) 1px,transparent 1px),linear-gradient(90deg,rgba(196,154,42,0.06) 1px,transparent 1px);background-size:60px 60px;pointer-events:none;\"></div><div style=\"max-width:1220px;margin:0 auto;padding:0 2.5rem;position:relative;z-index:1;\"><div style=\"font-family:DM Mono;font-size:10px;color:rgba(255,255,255,0.3);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:2rem;\"><a href=\"/\" style=\"color:rgba(255,255,255,0.3);text-decoration:none;\">Home</a> <span style=\"opacity:.4;\">/</span> <span style=\"color:#C49A2A;\">Partners &amp; Investors</span></div><div style=\"display:flex;align-items:center;gap:12px;margin-bottom:1.5rem;\"><div style=\"width:40px;height:1px;background:#C49A2A;flex-shrink:0;\"></div><span style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#C49A2A;\">Collaborate With Us</span></div><h1 style=\"font-family:Cormorant Garamond;font-size:clamp(2.8rem,5vw,5rem);font-weight:300;line-height:1.04;color:#FFFFFF;margin:0 0 0.4rem;\">Partner with</h1><h2 style=\"font-family:Cormorant Garamond;font-size:clamp(2.8rem,5vw,5rem);font-weight:700;line-height:1.04;color:#FFFFFF;margin:0 0 1.8rem;\"><em style=\"font-style:italic;color:#E2BF68;\">BMIIL</em></h2><p style=\"font-size:1rem;line-height:1.75;color:rgba(255,255,255,0.55);max-width:640px;margin:0 0 2.5rem;\">At BMIIL, we believe innovation thrives through collaboration. Your support \u2014 as an <strong style=\"color:#FFFFFF;\">investor, CSR partner, or mentor</strong> \u2014 helps transform visionary ideas into solutions that improve lives. Join us in powering India's medtech revolution.</p><div style=\"background:rgba(196,154,42,0.1);border:1px solid rgba(196,154,42,0.25);border-radius:4px;padding:1rem 1.5rem;display:inline-block;\"><p style=\"font-size:13px;color:rgba(255,255,255,0.7);margin:0;\">\ud83c\udfdb\ufe0f BMIIL is a <strong style=\"color:#FFFFFF;\">Section 8 Company</strong> registered under the Companies Act 2013. All contributions &amp; investments are eligible for <strong style=\"color:#C49A2A;\">tax exemptions under Section 80G</strong> of the Income Tax Act.</p></div></div></div>"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p7bchht",
+    "elType": "section",
+    "settings": {
+      "stretch_section": "section-stretched",
+      "content_width": {
+        "unit": "px",
+        "size": 1220
+      },
+      "padding": {
+        "unit": "px",
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0,
+        "isLinked": false
+      },
+      "gap": "no"
+    },
+    "elements": [
+      {
+        "id": "68ivlwc",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "content_width": {
+            "unit": "%",
+            "size": 100
+          },
+          "padding": {
+            "unit": "px",
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0,
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "u9nk3vj",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+              "html": "<div style=\"background:#F7F3EC;padding:7rem 0;\"><div style=\"max-width:1220px;margin:0 auto;padding:0 2.5rem;\"><p style=\"display:inline-block;font-family:DM Mono;font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);margin:0 0 1.2rem;\">Ways to Collaborate</p><h2 style=\"font-family:Cormorant Garamond;font-size:clamp(2rem,4vw,3rem);font-weight:300;color:#08122A;margin:0 0 0.8rem;line-height:1.15;\">Together, let's ignite change in <strong style=\"font-weight:700;\">Healthcare.</strong></h2><p style=\"font-size:14px;line-height:1.8;color:#4A5C78;max-width:640px;margin:0 0 3rem;\">Whether you invest capital, expertise, or networks \u2014 every form of partnership accelerates the mission.</p><div style=\"display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-bottom:5rem;\"><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:2rem;position:relative;overflow:hidden;\"><div style=\"position:absolute;top:0;left:0;right:0;height:3px;background:#C49A2A;\"></div><div style=\"font-size:2rem;margin-bottom:0.8rem;\">\ud83d\udcb0</div><h3 style=\"font-family:Cormorant Garamond;font-size:1.3rem;font-weight:700;color:#08122A;margin:0 0 0.6rem;\">Investor</h3><p style=\"font-size:13px;line-height:1.65;color:#7A8BA8;margin:0 0 1.2rem;\">Deploy capital into India's fastest-growing medtech opportunity \u2014 Tier-2 India.</p><ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Equity & debt investment in portfolio startups</li><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Access to curated deal flow & due diligence</li><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Investor visibility at Demo Days & Pitch Events</li><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Co-investment opportunities with other funds</li></ul></div><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:2rem;position:relative;overflow:hidden;\"><div style=\"position:absolute;top:0;left:0;right:0;height:3px;background:#C49A2A;\"></div><div style=\"font-size:2rem;margin-bottom:0.8rem;\">\ud83e\udd1d</div><h3 style=\"font-family:Cormorant Garamond;font-size:1.3rem;font-weight:700;color:#08122A;margin:0 0 0.6rem;\">Corporate Partner / CSR</h3><p style=\"font-size:13px;line-height:1.65;color:#7A8BA8;margin:0 0 1.2rem;\">Align your CSR mandate with tangible healthcare innovation impact.</p><ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Section 80G tax exemptions on contributions</li><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Brand visibility across BMIIL platforms & events</li><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Structured CSR reporting & impact documentation</li><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Employee engagement through mentorship programs</li></ul></div><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:2rem;position:relative;overflow:hidden;\"><div style=\"position:absolute;top:0;left:0;right:0;height:3px;background:#C49A2A;\"></div><div style=\"font-size:2rem;margin-bottom:0.8rem;\">\ud83e\udde0</div><h3 style=\"font-family:Cormorant Garamond;font-size:1.3rem;font-weight:700;color:#08122A;margin:0 0 0.6rem;\">Mentor / Expert</h3><p style=\"font-size:13px;line-height:1.65;color:#7A8BA8;margin:0 0 1.2rem;\">Share your domain expertise to help early-stage founders succeed.</p><ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>1:1 mentorship with vetted medtech startups</li><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Flexible time commitment \u2014 monthly or quarterly</li><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Advisory board positions available</li><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Access to BMIIL's research & clinical networks</li></ul></div><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:2rem;position:relative;overflow:hidden;\"><div style=\"position:absolute;top:0;left:0;right:0;height:3px;background:#C49A2A;\"></div><div style=\"font-size:2rem;margin-bottom:0.8rem;\">\ud83d\udd2c</div><h3 style=\"font-family:Cormorant Garamond;font-size:1.3rem;font-weight:700;color:#08122A;margin:0 0 0.6rem;\">Research Partner</h3><p style=\"font-size:13px;line-height:1.65;color:#7A8BA8;margin:0 0 1.2rem;\">Collaborate on clinical validation, IP development, and publications.</p><ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Joint research with BIU faculty & departments</li><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Access to hospital data & patient cohorts</li><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Co-authorship on publications & grant proposals</li><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>IP co-ownership structures available</li></ul></div><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:2rem;position:relative;overflow:hidden;\"><div style=\"position:absolute;top:0;left:0;right:0;height:3px;background:#C49A2A;\"></div><div style=\"font-size:2rem;margin-bottom:0.8rem;\">\ud83c\udfe5</div><h3 style=\"font-family:Cormorant Garamond;font-size:1.3rem;font-weight:700;color:#08122A;margin:0 0 0.6rem;\">Hospital / Clinical Partner</h3><p style=\"font-size:13px;line-height:1.65;color:#7A8BA8;margin:0 0 1.2rem;\">Provide clinical environments for startup validation and piloting.</p><ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Pilot programs within your clinical setting</li><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>First access to validated medtech solutions</li><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Revenue sharing on successful deployments</li><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Visibility as an innovation partner</li></ul></div><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:2rem;position:relative;overflow:hidden;\"><div style=\"position:absolute;top:0;left:0;right:0;height:3px;background:#C49A2A;\"></div><div style=\"font-size:2rem;margin-bottom:0.8rem;\">\ud83c\udf0d</div><h3 style=\"font-family:Cormorant Garamond;font-size:1.3rem;font-weight:700;color:#08122A;margin:0 0 0.6rem;\">International Partner</h3><p style=\"font-size:13px;line-height:1.65;color:#7A8BA8;margin:0 0 1.2rem;\">Connect BMIIL startups to global markets, networks, and opportunities.</p><ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>MOU-based partnership with BMIIL</li><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Cross-border startup exchange programs</li><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Joint demo days and investor introductions</li><li style=\"font-size:13px;color:#4A5C78;padding:0.4rem 0;border-bottom:1px solid #EDE8DE;display:flex;gap:8px;align-items:flex-start;\"><span style=\"color:#C49A2A;flex-shrink:0;\">\u2713</span>Global market access for portfolio companies</li></ul></div></div><div style=\"background:#08122A;border-radius:4px;padding:3rem 3.5rem;\"><div style=\"display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;\"><div><h3 style=\"font-family:Cormorant Garamond;font-size:2rem;font-weight:300;color:#FFFFFF;margin:0 0 1.5rem;\">Why partner with BMIIL?</h3><div style=\"display:flex;flex-direction:column;gap:1rem;\"><div style=\"display:flex;gap:1rem;align-items:flex-start;\"><div style=\"width:32px;height:32px;border-radius:50%;background:rgba(196,154,42,0.15);border:1px solid rgba(196,154,42,0.3);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:0.9rem;\">\ud83c\udfaf</div><div><div style=\"font-weight:600;color:#FFFFFF;font-size:14px;margin-bottom:2px;\">First Mover Advantage</div><div style=\"font-size:13px;color:rgba(255,255,255,0.5);line-height:1.5;\">Tier-2 India medtech is underserved \u2014 be among the first institutional backers.</div></div></div><div style=\"display:flex;gap:1rem;align-items:flex-start;\"><div style=\"width:32px;height:32px;border-radius:50%;background:rgba(196,154,42,0.15);border:1px solid rgba(196,154,42,0.3);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:0.9rem;\">\ud83c\udfe5</div><div><div style=\"font-weight:600;color:#FFFFFF;font-size:14px;margin-bottom:2px;\">Clinical Validation Pipeline</div><div style=\"font-size:13px;color:rgba(255,255,255,0.5);line-height:1.5;\">Direct access to BIU's 1200+ bed hospital for real-world validation.</div></div></div><div style=\"display:flex;gap:1rem;align-items:flex-start;\"><div style=\"width:32px;height:32px;border-radius:50%;background:rgba(196,154,42,0.15);border:1px solid rgba(196,154,42,0.3);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:0.9rem;\">\ud83d\udcca</div><div><div style=\"font-weight:600;color:#FFFFFF;font-size:14px;margin-bottom:2px;\">Transparent Impact Reporting</div><div style=\"font-size:13px;color:rgba(255,255,255,0.5);line-height:1.5;\">Quarterly updates, milestone tracking, and CSR documentation.</div></div></div><div style=\"display:flex;gap:1rem;align-items:flex-start;\"><div style=\"width:32px;height:32px;border-radius:50%;background:rgba(196,154,42,0.15);border:1px solid rgba(196,154,42,0.3);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:0.9rem;\">\ud83d\udd12</div><div><div style=\"font-weight:600;color:#FFFFFF;font-size:14px;margin-bottom:2px;\">Section 80G Tax Benefits</div><div style=\"font-size:13px;color:rgba(255,255,255,0.5);line-height:1.5;\">All contributions eligible for income tax deductions under Section 80G.</div></div></div></div></div><div style=\"display:flex;flex-direction:column;gap:1rem;\"><div style=\"background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:4px;padding:1.2rem 1.5rem;\"><div style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#C49A2A;margin-bottom:0.3rem;\">Hospital Access</div><div style=\"font-family:Cormorant Garamond;font-size:1.8rem;font-weight:700;color:#FFFFFF;\">1,200+</div><div style=\"font-size:12px;color:rgba(255,255,255,0.4);margin-top:2px;\">Bed teaching hospital for clinical validation</div></div><div style=\"background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:4px;padding:1.2rem 1.5rem;\"><div style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#C49A2A;margin-bottom:0.3rem;\">Research Faculty</div><div style=\"font-family:Cormorant Garamond;font-size:1.8rem;font-weight:700;color:#FFFFFF;\">200+</div><div style=\"font-size:12px;color:rgba(255,255,255,0.4);margin-top:2px;\">Multidisciplinary experts across BIU colleges</div></div><div style=\"background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:4px;padding:1.2rem 1.5rem;\"><div style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#C49A2A;margin-bottom:0.3rem;\">Program Tracks</div><div style=\"font-family:Cormorant Garamond;font-size:1.8rem;font-weight:700;color:#FFFFFF;\">3</div><div style=\"font-size:12px;color:rgba(255,255,255,0.4);margin-top:2px;\">Medtech \u00b7 Accelerator \u00b7 Ayush Incubation</div></div><div style=\"background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:4px;padding:1.2rem 1.5rem;\"><div style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#C49A2A;margin-bottom:0.3rem;\">Target Cohort</div><div style=\"font-family:Cormorant Garamond;font-size:1.8rem;font-weight:700;color:#FFFFFF;\">12</div><div style=\"font-size:12px;color:rgba(255,255,255,0.4);margin-top:2px;\">Startups in inaugural batch \u2014 limited seats</div></div></div></div></div></div></div>"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "frr1hl8",
+    "elType": "section",
+    "settings": {
+      "stretch_section": "section-stretched",
+      "content_width": {
+        "unit": "px",
+        "size": 1220
+      },
+      "padding": {
+        "unit": "px",
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0,
+        "isLinked": false
+      },
+      "gap": "no"
+    },
+    "elements": [
+      {
+        "id": "943lyt7",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "content_width": {
+            "unit": "%",
+            "size": 100
+          },
+          "padding": {
+            "unit": "px",
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0,
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "40tsqer",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+              "html": "<div id=\"partner-form\" style=\"background:#EDE8DE;padding:7rem 0;\"><div style=\"max-width:1220px;margin:0 auto;padding:0 2.5rem;\"><div style=\"display:grid;grid-template-columns:1fr 1.6fr;gap:5rem;align-items:start;\"><div style=\"position:sticky;top:120px;\"><p style=\"display:inline-block;font-family:DM Mono;font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);margin:0 0 1.2rem;\">Get in Touch</p><h2 style=\"font-family:Cormorant Garamond;font-size:2.2rem;font-weight:300;color:#08122A;margin:0 0 1rem;line-height:1.2;\">Ready to <strong style=\"font-weight:700;\">collaborate?</strong></h2><p style=\"font-size:14px;line-height:1.8;color:#4A5C78;margin:0 0 2rem;\">Fill the form and our team will get in touch within 48 hours to discuss how we can work together.</p><div style=\"display:flex;flex-direction:column;gap:0.8rem;\"><div style=\"display:flex;align-items:center;gap:10px;\"><span style=\"color:#C49A2A;font-size:1rem;\">\u2709</span><a href=\"mailto:info@bmiil.com\" style=\"font-size:14px;color:#08122A;text-decoration:none;font-weight:500;\">info@bmiil.com</a></div><div style=\"display:flex;align-items:center;gap:10px;\"><span style=\"color:#C49A2A;font-size:1rem;\">\ud83d\udccd</span><span style=\"font-size:13px;color:#7A8BA8;\">Bareilly International University, Pilibhit Bypass Road, Bareilly \u2014 243006</span></div><div style=\"display:flex;align-items:center;gap:10px;margin-top:0.5rem;\"><a href=\"https://www.linkedin.com/company/bmiil/\" target=\"_blank\" style=\"background:#08122A;color:#FFFFFF;font-size:12px;font-weight:600;padding:8px 18px;border-radius:2px;text-decoration:none;\">Follow on LinkedIn \u2192</a></div></div></div><form method=\"POST\" action=\"https://formsubmit.co/info@bmiil.com\" style=\"display:flex;flex-direction:column;gap:1.2rem;background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:2.5rem;\"><input type=\"hidden\" name=\"_subject\" value=\"New Partnership / Investor Enquiry \u2014 BMIIL\"><input type=\"hidden\" name=\"_next\" value=\"https://test.bmiil.com/investor-deck/?sent=true\"><input type=\"hidden\" name=\"_captcha\" value=\"false\"><input type=\"hidden\" name=\"_template\" value=\"table\"><h3 style=\"font-family:Cormorant Garamond;font-size:1.4rem;font-weight:700;color:#08122A;margin:0 0 0.3rem;\">Partnership Enquiry Form</h3><p style=\"font-size:13px;color:#7A8BA8;margin:0 0 0.5rem;\">All fields marked <span style=\"color:#C49A2A;\">*</span> are required.</p><div style=\"display:grid;grid-template-columns:1fr 1fr;gap:1rem;\"><div style=\"display:flex;flex-direction:column;gap:6px;\"><label style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#7A8BA8;\">Full Name <span style=\"color:#C49A2A;\">*</span></label><input type=\"text\" name=\"full_name\" required placeholder=\"Your full name\" style=\"border:1px solid #EDE8DE;border-radius:2px;padding:10px 14px;font-size:14px;color:#08122A;background:#FFFFFF;font-family:DM Sans;outline:none;\" /></div><div style=\"display:flex;flex-direction:column;gap:6px;\"><label style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#7A8BA8;\">Organisation / Company <span style=\"color:#C49A2A;\">*</span></label><input type=\"text\" name=\"organisation\" required placeholder=\"Company or institution\" style=\"border:1px solid #EDE8DE;border-radius:2px;padding:10px 14px;font-size:14px;color:#08122A;background:#FFFFFF;font-family:DM Sans;outline:none;\" /></div></div><div style=\"display:flex;flex-direction:column;gap:6px;\"><label style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#7A8BA8;\">Designation / Role <span style=\"color:#C49A2A;\">*</span></label><input type=\"text\" name=\"designation\" required placeholder=\"e.g. CEO, Investment Director\" style=\"border:1px solid #EDE8DE;border-radius:2px;padding:10px 14px;font-size:14px;color:#08122A;background:#FFFFFF;font-family:DM Sans;outline:none;\" /></div><div style=\"display:flex;flex-direction:column;gap:6px;\"><label style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#7A8BA8;\">Email Address <span style=\"color:#C49A2A;\">*</span></label><input type=\"email\" name=\"email\" required placeholder=\"your@email.com\" style=\"border:1px solid #EDE8DE;border-radius:2px;padding:10px 14px;font-size:14px;color:#08122A;background:#FFFFFF;font-family:DM Sans;outline:none;\" /></div><div style=\"display:flex;flex-direction:column;gap:6px;\"><label style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#7A8BA8;\">Phone Number <span style=\"color:#C49A2A;\">*</span></label><input type=\"tel\" name=\"phone\" required placeholder=\"+91 00000 00000\" style=\"border:1px solid #EDE8DE;border-radius:2px;padding:10px 14px;font-size:14px;color:#08122A;background:#FFFFFF;font-family:DM Sans;outline:none;\" /></div><div style=\"display:flex;flex-direction:column;gap:6px;\"><label style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#7A8BA8;\">Website / LinkedIn</label><input type=\"text\" name=\"website\"  placeholder=\"https://\" style=\"border:1px solid #EDE8DE;border-radius:2px;padding:10px 14px;font-size:14px;color:#08122A;background:#FFFFFF;font-family:DM Sans;outline:none;\" /></div><div style=\"display:flex;flex-direction:column;gap:6px;\"><label style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#7A8BA8;\">I am interested in collaborating as a <span style=\"color:#C49A2A;\">*</span></label><select name=\"collaboration_type\" required style=\"border:1px solid #EDE8DE;border-radius:2px;padding:10px 14px;font-size:14px;color:#08122A;background:#FFFFFF;font-family:DM Sans;outline:none;\"><option value=\"\">-- Select --</option><option value=\"Investor\">Investor</option><option value=\"Corporate Partner\">Corporate Partner</option><option value=\"CSR Collaborator\">CSR Collaborator</option><option value=\"Mentor / Expert\">Mentor / Expert</option><option value=\"Research Partner\">Research Partner</option><option value=\"Hospital / Clinical Partner\">Hospital / Clinical Partner</option><option value=\"International Partner\">International Partner</option><option value=\"Other\">Other</option></select></div><div style=\"display:flex;flex-direction:column;gap:6px;\"><label style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#7A8BA8;\">What kind of collaboration are you interested in? <span style=\"color:#C49A2A;\">*</span></label><textarea name=\"collaboration_details\" required rows=\"4\" placeholder=\"Describe what you have in mind...\" style=\"border:1px solid #EDE8DE;border-radius:2px;padding:10px 14px;font-size:14px;color:#08122A;background:#FFFFFF;font-family:DM Sans;resize:vertical;outline:none;\"></textarea></div><button type=\"submit\" style=\"background:#C49A2A;color:#08122A;font-weight:700;font-size:14px;letter-spacing:0.06em;padding:16px 40px;border-radius:2px;border:none;cursor:pointer;font-family:DM Sans;text-transform:uppercase;width:100%;\">Join the Movement \u2192</button><p style=\"font-size:11px;color:#7A8BA8;text-align:center;margin:0;\">Sent directly to <strong>info@bmiil.com</strong> \u00b7 We respond within 48 hours</p></form></div></div></div>"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "y96zfgm",
+    "elType": "section",
+    "settings": {
+      "stretch_section": "section-stretched",
+      "content_width": {
+        "unit": "px",
+        "size": 1220
+      },
+      "padding": {
+        "unit": "px",
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0,
+        "isLinked": false
+      },
+      "gap": "no"
+    },
+    "elements": [
+      {
+        "id": "icrs5y3",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "content_width": {
+            "unit": "%",
+            "size": 100
+          },
+          "padding": {
+            "unit": "px",
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0,
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "lu6zfa8",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+              "html": "<div id=\"bmiil-partner-success\" style=\"display:none;background:#08122A;padding:4rem 0;\"><div style=\"max-width:600px;margin:0 auto;padding:0 2.5rem;text-align:center;\"><div style=\"font-size:3rem;margin-bottom:1rem;\">\u2713</div><h2 style=\"font-family:Cormorant Garamond;font-size:2rem;font-weight:700;color:#FFFFFF;margin:0 0 1rem;\">Enquiry Received!</h2><p style=\"font-size:15px;line-height:1.7;color:rgba(255,255,255,0.6);margin:0 0 2rem;\">Thank you for your interest in partnering with BMIIL. Our team will reach out within 48 hours.</p><a href=\"/\" style=\"background:#C49A2A;color:#08122A;font-weight:600;font-size:14px;padding:12px 28px;border-radius:2px;text-decoration:none;\">Back to Home</a></div></div><script>if(window.location.search.includes(\"sent=true\")){var el=document.getElementById(\"bmiil-partner-success\");if(el){el.style.display=\"block\";el.scrollIntoView({behavior:\"smooth\"});}}</script>"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
