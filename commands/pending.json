@@ -1,4 +1,11 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-23T14:55:57.008169"
+  "commands": [
+    {
+      "action": "update_page_elementor",
+      "id": "investor-v4-clean",
+      "page_id": 1100,
+      "payload_path": "staging/investor-deck-v4.json"
+    }
+  ],
+  "last_updated": "2026-05-23T14:58:37.503837+00:00"
 }
