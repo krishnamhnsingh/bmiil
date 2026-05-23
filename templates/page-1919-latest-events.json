@@ -1,0 +1,70 @@
+{
+  "id": 1919,
+  "title": "Latest Events",
+  "slug": "latest-events",
+  "status": "publish",
+  "url": "https://test.bmiil.com/latest-events/",
+  "template": "elementor_header_footer",
+  "has_elementor": true,
+  "elementor_data": [
+    {
+      "id": "d57d39a",
+      "elType": "container",
+      "settings": [],
+      "elements": [
+        {
+          "id": "0d5f53a",
+          "elType": "widget",
+          "settings": [],
+          "elements": [],
+          "widgetType": "spacer"
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "8c2ba1b",
+      "elType": "container",
+      "settings": [],
+      "elements": [
+        {
+          "id": "bc8dd0f",
+          "elType": "widget",
+          "settings": {
+            "_skin": "cards",
+            "classic_meta_separator": "///",
+            "classic_read_more_text": "Read More \u00bb",
+            "cards_posts_per_page": 12,
+            "cards_thumbnail_size_size": "medium_large",
+            "cards_show_excerpt": "",
+            "cards_meta_separator": "\u2022",
+            "cards_read_more_text": "Read More \u00bb",
+            "cards_show_avatar": "",
+            "full_content_meta_separator": "///",
+            "posts_include": [
+              "terms"
+            ],
+            "posts_include_term_ids": [
+              "8"
+            ],
+            "pagination_page_limit": "5",
+            "pagination_prev_label": "&laquo; Previous",
+            "pagination_next_label": "Next &raquo;",
+            "text": "Load More",
+            "load_more_no_posts_custom_message": "No more posts to show"
+          },
+          "elements": [],
+          "widgetType": "posts"
+        },
+        {
+          "id": "c5c21b5",
+          "elType": "widget",
+          "settings": [],
+          "elements": [],
+          "widgetType": "spacer"
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}
