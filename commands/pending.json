@@ -1,4 +1,40 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-23T15:15:12.216868"
+  "commands": [
+    {
+      "action": "search_replace",
+      "id": "find-news",
+      "search": "/news",
+      "replace": "",
+      "dry_run": true
+    },
+    {
+      "action": "search_replace",
+      "id": "find-investors",
+      "search": "investors",
+      "replace": "",
+      "dry_run": true
+    },
+    {
+      "action": "search_replace",
+      "id": "find-grants",
+      "search": "grants",
+      "replace": "",
+      "dry_run": true
+    },
+    {
+      "action": "search_replace",
+      "id": "find-apply-hash",
+      "search": "apply/#",
+      "replace": "",
+      "dry_run": true
+    },
+    {
+      "action": "search_replace",
+      "id": "find-regulatory",
+      "search": "regulatory",
+      "replace": "",
+      "dry_run": true
+    }
+  ],
+  "last_updated": "2026-05-23T15:15:38.672307+00:00"
 }
