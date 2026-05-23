@@ -1,17 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "update_page_elementor",
-      "id": "fix-about",
-      "page_id": 1008,
-      "payload_path": "staging/about-investor-fix.json"
-    },
-    {
-      "action": "update_page_elementor",
-      "id": "fix-team",
-      "page_id": 1117,
-      "payload_path": "staging/team-catalysts.json"
-    }
-  ],
-  "last_updated": "2026-05-23T11:15:27.615777+00:00"
+  "commands": [],
+  "last_updated": "2026-05-23T11:15:37.190982"
 }
