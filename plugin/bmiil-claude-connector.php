@@ -19,7 +19,9 @@ add_action('rest_api_init', function() {
     register_rest_route($ns,'/menus',['methods'=>'GET','callback'=>'bmiil_list_menus','permission_callback'=>'bmiil_auth']);
     register_rest_route($ns,'/menus/(?P<id>\d+)',['methods'=>'GET','callback'=>'bmiil_get_menu','permission_callback'=>'bmiil_auth']);
     register_rest_route($ns,'/search-replace',['methods'=>'POST','callback'=>'bmiil_search_replace','permission_callback'=>'bmiil_auth']);
-    register_rest_route($ns,'/media',['methods'=>'GET','callback'=>'bmiil_list_media','permission_callback'=>'bmiil_auth']);
+    register_rest_route($ns,'/menus',                 ['methods'=>'GET', 'callback'=>'bmiil_list_menus',     'permission_callback'=>'bmiil_auth']);
+    register_rest_route($ns,'/fix-nav-links',         ['methods'=>'POST','callback'=>'bmiil_fix_nav_links','permission_callback'=>'bmiil_auth']);
+        register_rest_route($ns,'/media',['methods'=>'GET','callback'=>'bmiil_list_media','permission_callback'=>'bmiil_auth']);
     register_rest_route($ns,'/set-favicon',['methods'=>'POST','callback'=>'bmiil_set_favicon','permission_callback'=>'bmiil_auth']);
 });
 
@@ -85,4 +87,51 @@ function bmiil_set_favicon($request){
     update_option('site_icon',$attachment_id);
     $url=wp_get_attachment_url($attachment_id);
     return bmiil_ok(['attachment_id'=>$attachment_id,'favicon_url'=>$url,'message'=>'Favicon set successfully.']);
+}
+
+function bmiil_list_menus_full($request){
+    $menus = wp_get_nav_menus();
+    $out = [];
+    foreach($menus as $menu){
+        $items = wp_get_nav_menu_items($menu->term_id);
+        $out[] = ['id'=>$menu->term_id,'name'=>$menu->name,'slug'=>$menu->slug,'count'=>$menu->count,
+                  'items'=>array_map(fn($i)=>['id'=>$i->ID,'title'=>$i->title,'url'=>$i->url,'parent'=>$i->menu_item_parent,'order'=>$i->menu_order],$items?:[])];
+    }
+    return bmiil_ok($out);
+}
+
+function bmiil_fix_nav_links($request){
+    global $wpdb;
+    $body    = $request->get_json_params();
+    $fixes   = $body['fixes'] ?? [];
+    $updated = [];
+    foreach($fixes as $fix){
+        $old = $fix['old'] ?? '';
+        $new = $fix['new'] ?? '';
+        if(!$old||!$new) continue;
+        // Find all nav_menu_item posts with this URL
+        $ids = $wpdb->get_col($wpdb->prepare(
+            "SELECT post_id FROM {$wpdb->postmeta} WHERE meta_key='_menu_item_url' AND meta_value=%s",
+            $old
+        ));
+        foreach($ids as $pid){
+            update_post_meta($pid,'_menu_item_url',$new);
+            $updated[] = ['post_id'=>(int)$pid,'old'=>$old,'new'=>$new];
+        }
+        // Also fix relative URLs
+        $ids2 = $wpdb->get_col($wpdb->prepare(
+            "SELECT post_id FROM {$wpdb->postmeta} WHERE meta_key='_menu_item_url' AND meta_value LIKE %s",
+            '%'.$wpdb->esc_like(parse_url($old,PHP_URL_PATH)).'%'
+        ));
+        foreach($ids2 as $pid){
+            $current = get_post_meta($pid,'_menu_item_url',true);
+            if(strpos($current, parse_url($old,PHP_URL_PATH)) !== false && !in_array($pid, array_column($updated,'post_id'))){
+                update_post_meta($pid,'_menu_item_url',$new);
+                $updated[] = ['post_id'=>(int)$pid,'old'=>$current,'new'=>$new];
+            }
+        }
+    }
+    // Clear nav menu cache
+    wp_cache_flush();
+    return bmiil_ok(['updated'=>$updated,'count'=>count($updated)]);
 }
