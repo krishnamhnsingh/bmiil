@@ -231,6 +231,10 @@ jobs:
                       "filename": filename
                   })
 
+              elif action == "fix_nav_links":
+                  fixes = cmd.get("fixes", [])
+                  result["result"] = wp("POST", "fix-nav-links", {"fixes": fixes})
+
               else:
                   result["result"] = {"error": f"Unknown action: {action}"}
 
