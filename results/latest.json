@@ -1,150 +1,15 @@
 {
   "results": [
     {
-      "action": "get_template",
-      "id": "footer",
-      "timestamp": "2026-05-23T15:16:15.663990",
+      "action": "get_menus",
+      "id": "menus",
+      "timestamp": "2026-05-23T15:16:56.671847",
       "result": {
-        "success": true,
-        "data": {
-          "id": 1229,
-          "title": "BMIIL \u2014 Footer",
-          "slug": "bmiil-footer",
-          "status": "publish",
-          "template_type": "page",
-          "elementor_data": [
-            {
-              "id": "lygdppf",
-              "elType": "section",
-              "settings": {
-                "stretch_section": "section-stretched",
-                "content_width": {
-                  "unit": "px",
-                  "size": 1220
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": 0,
-                  "right": 0,
-                  "bottom": 0,
-                  "left": 0,
-                  "isLinked": false
-                },
-                "gap": "no"
-              },
-              "elements": [
-                {
-                  "id": "jumvkl5",
-                  "elType": "column",
-                  "settings": {
-                    "_column_size": 100,
-                    "content_width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "padding": {
-                      "unit": "px",
-                      "top": 0,
-                      "right": 0,
-                      "bottom": 0,
-                      "left": 0,
-                      "isLinked": false
-                    }
-                  },
-                  "elements": [
-                    {
-                      "id": "r219o0p",
-                      "elType": "widget",
-                      "widgetType": "html",
-                      "settings": {
-                        "html": "<footer style=\"background:#050D1C;padding:4rem 0 2.5rem;border-top:1px solid rgba(196,154,42,0.15);font-family:DM Sans,sans-serif;\">\n  <div style=\"max-width:1220px;margin:0 auto;padding:0 2.5rem;\">\n    <div style=\"display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:3rem;margin-bottom:3rem;padding-bottom:3rem;border-bottom:1px solid rgba(255,255,255,0.06);\">\n\n      <div>\n        <div style=\"display:flex;align-items:center;gap:14px;margin-bottom:1.2rem;\">\n          <img src=\"https://test.bmiil.com/wp-content/uploads/2026/05/BMIIL-LOGO.png\" alt=\"BMIIL Logo\" style=\"width:52px;height:52px;object-fit:contain;flex-shrink:0;display:block;\">\n          <strong style=\"font-family:Cormorant Garamond;font-size:1.3rem;color:#FFFFFF;letter-spacing:0.04em;\"><a href=\"https://bmiil.com/\" style=\"color:#FFFFFF;text-decoration:none;\">Bareilly Medtech</a></strong>\n        </div>\n        <p style=\"font-size:13px;line-height:1.7;color:rgba(255,255,255,0.35);margin:0 0 1.2rem;\">Building the next generation of healthcare innovators from the heart of North India.</p>\n        <address style=\"font-size:12px;line-height:1.7;color:rgba(255,255,255,0.3);font-style:normal;\">\n          Bareilly International University<br>\n          Pilibhit Bypass Road, Bareilly \u2014 243006<br>\n          Uttar Pradesh, India<br><br>\n          <a href=\"mailto:info@bmiil.com\" style=\"color:#C49A2A;text-decoration:none;\">info@bmiil.com</a>\n        </address>\n      </div>\n\n      <div>\n        <h4 style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#C49A2A;margin:0 0 1.2rem;\">Programs</h4>\n        <ul style=\"list-style:none;padding:0;margin:0;\">\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/medtech-incubation/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Medtech Incubation</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/accelerator-program/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Accelerator Program</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/ayush-program/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Ayush Incubation</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/apply/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Apply Now</a></li>\n        </ul>\n      </div>\n\n      <div>\n        <h4 style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#C49A2A;margin:0 0 1.2rem;\">Resources</h4>\n        <ul style=\"list-style:none;padding:0;margin:0;\">\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/investor-deck/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Partners &amp; Investors</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/latest-events/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">News &amp; Events</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/programs/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Lab Facilities</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/medtech-incubation/#regulatory\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Regulatory Guidance</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/startup-funds/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Grants &amp; Funding</a></li>\n        </ul>\n      </div>\n\n      <div>\n        <h4 style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#C49A2A;margin:0 0 1.2rem;\">Company</h4>\n        <ul style=\"list-style:none;padding:0;margin:0;\">\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/about/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">About Us</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/investor-deck/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Investor Deck</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/latest-events/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">News &amp; Events</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/careers/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Careers</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/contact/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Contact</a></li>\n        </ul>\n      </div>\n    </div>\n\n    <div style=\"display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;\">\n      <p style=\"font-size:11px;color:rgba(255,255,255,0.2);margin:0;\">\u00a9 2026 BMIIL. Hosted by <a href=\"https://biu.edu.in\" target=\"_blank\" style=\"color:#C49A2A;text-decoration:none;\">Bareilly International University</a>. All rights reserved.</p>\n      <div style=\"display:flex;gap:1rem;\">\n        <a href=\"https://www.linkedin.com/company/bmiil/\" target=\"_blank\" rel=\"noopener\" style=\"width:32px;height:32px;border-radius:2px;border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.35);font-size:11px;text-decoration:none;font-weight:600;\">in</a>\n        <a href=\"https://test.bmiil.com/latest-events/\" style=\"width:32px;height:32px;border-radius:2px;border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.35);font-size:13px;text-decoration:none;\">\u2709</a>\n        <a href=\"mailto:info@bmiil.com\" style=\"width:32px;height:32px;border-radius:2px;border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.35);font-size:13px;text-decoration:none;\">@</a>\n      </div>\n    </div>\n  </div>\n</footer>"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "modified": "2026-05-10 16:15:05"
-        }
-      }
-    },
-    {
-      "action": "get_template",
-      "id": "header",
-      "timestamp": "2026-05-23T15:16:16.568579",
-      "result": {
-        "success": true,
-        "data": {
-          "id": 1033,
-          "title": "Elementor Header #1033",
-          "slug": "elementor-header-1033",
-          "status": "publish",
-          "template_type": "header",
-          "elementor_data": [
-            {
-              "id": "jf32x3d",
-              "elType": "section",
-              "settings": {
-                "stretch_section": "section-stretched",
-                "content_width": {
-                  "unit": "px",
-                  "size": 1220
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": 0,
-                  "right": 0,
-                  "bottom": 0,
-                  "left": 0,
-                  "isLinked": false
-                },
-                "gap": "no",
-                "custom_id": "bmiil-header-section",
-                "layout": "full_width"
-              },
-              "elements": [
-                {
-                  "id": "ibuxmzf",
-                  "elType": "column",
-                  "settings": {
-                    "_column_size": 100,
-                    "content_width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "padding": {
-                      "unit": "px",
-                      "top": 0,
-                      "right": 0,
-                      "bottom": 0,
-                      "left": 0,
-                      "isLinked": false
-                    }
-                  },
-                  "elements": [
-                    {
-                      "id": "xy4r8sk",
-                      "elType": "widget",
-                      "settings": {
-                        "html": "<div id=\"bmiil-hdr\" style=\"font-family:'DM Sans',sans-serif;position:sticky;top:0;left:0;right:0;z-index:9999;display:flex;flex-direction:column;\">\n\n<!-- NAV BAR -->\n<nav id=\"bmiil-nav\" style=\"height:70px;padding:0 2.5rem;display:flex;align-items:center;justify-content:space-between;background:#08122A;border-bottom:1px solid rgba(196,154,42,0.15);position:relative;overflow:visible;\">\n\n  <!-- Logo -->\n  <a href=\"https://bmiil.com/\" style=\"display:flex;align-items:center;gap:14px;text-decoration:none;flex-shrink:0;\">\n    <img src=\"https://test.bmiil.com/wp-content/uploads/2026/05/BMIIL-LOGO.png\" alt=\"BMIIL\"\n         style=\"width:48px;height:48px;object-fit:contain;display:block;flex-shrink:0;\">\n    <div style=\"display:flex;flex-direction:column;line-height:1;\">\n      <span style=\"font-family:'DM Sans',sans-serif;font-size:1.0rem;font-weight:700;color:#FFFFFF;letter-spacing:0.06em;text-transform:uppercase;line-height:1.25;display:block;\">Bareilly Medtech</span>\n      <span style=\"font-family:'DM Sans',sans-serif;font-size:0.58rem;font-weight:700;color:#FFFFFF;letter-spacing:0.06em;text-transform:uppercase;display:block;line-height:1.25;margin-top:3px;\">Incubation &amp; Innovation Labs</span>\n    </div>\n  </a>\n\n  <!-- Desktop menu \u2014 filled by WP nav injection -->\n  <div id=\"bmiil-desktop-slot\" style=\"display:flex;align-items:center;overflow:visible;\"></div>\n\n  <!-- Hamburger -->\n  <button id=\"bmiil-hamburger\" onclick=\"bmiilToggle()\" aria-label=\"Menu\" aria-expanded=\"false\"\n    style=\"display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:4px;\">\n    <span style=\"display:block;width:24px;height:2px;background:#FFFFFF;border-radius:1px;\"></span>\n    <span style=\"display:block;width:24px;height:2px;background:#FFFFFF;border-radius:1px;\"></span>\n    <span style=\"display:block;width:24px;height:2px;background:#FFFFFF;border-radius:1px;\"></span>\n  </button>\n</nav>\n\n<!-- ANNOUNCEMENT BAR -->\n<div id=\"bmiil-ann\" style=\"background:#C49A2A;padding:0.45rem 2.5rem;display:flex;align-items:center;justify-content:center;gap:1.5rem;flex-wrap:wrap;\">\n  <p style=\"font-size:12px;font-weight:500;color:#08122A;letter-spacing:0.03em;margin:0;\">\n    &#127945; <strong style=\"font-weight:700;\">Cohort 1 Applications Open</strong> &#8212; Limited seats available for our inaugural Medtech Incubation Program.\n  </p>\n  <a href=\"https://test.bmiil.com/apply/\" style=\"font-size:12px;font-weight:700;color:#08122A;text-decoration:underline;white-space:nowrap;\">Apply Before August 31 &#8594;</a>\n  <button onclick=\"document.getElementById('bmiil-ann').style.display='none'\"\n    style=\"background:none;border:none;cursor:pointer;color:#08122A;font-size:0.95rem;opacity:0.55;padding:0;line-height:1;flex-shrink:0;\">&#10005;</button>\n</div>\n\n</div><!-- sticky wrapper end -->\n\n<!-- MOBILE MENU (outside sticky so it pushes content naturally) -->\n<div id=\"bmiil-mob\" style=\"display:none;background:rgba(8,18,42,0.98);border-bottom:1px solid rgba(196,154,42,0.15);padding:1.2rem 2.5rem 1.8rem;position:relative;z-index:9998;\">\n  <div id=\"bmiil-mob-slot\">\n    <ul style=\"list-style:none;margin:0;padding:0;\">\n      <li style=\"border-bottom:1px solid rgba(255,255,255,0.07);\"><a href=\"/programs/\" style=\"display:block;padding:0.8rem 0;font-size:15px;color:rgba(255,255,255,0.8);text-decoration:none;\">Programs</a></li>\n      <li style=\"border-bottom:1px solid rgba(255,255,255,0.07);\"><a href=\"/about/\" style=\"display:block;padding:0.8rem 0;font-size:15px;color:rgba(255,255,255,0.8);text-decoration:none;\">About BIU</a></li>\n      <li style=\"border-bottom:1px solid rgba(255,255,255,0.07);\"><a href=\"/team/\" style=\"display:block;padding:0.8rem 0;font-size:15px;color:rgba(255,255,255,0.8);text-decoration:none;\">Team</a></li>\n      <li style=\"border-bottom:1px solid rgba(255,255,255,0.07);\"><a href=\"/latest-events/\" style=\"display:block;padding:0.8rem 0;font-size:15px;color:rgba(255,255,255,0.8);text-decoration:none;\">News &amp; Events</a></li>\n      <li style=\"padding-top:1rem;\"><a href=\"https://test.bmiil.com/investor-deck/\" style=\"background:#C49A2A;color:#08122A;font-weight:600;padding:10px 22px;border-radius:2px;text-decoration:none;display:inline-block;\">Investor Deck &#8594;</a></li>\n    </ul>\n  </div>\n</div>\n\n<style>\n/* \u2500\u2500 NAV LINKS \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 */\n.bmiil-nm { display:flex!important;align-items:center;gap:2rem;list-style:none!important;margin:0!important;padding:0!important; }\n.bmiil-nm > li { position:relative;list-style:none!important; }\n.bmiil-nm > li > a {\n  font-family:'DM Sans',sans-serif;font-size:13px;color:rgba(255,255,255,0.65)!important;\n  text-decoration:none!important;letter-spacing:0.05em;white-space:nowrap;\n  display:block;padding:0;line-height:70px;background:none!important;transition:color .2s;\n}\n.bmiil-nm > li > a:hover { color:#E2BF68!important; }\n.bmiil-nm > li.current-menu-item > a,\n.bmiil-nm > li.current-page-ancestor > a { color:#C49A2A!important; }\n/* CTA */\n.bmiil-nm > li:last-child > a, .bmiil-nm > li.nav-cta > a {\n  background:#C49A2A!important;color:#08122A!important;font-weight:600;\n  padding:9px 22px!important;border-radius:2px;letter-spacing:0.04em;line-height:normal;\n}\n.bmiil-nm > li:last-child > a:hover, .bmiil-nm > li.nav-cta > a:hover { background:#E2BF68!important; }\n/* Dropdown arrow */\n.bmiil-nm > li.menu-item-has-children > a::after { content:\" \u25be\";font-size:9px;opacity:0.4;margin-left:2px; }\n/* \u2500\u2500 DROPDOWN \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 */\n.bmiil-nm > li > .sub-menu, .bmiil-nm > li > ul {\n  visibility:hidden;opacity:0;pointer-events:none;\n  position:absolute;top:100%;left:0;z-index:10000;\n  min-width:220px;background:#0F1F45;\n  border:1px solid rgba(196,154,42,0.25);border-top:2px solid #C49A2A;\n  border-radius:0 4px 4px 4px;padding:6px 0;\n  box-shadow:0 12px 40px rgba(0,0,0,0.65);\n  list-style:none!important;margin:0;\n  transition:opacity .15s,visibility .15s,transform .15s;transform:translateY(4px);\n}\n.bmiil-nm > li > .sub-menu::before, .bmiil-nm > li > ul::before {\n  content:\"\";position:absolute;top:-12px;left:0;right:0;height:12px;background:transparent;\n}\n.bmiil-nm > li:hover > .sub-menu, .bmiil-nm > li:hover > ul,\n.bmiil-nm > li:focus-within > .sub-menu, .bmiil-nm > li:focus-within > ul {\n  visibility:visible;opacity:1;pointer-events:auto;transform:translateY(0);\n}\n.bmiil-nm .sub-menu li, .bmiil-nm > li > ul li { list-style:none!important;border-bottom:1px solid rgba(255,255,255,0.05); }\n.bmiil-nm .sub-menu li:last-child, .bmiil-nm > li > ul li:last-child { border-bottom:none; }\n.bmiil-nm .sub-menu li a, .bmiil-nm > li > ul li a {\n  font-family:'DM Sans',sans-serif!important;font-size:13px!important;\n  color:rgba(255,255,255,0.65)!important;background:transparent!important;\n  padding:11px 20px!important;display:block;white-space:nowrap;\n  font-weight:400!important;line-height:normal;text-decoration:none!important;\n  transition:background .12s,color .12s,padding-left .12s;\n}\n.bmiil-nm .sub-menu li a:hover, .bmiil-nm > li > ul li a:hover {\n  color:#E2BF68!important;background:rgba(196,154,42,0.1)!important;padding-left:26px!important;\n}\n/* \u2500\u2500 MOBILE \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 */\n@media(max-width:900px){\n  #bmiil-desktop-slot { display:none!important; }\n  #bmiil-hamburger { display:flex!important; }\n  .bmiil-nm { flex-direction:column!important;gap:0!important;align-items:flex-start!important; }\n  .bmiil-nm > li { width:100%; }\n  .bmiil-nm > li > a { padding:0.8rem 0!important;font-size:15px!important;line-height:normal!important;color:rgba(255,255,255,0.8)!important;border-bottom:1px solid rgba(255,255,255,0.07); }\n  .bmiil-nm > li > .sub-menu, .bmiil-nm > li > ul {\n    position:static!important;visibility:hidden;opacity:0;max-height:0;overflow:hidden;\n    transform:none!important;box-shadow:none!important;border:none!important;\n    border-left:2px solid rgba(196,154,42,0.3)!important;border-radius:0!important;\n    margin:0 0 0 1rem;background:rgba(255,255,255,0.03)!important;\n    transition:opacity .2s,max-height .25s,visibility .2s;padding:0!important;\n  }\n  .bmiil-nm > li.open > .sub-menu, .bmiil-nm > li.open > ul {\n    visibility:visible!important;opacity:1!important;max-height:400px!important;pointer-events:auto!important;\n  }\n  .bmiil-nm > li:hover > .sub-menu, .bmiil-nm > li:hover > ul { visibility:hidden;opacity:0;pointer-events:none; }\n}\n</style>\n\n<script>\n(function(){\n  function inject(){\n    var src=document.getElementById('bmiil-nav-data');\n    if(!src)return;\n    var m=src.querySelector('ul');\n    if(!m)return;\n    m.className='bmiil-nm';\n    // Desktop\n    var ds=document.getElementById('bmiil-desktop-slot');\n    if(ds){ds.innerHTML='';ds.appendChild(m.cloneNode(true));}\n    // Mobile\n    var ms=document.getElementById('bmiil-mob-slot');\n    if(ms){ms.innerHTML='';var mc=m.cloneNode(true);mc.className='bmiil-nm';ms.appendChild(mc);}\n    // Active link highlight\n    var p=window.location.pathname;\n    document.querySelectorAll('.bmiil-nm a').forEach(function(a){\n      var h=a.getAttribute('href')||'';\n      if(h!=='/'&&h!==''&&p.startsWith(h))a.style.color='#C49A2A';\n    });\n  }\n  window.bmiilToggle=function(){\n    var m=document.getElementById('bmiil-mob');\n    var o=m.style.display==='block';\n    m.style.display=o?'none':'block';\n    document.getElementById('bmiil-hamburger').setAttribute('aria-expanded',String(!o));\n  };\n  function initMob(){\n    if(window.innerWidth>900)return;\n    document.querySelectorAll('.bmiil-nm>li.menu-item-has-children>a').forEach(function(a){\n      a.addEventListener('click',function(e){\n        var li=this.closest('li'),op=li.classList.contains('open');\n        document.querySelectorAll('.bmiil-nm>li').forEach(function(el){el.classList.remove('open');});\n        if(!op){e.preventDefault();li.classList.add('open');}\n      });\n    });\n  }\n  document.addEventListener('click',function(e){\n    if(!e.target.closest('.bmiil-nm'))\n      document.querySelectorAll('.bmiil-nm>li').forEach(function(el){el.classList.remove('open');});\n  });\n  window.addEventListener('scroll',function(){\n    var n=document.getElementById('bmiil-nav');\n    if(n)n.style.background=window.scrollY>10?'rgba(8,18,42,0.99)':'#08122A';\n  },{passive:true});\n  if(document.readyState==='loading'){\n    document.addEventListener('DOMContentLoaded',function(){inject();initMob();});\n  }else{inject();initMob();}\n})();\n</script>"
-                      },
-                      "elements": [],
-                      "widgetType": "html"
-                    }
-                  ],
-                  "isInner": false
-                }
-              ],
-              "isInner": false
-            }
-          ],
-          "modified": "2026-05-22 16:21:18"
-        }
+        "error": "Unknown action: get_menus"
       }
     }
   ],
-  "last_run": "2026-05-23T15:16:17.411873",
+  "last_run": "2026-05-23T15:16:56.671891",
   "status": "completed",
-  "commands_run": 2
+  "commands_run": 1
 }
