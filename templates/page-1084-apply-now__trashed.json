@@ -1,11 +1,6 @@
 {
   "id": 1084,
-  "title": "Apply Now",
   "slug": "apply-now__trashed",
-  "status": "trash",
-  "url": "https://test.bmiil.com/?page_id=1084",
-  "template": "elementor_header_footer",
-  "has_elementor": true,
   "elementor_data": [
     {
       "id": "268cc424",
