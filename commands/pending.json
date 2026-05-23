@@ -1,4 +1,17 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-23T11:56:35.285708"
+  "commands": [
+    {
+      "action": "update_page_elementor",
+      "id": "push-partners",
+      "page_id": 1100,
+      "payload_path": "staging/partners-page.json"
+    },
+    {
+      "action": "update_template",
+      "id": "push-footer",
+      "template_id": 1229,
+      "payload_path": "staging/footer-fixed.json"
+    }
+  ],
+  "last_updated": "2026-05-23T11:57:10.810789+00:00"
 }
