@@ -1,21 +1,119 @@
 {
   "results": [
     {
-      "action": "update_template",
-      "id": "update-footer",
-      "timestamp": "2026-05-23T15:24:20.208462",
+      "action": "search_replace",
+      "id": "sr-0",
+      "timestamp": "2026-05-23T15:24:45.345344",
       "result": {
         "success": true,
         "data": {
-          "id": 1229,
-          "updated": [
-            "elementor_data"
-          ]
+          "search": "https://test.bmiil.com/news/",
+          "replace": "https://test.bmiil.com/latest-events/",
+          "dry_run": false,
+          "affected": [],
+          "count": 0,
+          "message": "0 updated."
+        }
+      }
+    },
+    {
+      "action": "search_replace",
+      "id": "sr-1",
+      "timestamp": "2026-05-23T15:24:46.376601",
+      "result": {
+        "success": true,
+        "data": {
+          "search": "https://test.bmiil.com/investors/",
+          "replace": "https://test.bmiil.com/investor-deck/",
+          "dry_run": false,
+          "affected": [],
+          "count": 0,
+          "message": "0 updated."
+        }
+      }
+    },
+    {
+      "action": "search_replace",
+      "id": "sr-2",
+      "timestamp": "2026-05-23T15:24:47.270715",
+      "result": {
+        "success": true,
+        "data": {
+          "search": "https://test.bmiil.com/investors/#grants",
+          "replace": "https://test.bmiil.com/startup-funds/",
+          "dry_run": false,
+          "affected": [],
+          "count": 0,
+          "message": "0 updated."
+        }
+      }
+    },
+    {
+      "action": "search_replace",
+      "id": "sr-3",
+      "timestamp": "2026-05-23T15:24:48.173059",
+      "result": {
+        "success": true,
+        "data": {
+          "search": "https://test.bmiil.com/apply/#process",
+          "replace": "https://test.bmiil.com/apply-now/",
+          "dry_run": false,
+          "affected": [],
+          "count": 0,
+          "message": "0 updated."
+        }
+      }
+    },
+    {
+      "action": "search_replace",
+      "id": "sr-4",
+      "timestamp": "2026-05-23T15:24:49.066301",
+      "result": {
+        "success": true,
+        "data": {
+          "search": "https://test.bmiil.com/programs/#regulatory",
+          "replace": "https://test.bmiil.com/startup-funds/",
+          "dry_run": false,
+          "affected": [],
+          "count": 0,
+          "message": "0 updated."
+        }
+      }
+    },
+    {
+      "action": "search_replace",
+      "id": "sr-5",
+      "timestamp": "2026-05-23T15:24:49.973873",
+      "result": {
+        "success": true,
+        "data": {
+          "search": "/news/\"",
+          "replace": "/latest-events/\"",
+          "dry_run": false,
+          "affected": [],
+          "count": 0,
+          "message": "0 updated."
+        }
+      }
+    },
+    {
+      "action": "search_replace",
+      "id": "sr-6",
+      "timestamp": "2026-05-23T15:24:50.928565",
+      "result": {
+        "success": true,
+        "data": {
+          "search": "/investors/\"",
+          "replace": "/investor-deck/\"",
+          "dry_run": false,
+          "affected": [],
+          "count": 0,
+          "message": "0 updated."
         }
       }
     }
   ],
-  "last_run": "2026-05-23T15:24:21.250930",
+  "last_run": "2026-05-23T15:24:51.875519",
   "status": "completed",
-  "commands_run": 1
+  "commands_run": 7
 }
