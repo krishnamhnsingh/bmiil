@@ -1,0 +1,66 @@
+{
+  "id": 1095,
+  "title": "Contact",
+  "slug": "contact",
+  "status": "publish",
+  "url": "https://test.bmiil.com/contact/",
+  "template": "elementor_header_footer",
+  "has_elementor": true,
+  "elementor_data": [
+    {
+      "id": "1af8101",
+      "elType": "section",
+      "settings": {
+        "stretch_section": "section-stretched",
+        "content_width": {
+          "unit": "px",
+          "size": 1220
+        },
+        "padding": {
+          "unit": "px",
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0,
+          "isLinked": false
+        },
+        "gap": "no",
+        "layout": "full_width"
+      },
+      "elements": [
+        {
+          "id": "63917bcb",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "content_width": {
+              "unit": "%",
+              "size": 100
+            },
+            "padding": {
+              "unit": "px",
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0,
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "53d47dc0",
+              "elType": "widget",
+              "settings": {
+                "html": "\n<div style=\"background:#08122A;padding:160px 0 64px;border-bottom:1px solid rgba(196,154,42,0.15);position:relative;overflow:hidden;\">\n  <div style=\"position:absolute;inset:0;background-image:linear-gradient(rgba(196,154,42,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(196,154,42,0.03) 1px,transparent 1px);background-size:60px 60px;pointer-events:none;\"></div>\n  <div style=\"max-width:1220px;margin:0 auto;padding:0 2.5rem;position:relative;z-index:1;\">\n    <div style=\"font-family:DM Mono;font-size:10px;color:rgba(255,255,255,0.3);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:3rem;\"><a href=\"/\" style=\"color:rgba(255,255,255,0.3);text-decoration:none;\">Home</a> <span style=\"opacity:.4;\">/</span> <span style=\"color:{GOLD};\">Contact</span></div>\n    <div style=\"display:flex;align-items:center;gap:12px;margin-bottom:1.8rem;\"><div style=\"width:40px;height:1px;background:#C49A2A;flex-shrink:0;\"></div><span style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#C49A2A;\">Get in Touch</span></div>\n    <h1 style=\"font-family:Cormorant Garamond;font-size:clamp(2.5rem,5vw,5rem);font-weight:300;line-height:1.04;color:#FFFFFF;margin:0 0 1.8rem;\">Every great startup<br>begins with a conversation.</h1>\n    <p style=\"font-size:1rem;line-height:1.7;color:rgba(255,255,255,0.5);max-width:600px;margin:1.5rem 0 0;\">We're a small team and we read every message ourselves. Tell us who you are and what you're working on \u2014 we'll take it from there.</p>\n  </div>\n</div>\n\n<div style=\"background:#F7F3EC;padding:7rem 0;\">\n  <div style=\"max-width:1220px;margin:0 auto;padding:0 2.5rem;display:grid;grid-template-columns:1fr 1fr;gap:5rem;\">\n\n    <!-- Left: Enquiry types + details -->\n    <div>\n      <p style=\"display:inline-block;font-family:DM Mono;font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);margin:0 0 20px 0;\">Enquiry Type</p>\n      <h3 style=\"font-family:Cormorant Garamond;font-size:1.5rem;font-weight:300;color:#08122A;margin:0 0 1.5rem;\">I'm reaching out as a\u2026</h3>\n      <div style=\"display:flex;flex-direction:column;gap:0.8rem;margin-bottom:3rem;\">\n        <div style=\"display:flex;gap:1.2rem;padding:1.2rem 1.5rem;border:1px solid #EDE8DE;border-radius:4px;background:#FFFFFF;cursor:pointer;align-items:flex-start;\">\n  <span style=\"font-size:1.3rem;flex-shrink:0;\">\ud83d\udca1</span>\n  <div><div style=\"font-family:Cormorant Garamond;font-size:1rem;font-weight:700;color:#08122A;margin-bottom:2px;\">General Enquiry</div><div style=\"font-size:12px;color:#7A8BA8;\">Any question at all</div></div>\n</div>\n        <div style=\"display:flex;gap:1.2rem;padding:1.2rem 1.5rem;border:1px solid #EDE8DE;border-radius:4px;background:#FFFFFF;cursor:pointer;align-items:flex-start;\">\n  <span style=\"font-size:1.3rem;flex-shrink:0;\">\ud83d\ude80</span>\n  <div><div style=\"font-family:Cormorant Garamond;font-size:1rem;font-weight:700;color:#08122A;margin-bottom:2px;\">I'm a Founder</div><div style=\"font-size:12px;color:#7A8BA8;\">Program or application questions</div></div>\n</div>\n        <div style=\"display:flex;gap:1.2rem;padding:1.2rem 1.5rem;border:1px solid #EDE8DE;border-radius:4px;background:#FFFFFF;cursor:pointer;align-items:flex-start;\">\n  <span style=\"font-size:1.3rem;flex-shrink:0;\">\ud83d\udcbc</span>\n  <div><div style=\"font-family:Cormorant Garamond;font-size:1rem;font-weight:700;color:#08122A;margin-bottom:2px;\">I'm an Investor</div><div style=\"font-size:12px;color:#7A8BA8;\">Partnership or portfolio interest</div></div>\n</div>\n        <div style=\"display:flex;gap:1.2rem;padding:1.2rem 1.5rem;border:1px solid #EDE8DE;border-radius:4px;background:#FFFFFF;cursor:pointer;align-items:flex-start;\">\n  <span style=\"font-size:1.3rem;flex-shrink:0;\">\ud83c\udfe5</span>\n  <div><div style=\"font-family:Cormorant Garamond;font-size:1rem;font-weight:700;color:#08122A;margin-bottom:2px;\">Corporate / Hospital Partner</div><div style=\"font-size:12px;color:#7A8BA8;\">Strategic partnership enquiry</div></div>\n</div>\n        <div style=\"display:flex;gap:1.2rem;padding:1.2rem 1.5rem;border:1px solid #EDE8DE;border-radius:4px;background:#FFFFFF;cursor:pointer;align-items:flex-start;\">\n  <span style=\"font-size:1.3rem;flex-shrink:0;\">\ud83d\udcf0</span>\n  <div><div style=\"font-family:Cormorant Garamond;font-size:1rem;font-weight:700;color:#08122A;margin-bottom:2px;\">Press / Media</div><div style=\"font-size:12px;color:#7A8BA8;\">Coverage or interview request</div></div>\n</div>\n      </div>\n\n      <div style=\"background:#08122A;border-radius:4px;padding:2.5rem;\">\n        <p style=\"display:inline-block;font-family:DM Mono;font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.1);margin:0 0 20px 0;\">Contact Details</p>\n        <div style=\"display:flex;flex-direction:column;gap:1.2rem;\">\n          <div style=\"display:flex;gap:1.2rem;align-items:flex-start;\"><div style=\"width:42px;height:42px;min-width:42px;border-radius:3px;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.25);display:flex;align-items:center;justify-content:center;font-size:1.1rem;\">\u2709\ufe0f</div><div><h4 style=\"font-size:13px;font-weight:600;color:rgba(255,255,255,0.7);margin:0 0 0.3rem;\">General Enquiries</h4><p style=\"font-size:12px;color:rgba(255,255,255,0.35);margin:0;line-height:1.6;\"><a href=\"mailto:info@bmiil.com\" style=\"color:{GOLD};text-decoration:none;\">info@bmiil.com</a></p><p style=\"font-size:12px;color:rgba(255,255,255,0.35);margin:0;line-height:1.6;\">Response within 24\u201348 hours</p></div></div>\n          <div style=\"display:flex;gap:1.2rem;align-items:flex-start;\"><div style=\"width:42px;height:42px;min-width:42px;border-radius:3px;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.25);display:flex;align-items:center;justify-content:center;font-size:1.1rem;\">\ud83d\udccb</div><div><h4 style=\"font-size:13px;font-weight:600;color:rgba(255,255,255,0.7);margin:0 0 0.3rem;\">Program Applications</h4><p style=\"font-size:12px;color:rgba(255,255,255,0.35);margin:0;line-height:1.6;\"><a href=\"/apply/\" style=\"color:{GOLD};text-decoration:none;\">Apply via online form \u2192</a></p><p style=\"font-size:12px;color:rgba(255,255,255,0.35);margin:0;line-height:1.6;\">Or email: apply@bmiil.com</p></div></div>\n          <div style=\"display:flex;gap:1.2rem;align-items:flex-start;\"><div style=\"width:42px;height:42px;min-width:42px;border-radius:3px;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.25);display:flex;align-items:center;justify-content:center;font-size:1.1rem;\">\ud83d\udcbc</div><div><h4 style=\"font-size:13px;font-weight:600;color:rgba(255,255,255,0.7);margin:0 0 0.3rem;\">Investor & Partner Relations</h4><p style=\"font-size:12px;color:rgba(255,255,255,0.35);margin:0;line-height:1.6;\"><a href=\"mailto:partners@bmiil.com\" style=\"color:{GOLD};text-decoration:none;\">partners@bmiil.com</a></p><p style=\"font-size:12px;color:rgba(255,255,255,0.35);margin:0;line-height:1.6;\">Response within 24 hours</p></div></div>\n          <div style=\"display:flex;gap:1.2rem;align-items:flex-start;\"><div style=\"width:42px;height:42px;min-width:42px;border-radius:3px;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.25);display:flex;align-items:center;justify-content:center;font-size:1.1rem;\">\ud83d\udccd</div><div><h4 style=\"font-size:13px;font-weight:600;color:rgba(255,255,255,0.7);margin:0 0 0.3rem;\">Campus Address</h4><p style=\"font-size:12px;color:rgba(255,255,255,0.35);margin:0;line-height:1.6;\">Bareilly International University</p><p style=\"font-size:12px;color:rgba(255,255,255,0.35);margin:0;line-height:1.6;\">Pilibhit Bypass Road, Bareilly \u2014 243006</p><p style=\"font-size:12px;color:rgba(255,255,255,0.35);margin:0;line-height:1.6;\">Uttar Pradesh, India</p></div></div>\n        </div>\n      </div>\n    </div>\n\n    <!-- Right: Form -->\n    <div>\n      <p style=\"display:inline-block;font-family:DM Mono;font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);margin:0 0 20px 0;\">Send Us a Message</p>\n      <h3 style=\"font-family:Cormorant Garamond;font-size:1.5rem;font-weight:300;color:#08122A;margin:0 0 0.5rem;\">We read every message.</h3>\n      <p style=\"font-size:14px;color:#7A8BA8;margin:0 0 2rem;\">Tell us who you are and what's on your mind.</p>\n\n      <div style=\"display:flex;flex-direction:column;gap:1rem;\">\n        <div style=\"display:grid;grid-template-columns:1fr 1fr;gap:1rem;\">\n          <div><label style=\"font-size:12px;font-weight:600;color:#1B2A4A;display:block;margin-bottom:6px;\">First Name *</label><input type=\"text\" placeholder=\"First name\" style=\"width:100%;padding:10px 14px;border:1px solid #EDE8DE;border-radius:3px;font-size:14px;background:#FFFFFF;box-sizing:border-box;\"></div>\n          <div><label style=\"font-size:12px;font-weight:600;color:#1B2A4A;display:block;margin-bottom:6px;\">Last Name *</label><input type=\"text\" placeholder=\"Last name\" style=\"width:100%;padding:10px 14px;border:1px solid #EDE8DE;border-radius:3px;font-size:14px;background:#FFFFFF;box-sizing:border-box;\"></div>\n        </div>\n        <div><label style=\"font-size:12px;font-weight:600;color:#1B2A4A;display:block;margin-bottom:6px;\">Email Address *</label><input type=\"email\" placeholder=\"your@email.com\" style=\"width:100%;padding:10px 14px;border:1px solid #EDE8DE;border-radius:3px;font-size:14px;background:#FFFFFF;box-sizing:border-box;\"></div>\n        <div><label style=\"font-size:12px;font-weight:600;color:#1B2A4A;display:block;margin-bottom:6px;\">Organisation</label><input type=\"text\" placeholder=\"Company or institution (optional)\" style=\"width:100%;padding:10px 14px;border:1px solid #EDE8DE;border-radius:3px;font-size:14px;background:#FFFFFF;box-sizing:border-box;\"></div>\n        <div><label style=\"font-size:12px;font-weight:600;color:#1B2A4A;display:block;margin-bottom:6px;\">I'm reaching out as a\u2026 *</label><select style=\"width:100%;padding:10px 14px;border:1px solid #EDE8DE;border-radius:3px;font-size:14px;background:#FFFFFF;box-sizing:border-box;\"><option>Select your role</option><option>Founder / Entrepreneur</option><option>Researcher / Academic</option><option>Investor / Fund Manager</option><option>Corporate / Hospital Partner</option><option>Student</option><option>Press / Media</option><option>Other</option></select></div>\n        <div><label style=\"font-size:12px;font-weight:600;color:#1B2A4A;display:block;margin-bottom:6px;\">Your Message *</label><textarea placeholder=\"Tell us what's on your mind\u2026\" rows=\"5\" style=\"width:100%;padding:10px 14px;border:1px solid #EDE8DE;border-radius:3px;font-size:14px;background:#FFFFFF;resize:vertical;box-sizing:border-box;font-family:DM Sans;\"></textarea></div>\n        <button style=\"background:#C49A2A;color:#08122A;font-weight:600;font-size:14px;letter-spacing:1px;padding:14px 32px;border:none;border-radius:2px;cursor:pointer;text-align:left;\">Send Message \u2192</button>\n        <p style=\"font-size:11px;color:#7A8BA8;margin:0;\">\ud83d\udd12 Your information is never shared with third parties.</p>\n      </div>\n    </div>\n  </div>\n</div>"
+              },
+              "elements": [],
+              "widgetType": "html"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}
