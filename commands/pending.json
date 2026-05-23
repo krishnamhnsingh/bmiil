@@ -1,9 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "get_menus",
-      "id": "menus"
-    }
-  ],
-  "last_updated": "2026-05-23T15:16:48.977430+00:00"
+  "commands": [],
+  "last_updated": "2026-05-23T15:16:57.684060"
 }
