@@ -1,6 +1,11 @@
 {
   "id": 1095,
+  "title": "Contact",
   "slug": "contact",
+  "status": "publish",
+  "url": "https://test.bmiil.com/contact/",
+  "template": "elementor_header_footer",
+  "has_elementor": true,
   "elementor_data": [
     {
       "id": "1af8101",
