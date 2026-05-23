@@ -1,4 +1,20 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-22T16:29:50.219330"
+  "commands": [
+    {
+      "action": "get_page",
+      "id": "sync-careers",
+      "page_id": 2004
+    },
+    {
+      "action": "get_page",
+      "id": "sync-apply",
+      "page_id": 1084
+    },
+    {
+      "action": "get_page",
+      "id": "sync-contact",
+      "page_id": 1095
+    }
+  ],
+  "last_updated": "2026-05-23T08:05:05.934929+00:00"
 }
