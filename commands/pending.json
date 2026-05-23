@@ -1,4 +1,65 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-23T15:17:40.084012"
+  "commands": [
+    {
+      "action": "get_menu",
+      "id": "menu-1",
+      "menu_id": 1
+    },
+    {
+      "action": "get_menu",
+      "id": "menu-2",
+      "menu_id": 2
+    },
+    {
+      "action": "get_menu",
+      "id": "menu-3",
+      "menu_id": 3
+    },
+    {
+      "action": "get_menu",
+      "id": "menu-4",
+      "menu_id": 4
+    },
+    {
+      "action": "get_menu",
+      "id": "menu-5",
+      "menu_id": 5
+    },
+    {
+      "action": "get_menu",
+      "id": "menu-6",
+      "menu_id": 6
+    },
+    {
+      "action": "get_menu",
+      "id": "menu-7",
+      "menu_id": 7
+    },
+    {
+      "action": "get_menu",
+      "id": "menu-8",
+      "menu_id": 8
+    },
+    {
+      "action": "get_menu",
+      "id": "menu-9",
+      "menu_id": 9
+    },
+    {
+      "action": "get_menu",
+      "id": "menu-10",
+      "menu_id": 10
+    },
+    {
+      "action": "get_menu",
+      "id": "menu-11",
+      "menu_id": 11
+    },
+    {
+      "action": "get_menu",
+      "id": "menu-12",
+      "menu_id": 12
+    }
+  ],
+  "last_updated": "2026-05-23T15:18:42.054409+00:00"
 }
