@@ -1,10 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "get_page",
-      "id": "team",
-      "page_id": 1117
-    }
-  ],
-  "last_updated": "2026-05-23T11:00:51.015570+00:00"
+  "commands": [],
+  "last_updated": "2026-05-23T11:00:59.722169"
 }
