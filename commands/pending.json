@@ -1,12 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "search_replace",
-      "id": "fix-arjun-creds",
-      "search": "Medical Professional \u00b7 BIU Faculty",
-      "replace": "MBBS, MS, MCh Surgical Oncology \u00b7 Rohilkhand Cancer Institute",
-      "dry_run": false
-    }
-  ],
-  "last_updated": "2026-05-27T13:28:12.937403+00:00"
+  "commands": [],
+  "last_updated": "2026-05-27T13:28:28.516930"
 }
