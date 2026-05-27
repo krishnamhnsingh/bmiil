@@ -1,11 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "update_page_elementor",
-      "id": "investor-bfi",
-      "page_id": 1100,
-      "payload_path": "staging/investor-deck-v4.json"
-    }
-  ],
-  "last_updated": "2026-05-27T11:20:16.017907+00:00"
+  "commands": [],
+  "last_updated": "2026-05-27T11:20:27.886631"
 }
