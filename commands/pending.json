@@ -1,4 +1,11 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-27T12:27:54.060382"
+  "commands": [
+    {
+      "action": "update_page_elementor",
+      "id": "team-arjun-hover",
+      "page_id": 1117,
+      "payload_path": "staging/team-arjun-hover.json"
+    }
+  ],
+  "last_updated": "2026-05-27T12:28:08.168137+00:00"
 }
