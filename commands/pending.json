@@ -1,11 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "update_page_elementor",
-      "id": "team-hover-scale",
-      "page_id": 1117,
-      "payload_path": "staging/team-hover-zoom.json"
-    }
-  ],
-  "last_updated": "2026-05-27T13:31:37.110373+00:00"
+  "commands": [],
+  "last_updated": "2026-05-27T13:31:50.051437"
 }
