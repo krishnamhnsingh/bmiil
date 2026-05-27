@@ -1,72 +1,163 @@
 <?php
 /**
- * BMIIL Global Planetary + Gold Dust Effect
- * Fades out on scroll, visible only in header area
+ * BMIIL — Global Planetary Rings + Gold Dust Effects
+ * Add via: Code Snippets → Add New → PHP → Run everywhere → Save & Activate
+ *
+ * Injects the animated planetary rings and gold particle canvas
+ * seen on the homepage — across ALL pages of the site.
  */
+add_action('wp_footer', function() { ?>
 
-// CSS in <head>
-add_action('wp_head', function() {
-    echo '<style>
-#bmiil-fx{position:fixed;top:0;left:0;right:0;height:200px;pointer-events:none;z-index:2;overflow:hidden;opacity:1;transition:opacity 0.35s ease;}
-#bmiil-fx-ring{position:absolute;right:-160px;top:-260px;width:700px;height:700px;border-radius:50%;border:1px solid rgba(196,154,42,0.20);animation:bfxSpin 30s linear infinite;}
-#bmiil-fx-ring-dot{position:absolute;top:12px;left:50%;width:7px;height:7px;margin-left:-3.5px;border-radius:50%;background:rgba(196,154,42,0.6);}
-#bmiil-fx-ring2{position:absolute;inset:70px;border-radius:50%;border:1px solid rgba(196,154,42,0.10);animation:bfxSpinR 20s linear infinite;}
-#bmiil-fx-ring2-dot{position:absolute;top:9px;left:50%;width:5px;height:5px;margin-left:-2.5px;border-radius:50%;background:rgba(196,154,42,0.35);}
-#bmiil-fx-ring3{position:absolute;inset:140px;border-radius:50%;border:1px solid rgba(196,154,42,0.06);animation:bfxSpin 12s linear infinite;}
-#bmiil-fx-pulse{position:absolute;right:24%;top:70px;width:10px;height:10px;border-radius:50%;background:#C49A2A;animation:bfxPulse 3s ease-in-out infinite;}
-#bmiil-fx-canvas{position:absolute;inset:0;width:100%;height:100%;opacity:0.5;}
-@keyframes bfxSpin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
-@keyframes bfxSpinR{from{transform:rotate(0deg)}to{transform:rotate(-360deg)}}
-@keyframes bfxPulse{0%,100%{box-shadow:0 0 0 0 rgba(196,154,42,0.65),0 0 0 0 rgba(196,154,42,0.25)}50%{box-shadow:0 0 0 14px rgba(196,154,42,0),0 0 0 28px rgba(196,154,42,0)}}
-</style>';
-}, 5);
+<!-- ══ BMIIL GLOBAL EFFECTS ════════════════════════════════════════ -->
+<div id="bmiil-global-fx" aria-hidden="true" style="
+  position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden;transition:opacity 0.4s ease;
+">
 
-// HTML + JS before </body>
-add_action('wp_footer', function() {
-    echo '
-<div id="bmiil-fx" aria-hidden="true">
-  <div id="bmiil-fx-ring">
-    <div id="bmiil-fx-ring-dot"></div>
-    <div id="bmiil-fx-ring2">
-      <div id="bmiil-fx-ring2-dot"></div>
+  <!-- Radial gold glow (top-right) -->
+  <div style="position:absolute;inset:0;background:
+    radial-gradient(ellipse 80% 60% at 75% 20%,rgba(196,154,42,0.05) 0%,transparent 60%),
+    radial-gradient(ellipse 50% 70% at 10% 90%,rgba(15,31,69,0.4) 0%,transparent 70%);
+  "></div>
+
+  <!-- Outer planetary ring -->
+  <div style="
+    position:absolute;right:-180px;top:-140px;
+    width:750px;height:750px;border-radius:50%;
+    border:1px solid rgba(196,154,42,0.18);
+    animation:bmiilSpin 30s linear infinite;
+  ">
+    <!-- Orbiting dot on outer ring -->
+    <div style="position:absolute;top:10px;left:50%;
+      width:7px;height:7px;margin-left:-3.5px;border-radius:50%;
+      background:rgba(196,154,42,0.55);"></div>
+    <!-- Middle ring (counter-spin) -->
+    <div style="position:absolute;inset:70px;border-radius:50%;
+      border:1px solid rgba(196,154,42,0.1);
+      animation:bmiilSpinReverse 20s linear infinite;">
+      <div style="position:absolute;top:8px;left:50%;
+        width:5px;height:5px;margin-left:-2.5px;border-radius:50%;
+        background:rgba(196,154,42,0.35);"></div>
     </div>
-    <div id="bmiil-fx-ring3"></div>
+    <!-- Inner ring (same direction) -->
+    <div style="position:absolute;inset:140px;border-radius:50%;
+      border:1px solid rgba(196,154,42,0.07);
+      animation:bmiilSpin 12s linear infinite;"></div>
   </div>
-  <div id="bmiil-fx-pulse"></div>
-  <canvas id="bmiil-fx-canvas"></canvas>
-</div>
+
+  <!-- Pulsing gold dot (centre-right) -->
+  <div style="
+    position:absolute;right:25%;top:45%;
+    width:10px;height:10px;border-radius:50%;
+    background:#C49A2A;
+    animation:bmiilPulse 3s ease-in-out infinite;
+  "></div>
+
+  <!-- Gold dust canvas -->
+  <canvas id="bmiil-dust-canvas" style="position:absolute;inset:0;width:100%;height:100%;opacity:0.55;"></canvas>
+
+</div><!-- #bmiil-global-fx -->
+
+<style>
+/* ── Keyframe animations ──────────────────────────────────────── */
+@keyframes bmiilSpin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+@keyframes bmiilSpinReverse {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(-360deg); }
+}
+@keyframes bmiilPulse {
+  0%,100% { box-shadow: 0 0 0 0 rgba(196,154,42,0.6), 0 0 0 0 rgba(196,154,42,0.25); }
+  50%     { box-shadow: 0 0 0 16px rgba(196,154,42,0), 0 0 0 32px rgba(196,154,42,0); }
+}
+@keyframes bmiilGridShimmer {
+  0%   { background-position: 100% 100%; }
+  50%  { background-position: 0% 0%; }
+  100% { background-position: 100% 100%; }
+}
+/* ── Keep FX behind all page content ─────────────────────────── */
+#bmiil-global-fx { z-index: 0 !important; }
+/* Ensure Theme Builder header stays on top */
+#bmiil-hdr, #bmiil-nav { z-index: 9999 !important; }
+</style>
+
 <script>
-(function(){
-  var el=document.getElementById("bmiil-fx");
-  if(!el)return;
-  var FADE=100;
-  function upd(){var y=window.scrollY||window.pageYOffset||0;el.style.opacity=y>=FADE?"0":(1-y/FADE).toFixed(3);}
-  window.addEventListener("scroll",upd,{passive:true});
-  upd();
-  var cv=document.getElementById("bmiil-fx-canvas");
-  if(!cv||!cv.getContext)return;
-  var cx=cv.getContext("2d");
-  function rsz(){cv.width=cv.offsetWidth||window.innerWidth;cv.height=cv.offsetHeight||200;}
-  rsz();
-  window.addEventListener("resize",rsz,{passive:true});
-  var N=38,P=[];
-  function rnd(a,b){return Math.random()*(b-a)+a;}
-  function mk(){return{x:rnd(0,cv.width),y:rnd(0,cv.height),r:rnd(0.5,2),dx:rnd(-0.15,0.15),dy:rnd(-0.28,-0.06),a:rnd(0.08,0.5),da:rnd(-0.003,0.003)};}
-  for(var i=0;i<N;i++)P.push(mk());
-  function draw(){
-    cx.clearRect(0,0,cv.width,cv.height);
-    P.forEach(function(p){
-      cx.beginPath();cx.arc(p.x,p.y,p.r,0,Math.PI*2);
-      cx.fillStyle="rgba(196,154,42,"+Math.max(0,Math.min(1,p.a)).toFixed(2)+")";cx.fill();
-      p.x+=p.dx;p.y+=p.dy;p.a+=p.da;
-      if(p.x<-4)p.x=cv.width+4;
-      if(p.x>cv.width+4)p.x=-4;
-      if(p.y<-4){p.y=cv.height+4;p.x=rnd(0,cv.width);p.a=rnd(0.08,0.5);}
-      if(p.a>0.5||p.a<0.08)p.da*=-1;
+(function() {
+  /* Gold dust particle canvas */
+  var canvas = document.getElementById('bmiil-dust-canvas');
+  if (!canvas || !canvas.getContext) return;
+  var ctx = canvas.getContext('2d');
+
+  function resize() {
+    canvas.width  = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize, { passive: true });
+
+  /* Particle config */
+  var GOLD   = 'rgba(196,154,42,';
+  var COUNT  = 55;
+  var particles = [];
+
+  function rand(min, max) { return Math.random() * (max - min) + min; }
+
+  function mkParticle() {
+    return {
+      x:     rand(0, canvas.width),
+      y:     rand(0, canvas.height),
+      r:     rand(0.5, 2.2),
+      dx:    rand(-0.18, 0.18),
+      dy:    rand(-0.35, -0.08),   /* drift upward */
+      alpha: rand(0.08, 0.55),
+      da:    rand(-0.003, 0.003),  /* twinkle */
+    };
+  }
+
+  for (var i = 0; i < COUNT; i++) particles.push(mkParticle());
+
+  function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    particles.forEach(function(p) {
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fillStyle = GOLD + Math.max(0, Math.min(1, p.alpha)).toFixed(2) + ')';
+      ctx.fill();
+
+      /* Move */
+      p.x     += p.dx;
+      p.y     += p.dy;
+      p.alpha += p.da;
+
+      /* Boundary: wrap horizontally, reset when off top */
+      if (p.x < -4)              p.x = canvas.width + 4;
+      if (p.x > canvas.width + 4) p.x = -4;
+      if (p.y < -4) {
+        p.y     = canvas.height + 4;
+        p.x     = rand(0, canvas.width);
+        p.alpha = rand(0.08, 0.55);
+      }
+      /* Twinkle clamp */
+      if (p.alpha > 0.55 || p.alpha < 0.08) p.da *= -1;
     });
     requestAnimationFrame(draw);
   }
   draw();
+
+  /* ── Scroll: fade out when past header ── */
+  var fx = document.getElementById('bmiil-global-fx');
+  var HEADER_H = 130; /* px — header height + announcement bar */
+  function updateFx() {
+    var y = window.scrollY || window.pageYOffset || 0;
+    if (fx) {
+      fx.style.opacity = y >= HEADER_H ? '0' : String(1 - y / HEADER_H);
+    }
+  }
+  window.addEventListener('scroll', updateFx, { passive: true });
+  updateFx();
+
 })();
-</script>';
-}, 20);
+</script>
+<!-- ══ END BMIIL GLOBAL EFFECTS ═════════════════════════════════ -->
+<?php }, 20);
