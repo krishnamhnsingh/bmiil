@@ -1,4 +1,15 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-27T13:21:47.683359"
+  "commands": [
+    {
+      "action": "get_page",
+      "id": "home",
+      "page_id": 1074
+    },
+    {
+      "action": "get_page",
+      "id": "team",
+      "page_id": 1117
+    }
+  ],
+  "last_updated": "2026-05-27T13:24:52.567028+00:00"
 }
