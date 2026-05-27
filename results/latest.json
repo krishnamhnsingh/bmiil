@@ -1,21 +1,16 @@
 {
   "results": [
     {
-      "action": "update_template",
-      "id": "fix-grants-link",
-      "timestamp": "2026-05-23T15:32:38.185329",
+      "action": "get_page",
+      "id": "read-investor",
+      "timestamp": "2026-05-27T11:17:44.010749",
       "result": {
-        "success": true,
-        "data": {
-          "id": 1229,
-          "updated": [
-            "elementor_data"
-          ]
-        }
+        "success": false,
+        "error": "HTTP Error 403: Forbidden"
       }
     }
   ],
-  "last_run": "2026-05-23T15:32:39.195373",
+  "last_run": "2026-05-27T11:17:44.961223",
   "status": "completed",
   "commands_run": 1
 }
