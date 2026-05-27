@@ -1,22 +1,16 @@
 {
   "results": [
     {
-      "action": "update_page_elementor",
-      "id": "investor-bfi-final",
-      "timestamp": "2026-05-27T11:21:52.146934",
+      "action": "get_page",
+      "id": "read-about",
+      "timestamp": "2026-05-27T11:23:04.265748",
       "result": {
-        "success": true,
-        "data": {
-          "id": 1100,
-          "updated": [
-            "elementor_data"
-          ],
-          "url": "https://test.bmiil.com/investor-deck/"
-        }
+        "success": false,
+        "error": "HTTP Error 403: Forbidden"
       }
     }
   ],
-  "last_run": "2026-05-27T11:21:53.647579",
+  "last_run": "2026-05-27T11:23:05.164309",
   "status": "completed",
   "commands_run": 1
 }
