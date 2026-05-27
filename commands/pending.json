@@ -1,11 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "update_page_elementor",
-      "id": "home-grid-arjun",
-      "page_id": 1074,
-      "payload_path": "staging/home-fixes.json"
-    }
-  ],
-  "last_updated": "2026-05-27T13:27:26.971857+00:00"
+  "commands": [],
+  "last_updated": "2026-05-27T13:27:42.279646"
 }
