@@ -1,4 +1,11 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-27T12:30:14.197072"
+  "commands": [
+    {
+      "action": "update_page_elementor",
+      "id": "team-circles",
+      "page_id": 1117,
+      "payload_path": "staging/team-hover-zoom.json"
+    }
+  ],
+  "last_updated": "2026-05-27T12:36:11.319525+00:00"
 }
