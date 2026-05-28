@@ -2,21 +2,21 @@
   "results": [
     {
       "action": "update_page_elementor",
-      "id": "pad-1112",
-      "timestamp": "2026-05-28T12:46:11.746241",
+      "id": "pad-1079",
+      "timestamp": "2026-05-28T12:46:37.656106",
       "result": {
         "success": true,
         "data": {
-          "id": 1112,
+          "id": 1079,
           "updated": [
             "elementor_data"
           ],
-          "url": "https://test.bmiil.com/programs/"
+          "url": "https://test.bmiil.com/accelerator-program/"
         }
       }
     }
   ],
-  "last_run": "2026-05-28T12:46:13.404847",
+  "last_run": "2026-05-28T12:46:38.975833",
   "status": "completed",
   "commands_run": 1
 }
