@@ -1,11 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "update_page_elementor",
-      "id": "fix-about",
-      "page_id": 1008,
-      "payload_path": "staging/page-1008-final.json"
-    }
-  ],
-  "last_updated": "2026-05-28T12:51:07.091799+00:00"
+  "commands": [],
+  "last_updated": "2026-05-28T12:51:22.075598"
 }
