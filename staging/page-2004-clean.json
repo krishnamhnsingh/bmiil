@@ -1,0 +1,1027 @@
+[
+  {
+    "id": "40g9uzs",
+    "elType": "section",
+    "settings": {
+      "stretch_section": "section-stretched",
+      "content_width": {
+        "unit": "px",
+        "size": 1220
+      },
+      "padding": {
+        "unit": "px",
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0,
+        "isLinked": false
+      },
+      "gap": "no",
+      "layout": "full_width"
+    },
+    "elements": [
+      {
+        "id": "376m4v0",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "content_width": {
+            "unit": "%",
+            "size": 100
+          },
+          "padding": {
+            "unit": "px",
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0,
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "o2u0c4o",
+            "elType": "widget",
+            "settings": {
+              "html": "<div style=\"background:#08122A;padding:0 0 80px;border-bottom:1px solid rgba(196,154,42,0.15);position:relative;overflow:hidden;\"><div style=\"position:absolute;inset:0;background-image:linear-gradient(rgba(196,154,42,0.06) 1px,transparent 1px),linear-gradient(90deg,rgba(196,154,42,0.06) 1px,transparent 1px);background-size:60px 60px;pointer-events:none;\"></div><div style=\"max-width:1220px;margin:0 auto;padding:0 2.5rem;position:relative;z-index:1;\"><div style=\"display:flex;align-items:center;gap:12px;margin-bottom:1.5rem;\"><div style=\"width:40px;height:1px;background:#C49A2A;flex-shrink:0;\"></div><span style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#C49A2A;\">Join the Mission</span></div><h1 style=\"font-family:Cormorant Garamond;font-size:clamp(2.8rem,5vw,5rem);font-weight:300;line-height:1.04;color:#FFFFFF;margin:0 0 0.4rem;\">Be Part of India's Next</h1><h2 style=\"font-family:Cormorant Garamond;font-size:clamp(2.8rem,5vw,5rem);font-weight:700;line-height:1.04;color:#FFFFFF;margin:0 0 1.8rem;\"><em style=\"font-style:italic;color:#E2BF68;\">Medtech Revolution</em></h2><p style=\"font-size:1rem;line-height:1.75;color:rgba(255,255,255,0.55);max-width:640px;margin:0 0 2.5rem;\">At <strong style=\"color:#FFFFFF;\">Bareilly Medtech Incubation &amp; Innovation Labs (BMIIL)</strong>, we're building more than an incubation center \u2014 we're building a movement. A movement that blends <strong style=\"color:rgba(255,255,255,0.8);\">science and innovation</strong>, <strong style=\"color:rgba(255,255,255,0.8);\">Ayurveda and modern medicine</strong>, <strong style=\"color:rgba(255,255,255,0.8);\">local talent and global vision</strong>.</p><div style=\"display:flex;gap:1rem;flex-wrap:wrap;\"><a href=\"#openings\" style=\"background:#C49A2A;color:#08122A;font-weight:600;font-size:14px;padding:14px 32px;border-radius:2px;text-decoration:none;letter-spacing:0.04em;\">View Open Roles</a><a href=\"#apply\" style=\"background:transparent;color:rgba(255,255,255,0.7);font-weight:500;font-size:14px;padding:13px 32px;border:1px solid rgba(255,255,255,0.2);border-radius:2px;text-decoration:none;\">Apply Now</a></div></div></div>"
+            },
+            "elements": [],
+            "widgetType": "html"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  },
+  {
+    "id": "ingmnae",
+    "elType": "section",
+    "settings": {
+      "stretch_section": "section-stretched",
+      "content_width": {
+        "unit": "px",
+        "size": 1220
+      },
+      "padding": {
+        "unit": "px",
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0,
+        "isLinked": false
+      },
+      "gap": "no",
+      "layout": "full_width"
+    },
+    "elements": [
+      {
+        "id": "uyivtxa",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "content_width": {
+            "unit": "%",
+            "size": 100
+          },
+          "padding": {
+            "unit": "px",
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0,
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "13e9ux0",
+            "elType": "widget",
+            "settings": {
+              "html": "<div style=\"background:#F7F3EC;padding:7rem 0;\"><div style=\"max-width:1220px;margin:0 auto;padding:0 2.5rem;\"><div style=\"display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start;\"><div><p style=\"display:inline-block;font-family:DM Mono;font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);margin:0 0 1.5rem;\">Who We're Looking For</p><h2 style=\"font-family:Cormorant Garamond;font-size:clamp(1.8rem,3vw,2.5rem);font-weight:300;color:#08122A;margin:0 0 2rem;line-height:1.2;\">People who believe healthcare innovation should reach <em style=\"font-style:italic;\">every corner</em> of India.</h2><div style=\"display:flex;flex-direction:column;gap:1rem;\"><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:1.8rem;display:flex;gap:1rem;align-items:flex-start;\"><div style=\"font-size:1.6rem;flex-shrink:0;\">\ud83c\udf93</div><div><h4 style=\"font-family:Cormorant Garamond;font-size:1.05rem;font-weight:700;color:#08122A;margin:0 0 0.3rem;\">Young Professionals &amp; Graduates</h4><p style=\"font-size:13px;line-height:1.6;color:#7A8BA8;margin:0;\">Eager to learn the ropes of innovation management and make an impact from day one.</p></div></div><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:1.8rem;display:flex;gap:1rem;align-items:flex-start;\"><div style=\"font-size:1.6rem;flex-shrink:0;\">\ud83d\udd2c</div><div><h4 style=\"font-family:Cormorant Garamond;font-size:1.05rem;font-weight:700;color:#08122A;margin:0 0 0.3rem;\">Researchers &amp; Engineers</h4><p style=\"font-size:13px;line-height:1.6;color:#7A8BA8;margin:0;\">Passionate about medical technology, product development, and clinical problem-solving.</p></div></div><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:1.8rem;display:flex;gap:1rem;align-items:flex-start;\"><div style=\"font-size:1.6rem;flex-shrink:0;\">\ud83e\udde0</div><div><h4 style=\"font-family:Cormorant Garamond;font-size:1.05rem;font-weight:700;color:#08122A;margin:0 0 0.3rem;\">Mentors &amp; Consultants</h4><p style=\"font-size:13px;line-height:1.6;color:#7A8BA8;margin:0;\">Domain experts who want to contribute their experience to India's growing medtech story.</p></div></div><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:1.8rem;display:flex;gap:1rem;align-items:flex-start;\"><div style=\"font-size:1.6rem;flex-shrink:0;\">\ud83c\udf0d</div><div><h4 style=\"font-family:Cormorant Garamond;font-size:1.05rem;font-weight:700;color:#08122A;margin:0 0 0.3rem;\">Globally-minded Innovators</h4><p style=\"font-size:13px;line-height:1.6;color:#7A8BA8;margin:0;\">People who bring local insight and global ambition to demo days, investor pitches, and international exposure.</p></div></div></div></div><div><p style=\"display:inline-block;font-family:DM Mono;font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);margin:0 0 1.5rem;\">Why BMIIL</p><h2 style=\"font-family:Cormorant Garamond;font-size:clamp(1.8rem,3vw,2.5rem);font-weight:300;color:#08122A;margin:0 0 2rem;line-height:1.2;\">What you'll gain working here.</h2><div style=\"display:flex;flex-direction:column;gap:1rem;\"><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:1.8rem;display:flex;gap:1rem;align-items:flex-start;\"><div style=\"font-size:1.6rem;flex-shrink:0;\">\ud83c\udfe5</div><div><h4 style=\"font-family:Cormorant Garamond;font-size:1.05rem;font-weight:700;color:#08122A;margin:0 0 0.3rem;\">Hospital &amp; Lab Access</h4><p style=\"font-size:13px;line-height:1.6;color:#7A8BA8;margin:0;\">Work directly inside BIU's teaching hospital, research labs, and clinical infrastructure.</p></div></div><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:1.8rem;display:flex;gap:1rem;align-items:flex-start;\"><div style=\"font-size:1.6rem;flex-shrink:0;\">\ud83d\ude80</div><div><h4 style=\"font-family:Cormorant Garamond;font-size:1.05rem;font-weight:700;color:#08122A;margin:0 0 0.3rem;\">Ground Floor Opportunity</h4><p style=\"font-size:13px;line-height:1.6;color:#7A8BA8;margin:0;\">Join at the founding stage \u2014 shape the culture, build the systems, define the direction.</p></div></div><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:1.8rem;display:flex;gap:1rem;align-items:flex-start;\"><div style=\"font-size:1.6rem;flex-shrink:0;\">\ud83d\udcca</div><div><h4 style=\"font-family:Cormorant Garamond;font-size:1.05rem;font-weight:700;color:#08122A;margin:0 0 0.3rem;\">Demo Days &amp; Investor Pitches</h4><p style=\"font-size:13px;line-height:1.6;color:#7A8BA8;margin:0;\">Get exposure to national and international investor events, pitch competitions, and healthcare forums.</p></div></div><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:1.8rem;display:flex;gap:1rem;align-items:flex-start;\"><div style=\"font-size:1.6rem;flex-shrink:0;\">\ud83c\udfaf</div><div><h4 style=\"font-family:Cormorant Garamond;font-size:1.05rem;font-weight:700;color:#08122A;margin:0 0 0.3rem;\">Real Impact</h4><p style=\"font-size:13px;line-height:1.6;color:#7A8BA8;margin:0;\">Every role directly supports startups solving real healthcare problems for real patients.</p></div></div></div></div></div></div></div>"
+            },
+            "elements": [],
+            "widgetType": "html"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  },
+  {
+    "id": "kczf7n6",
+    "elType": "section",
+    "settings": {
+      "stretch_section": "section-stretched",
+      "content_width": {
+        "unit": "px",
+        "size": 1220
+      },
+      "padding": {
+        "unit": "px",
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0,
+        "isLinked": false
+      },
+      "gap": "no",
+      "layout": "full_width"
+    },
+    "elements": [
+      {
+        "id": "7fyjzfj",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "content_width": {
+            "unit": "%",
+            "size": 100
+          },
+          "padding": {
+            "unit": "px",
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0,
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "8p4l2k1",
+            "elType": "widget",
+            "settings": {
+              "html": "<div id=\"openings\" style=\"background:#EDE8DE;padding:7rem 0;\"><div style=\"max-width:1220px;margin:0 auto;padding:0 2.5rem;\"><p style=\"display:inline-block;font-family:DM Mono;font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);margin:0 0 1.2rem;\">Current Openings</p><div style=\"display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:1rem;margin-bottom:3rem;\"><h2 style=\"font-family:Cormorant Garamond;font-size:clamp(2rem,4vw,3rem);font-weight:300;color:#08122A;margin:0;line-height:1.15;\">We Are Hiring. <strong style=\"font-weight:700;\">Join Us.</strong></h2><span style=\"font-family:DM Mono;font-size:10px;color:#7A8BA8;letter-spacing:0.1em;text-transform:uppercase;\">Bareilly, Uttar Pradesh</span></div><div style=\"display:flex;flex-direction:column;gap:1.5rem;margin-bottom:5rem;\"><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:2rem 2.5rem;position:relative;overflow:hidden;\"><div style=\"position:absolute;top:0;left:0;bottom:0;width:3px;background:#C49A2A;\"></div><div style=\"display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:1rem;margin-bottom:1rem;\"><div><h3 style=\"font-family:Cormorant Garamond;font-size:1.35rem;font-weight:700;color:#08122A;margin:0 0 0.5rem;line-height:1.2;\">Industry Mentor / Domain Expert</h3><div style=\"display:flex;align-items:center;gap:1rem;flex-wrap:wrap;\"><span style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.15em;text-transform:uppercase;color:#C49A2A;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.2);padding:3px 10px;border-radius:2px;\">Advisory</span><span style=\"font-size:12px;color:#7A8BA8;\">&#128205; Remote / Bareilly</span><span style=\"font-size:12px;color:#7A8BA8;\">&#9201; Part-time / Consulting</span></div></div><a href=\"#apply\" style=\"background:#C49A2A;color:#08122A;font-weight:600;font-size:13px;padding:10px 24px;border-radius:2px;text-decoration:none;white-space:nowrap;flex-shrink:0;\">Apply Now &#8594;</a></div><p style=\"font-size:13px;line-height:1.75;color:#4A5C78;margin:0 0 1.2rem;\">Share your expertise with early-stage medtech startups. Guide founders through clinical validation, regulatory pathways, market strategy, and product development.</p><div style=\"display:flex;flex-wrap:wrap;gap:4px;\"><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Domain Expertise</span><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Medtech</span><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Healthcare</span><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Mentorship</span></div></div><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:2rem 2.5rem;position:relative;overflow:hidden;\"><div style=\"position:absolute;top:0;left:0;bottom:0;width:3px;background:#C49A2A;\"></div><div style=\"display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:1rem;margin-bottom:1rem;\"><div><h3 style=\"font-family:Cormorant Garamond;font-size:1.35rem;font-weight:700;color:#08122A;margin:0 0 0.5rem;line-height:1.2;\">Incubation Manager / Coordinator</h3><div style=\"display:flex;align-items:center;gap:1rem;flex-wrap:wrap;\"><span style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.15em;text-transform:uppercase;color:#C49A2A;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.2);padding:3px 10px;border-radius:2px;\">Core Operations</span><span style=\"font-size:12px;color:#7A8BA8;\">&#128205; Bareilly (On-site)</span><span style=\"font-size:12px;color:#7A8BA8;\">&#9201; Full-time</span></div></div><a href=\"#apply\" style=\"background:#C49A2A;color:#08122A;font-weight:600;font-size:13px;padding:10px 24px;border-radius:2px;text-decoration:none;white-space:nowrap;flex-shrink:0;\">Apply Now &#8594;</a></div><p style=\"font-size:13px;line-height:1.75;color:#4A5C78;margin:0 0 1.2rem;\">Lead day-to-day operations of BMIIL's incubation programs \u2014 cohort intake, mentor scheduling, milestone tracking, lab coordination, and startup support across all three tracks.</p><div style=\"display:flex;flex-wrap:wrap;gap:4px;\"><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Program Management</span><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Operations</span><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Healthcare</span><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Team Leadership</span></div></div><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:2rem 2.5rem;position:relative;overflow:hidden;\"><div style=\"position:absolute;top:0;left:0;bottom:0;width:3px;background:#C49A2A;\"></div><div style=\"display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:1rem;margin-bottom:1rem;\"><div><h3 style=\"font-family:Cormorant Garamond;font-size:1.35rem;font-weight:700;color:#08122A;margin:0 0 0.5rem;line-height:1.2;\">Research &amp; Innovation Fellow</h3><div style=\"display:flex;align-items:center;gap:1rem;flex-wrap:wrap;\"><span style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.15em;text-transform:uppercase;color:#C49A2A;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.2);padding:3px 10px;border-radius:2px;\">Research</span><span style=\"font-size:12px;color:#7A8BA8;\">&#128205; Bareilly (On-site)</span><span style=\"font-size:12px;color:#7A8BA8;\">&#9201; Full-time / Fellowship</span></div></div><a href=\"#apply\" style=\"background:#C49A2A;color:#08122A;font-weight:600;font-size:13px;padding:10px 24px;border-radius:2px;text-decoration:none;white-space:nowrap;flex-shrink:0;\">Apply Now &#8594;</a></div><p style=\"font-size:13px;line-height:1.75;color:#4A5C78;margin:0 0 1.2rem;\">Conduct research in medtech, Ayurveda innovation, and healthcare product development. Support startups with literature reviews, clinical evidence synthesis, and regulatory documentation.</p><div style=\"display:flex;flex-wrap:wrap;gap:4px;\"><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Research</span><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Medical Technology</span><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Ayurveda</span><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Documentation</span></div></div><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:2rem 2.5rem;position:relative;overflow:hidden;\"><div style=\"position:absolute;top:0;left:0;bottom:0;width:3px;background:#C49A2A;\"></div><div style=\"display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:1rem;margin-bottom:1rem;\"><div><h3 style=\"font-family:Cormorant Garamond;font-size:1.35rem;font-weight:700;color:#08122A;margin:0 0 0.5rem;line-height:1.2;\">Community &amp; Events Associate</h3><div style=\"display:flex;align-items:center;gap:1rem;flex-wrap:wrap;\"><span style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.15em;text-transform:uppercase;color:#C49A2A;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.2);padding:3px 10px;border-radius:2px;\">Marketing &amp; Outreach</span><span style=\"font-size:12px;color:#7A8BA8;\">&#128205; Bareilly / Hybrid</span><span style=\"font-size:12px;color:#7A8BA8;\">&#9201; Full-time</span></div></div><a href=\"#apply\" style=\"background:#C49A2A;color:#08122A;font-weight:600;font-size:13px;padding:10px 24px;border-radius:2px;text-decoration:none;white-space:nowrap;flex-shrink:0;\">Apply Now &#8594;</a></div><p style=\"font-size:13px;line-height:1.75;color:#4A5C78;margin:0 0 1.2rem;\">Manage BMIIL's community engagement \u2014 events, workshops, demo days, and stakeholder communications. Build relationships with hospitals, colleges, and innovation ecosystems.</p><div style=\"display:flex;flex-wrap:wrap;gap:4px;\"><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Event Management</span><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Community Building</span><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Communications</span><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Outreach</span></div></div><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:2rem 2.5rem;position:relative;overflow:hidden;\"><div style=\"position:absolute;top:0;left:0;bottom:0;width:3px;background:#C49A2A;\"></div><div style=\"display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:1rem;margin-bottom:1rem;\"><div><h3 style=\"font-family:Cormorant Garamond;font-size:1.35rem;font-weight:700;color:#08122A;margin:0 0 0.5rem;line-height:1.2;\">Intern \u2014 Corporate Relations</h3><div style=\"display:flex;align-items:center;gap:1rem;flex-wrap:wrap;\"><span style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.15em;text-transform:uppercase;color:#C49A2A;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.2);padding:3px 10px;border-radius:2px;\">Corporate Relations</span><span style=\"font-size:12px;color:#7A8BA8;\">&#128205; Bareilly / Hybrid</span><span style=\"font-size:12px;color:#7A8BA8;\">&#9201; Internship (3\u20136 months)</span></div></div><a href=\"#apply\" style=\"background:#C49A2A;color:#08122A;font-weight:600;font-size:13px;padding:10px 24px;border-radius:2px;text-decoration:none;white-space:nowrap;flex-shrink:0;\">Apply Now &#8594;</a></div><p style=\"font-size:13px;line-height:1.75;color:#4A5C78;margin:0 0 1.2rem;\">Support corporate partnerships, investor outreach, and stakeholder relationship management. Ideal for MBA or BBA students with strong communication skills.</p><div style=\"display:flex;flex-wrap:wrap;gap:4px;\"><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Corporate Relations</span><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Partnerships</span><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Communication</span><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">MBA / BBA</span></div></div><div style=\"background:#FFFFFF;border:1px solid #EDE8DE;border-radius:4px;padding:2rem 2.5rem;position:relative;overflow:hidden;\"><div style=\"position:absolute;top:0;left:0;bottom:0;width:3px;background:#C49A2A;\"></div><div style=\"display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:1rem;margin-bottom:1rem;\"><div><h3 style=\"font-family:Cormorant Garamond;font-size:1.35rem;font-weight:700;color:#08122A;margin:0 0 0.5rem;line-height:1.2;\">Intern \u2014 Social Media Cell</h3><div style=\"display:flex;align-items:center;gap:1rem;flex-wrap:wrap;\"><span style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.15em;text-transform:uppercase;color:#C49A2A;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.2);padding:3px 10px;border-radius:2px;\">Marketing</span><span style=\"font-size:12px;color:#7A8BA8;\">&#128205; Remote / Bareilly</span><span style=\"font-size:12px;color:#7A8BA8;\">&#9201; Internship (3\u20136 months)</span></div></div><a href=\"#apply\" style=\"background:#C49A2A;color:#08122A;font-weight:600;font-size:13px;padding:10px 24px;border-radius:2px;text-decoration:none;white-space:nowrap;flex-shrink:0;\">Apply Now &#8594;</a></div><p style=\"font-size:13px;line-height:1.75;color:#4A5C78;margin:0 0 1.2rem;\">Create content for BMIIL's social media channels, manage campaigns, track analytics, and build awareness about our programs and milestones.</p><div style=\"display:flex;flex-wrap:wrap;gap:4px;\"><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Social Media</span><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Content Creation</span><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Design</span><span style=\"display:inline-block;font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#08122A;background:#EDE8DE;padding:3px 10px;border-radius:2px;margin:2px 3px 2px 0;\">Marketing</span></div></div></div><div style=\"background:#08122A;border-radius:4px;padding:3rem 3.5rem;display:grid;grid-template-columns:1fr auto;gap:3rem;align-items:center;\"><div><h3 style=\"font-family:Cormorant Garamond;font-size:1.8rem;font-weight:300;color:#FFFFFF;margin:0 0 0.8rem;\">Don't see the right role? We'd love to hear from you.</h3><p style=\"font-size:14px;line-height:1.7;color:rgba(255,255,255,0.5);margin:0;\">Send us your CV and a note about what you'd bring to BMIIL. We're building fast.</p></div><div style=\"display:flex;flex-direction:column;gap:1rem;min-width:200px;\"><a href=\"mailto:careers@bmiil.com\" style=\"background:#C49A2A;color:#08122A;font-weight:600;font-size:13px;padding:13px 24px;border-radius:2px;text-decoration:none;text-align:center;\">Email Your CV</a><a href=\"https://www.linkedin.com/company/bmiil/\" target=\"_blank\" style=\"background:transparent;color:rgba(255,255,255,0.65);font-weight:500;font-size:13px;padding:12px 24px;border:1px solid rgba(255,255,255,0.2);border-radius:2px;text-decoration:none;text-align:center;\">Follow on LinkedIn</a></div></div></div></div>"
+            },
+            "elements": [],
+            "widgetType": "html"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  },
+  {
+    "id": "3bd5cd8",
+    "elType": "section",
+    "settings": {
+      "structure": "20",
+      "gap": "no",
+      "background_background": "classic",
+      "z_index": 1,
+      "__globals__": {
+        "background_color_b": "",
+        "background_color": "globals/colors?id=secondary"
+      },
+      "margin": {
+        "unit": "px",
+        "top": "0",
+        "right": 0,
+        "bottom": "0",
+        "left": 0,
+        "isLinked": false
+      },
+      "padding": {
+        "unit": "px",
+        "top": "070",
+        "right": "50",
+        "bottom": "70",
+        "left": "50",
+        "isLinked": false
+      },
+      "margin_mobile": {
+        "unit": "px",
+        "top": "0",
+        "right": 0,
+        "bottom": "0",
+        "left": 0,
+        "isLinked": false
+      },
+      "padding_tablet": {
+        "unit": "px",
+        "top": "80",
+        "right": "10",
+        "bottom": "80",
+        "left": "10",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "px",
+        "top": "40",
+        "right": "10",
+        "bottom": "40",
+        "left": "10",
+        "isLinked": false
+      },
+      "content_position": "middle",
+      "background_overlay_background": "classic",
+      "background_overlay_position": "initial",
+      "background_overlay_repeat": "no-repeat",
+      "background_overlay_size": "cover",
+      "background_overlay_opacity": {
+        "unit": "px",
+        "size": 0.07,
+        "sizes": []
+      },
+      "background_overlay_ypos": {
+        "unit": "%",
+        "size": 70,
+        "sizes": []
+      },
+      "reverse_order_mobile": "reverse-mobile",
+      "background_color_stop": {
+        "unit": "%",
+        "size": 43,
+        "sizes": []
+      },
+      "background_color": "#0F6870",
+      "background_gradient_notice": "",
+      "background_hover_gradient_notice": "",
+      "background_overlay_gradient_notice": "",
+      "background_overlay_hover_gradient_notice": "",
+      "_element_id": "apply",
+      "jkit_glass_blur_level": {
+        "unit": "px",
+        "size": "",
+        "sizes": []
+      },
+      "jkit_glass_blur_level_tablet": {
+        "unit": "px",
+        "size": "",
+        "sizes": []
+      },
+      "jkit_glass_blur_level_mobile": {
+        "unit": "px",
+        "size": "",
+        "sizes": []
+      },
+      "jkit_sticky_section": "",
+      "jkit_sticky_device": "desktop",
+      "jkit_sticky_trigger": "down",
+      "jkit_sticky_position": "sticky",
+      "jkit_sticky_top_position": {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+      },
+      "jkit_sticky_bottom_position": {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+      },
+      "jkit_sticky_background_color": "",
+      "jkit_sticky_hide_on_scroll": "",
+      "jkit_sticky_hide_threshold": "",
+      "jkit_sticky_x_axis_animation": {
+        "unit": "px",
+        "size": "",
+        "sizes": []
+      },
+      "jkit_sticky_y_axis_animation": {
+        "unit": "px",
+        "size": "",
+        "sizes": []
+      },
+      "jkit_sticky_transition": {
+        "unit": "px",
+        "size": 0.1,
+        "sizes": []
+      },
+      "jkit_sticky_zindex": 100,
+      "jkit_sticky_shadow_box_shadow_type": "",
+      "jkit_sticky_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 10,
+        "spread": 0,
+        "color": "rgba(0,0,0,0.5)"
+      },
+      "jkit_sticky_shadow_box_shadow_position": " "
+    },
+    "elements": [
+      {
+        "id": "f90e405",
+        "elType": "column",
+        "settings": {
+          "_column_size": 50,
+          "_inline_size": null,
+          "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "10",
+            "bottom": "0",
+            "left": "60",
+            "isLinked": false
+          },
+          "margin_mobile": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          },
+          "padding_tablet": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "20",
+            "isLinked": false
+          },
+          "padding_mobile": {
+            "unit": "px",
+            "top": "20",
+            "right": "20",
+            "bottom": "20",
+            "left": "20",
+            "isLinked": true
+          },
+          "content_position_tablet": "center",
+          "content_position": "center",
+          "background_gradient_notice": "",
+          "background_hover_gradient_notice": "",
+          "background_overlay_gradient_notice": "",
+          "background_overlay_hover_gradient_notice": "",
+          "jkit_glass_blur_level": {
+            "unit": "px",
+            "size": "",
+            "sizes": []
+          },
+          "jkit_glass_blur_level_tablet": {
+            "unit": "px",
+            "size": "",
+            "sizes": []
+          },
+          "jkit_glass_blur_level_mobile": {
+            "unit": "px",
+            "size": "",
+            "sizes": []
+          },
+          "jkit_sticky_section": "",
+          "jkit_sticky_device": [
+            "desktop",
+            "tablet",
+            "mobile"
+          ],
+          "jkit_sticky_trigger": "down",
+          "jkit_sticky_position": "sticky",
+          "jkit_sticky_top_position": {
+            "unit": "px",
+            "size": 0,
+            "sizes": []
+          },
+          "jkit_sticky_bottom_position": {
+            "unit": "px",
+            "size": 0,
+            "sizes": []
+          },
+          "jkit_sticky_background_color": "",
+          "jkit_sticky_hide_on_scroll": "",
+          "jkit_sticky_hide_threshold": "",
+          "jkit_sticky_x_axis_animation": {
+            "unit": "px",
+            "size": "",
+            "sizes": []
+          },
+          "jkit_sticky_y_axis_animation": {
+            "unit": "px",
+            "size": "",
+            "sizes": []
+          },
+          "jkit_sticky_transition": {
+            "unit": "px",
+            "size": 0.1,
+            "sizes": []
+          },
+          "jkit_sticky_zindex": 100,
+          "jkit_sticky_shadow_box_shadow_type": "",
+          "jkit_sticky_shadow_box_shadow": {
+            "horizontal": 0,
+            "vertical": 0,
+            "blur": 10,
+            "spread": 0,
+            "color": "rgba(0,0,0,0.5)"
+          },
+          "jkit_sticky_shadow_box_shadow_position": " "
+        },
+        "elements": [
+          {
+            "id": "e70576f",
+            "elType": "widget",
+            "settings": {
+              "text": "Career",
+              "border_radius": {
+                "unit": "px",
+                "top": "20",
+                "right": "20",
+                "bottom": "20",
+                "left": "20",
+                "isLinked": true
+              },
+              "text_padding": {
+                "unit": "px",
+                "top": "10",
+                "right": "15",
+                "bottom": "10",
+                "left": "15",
+                "isLinked": false
+              },
+              "__globals__": {
+                "button_text_color": "globals/colors?id=146fe6d",
+                "background_color": "globals/colors?id=accent",
+                "typography_typography": "globals/typography?id=primary"
+              },
+              "align": "left",
+              "typography_typography": "custom",
+              "typography_font_family": "Lato",
+              "typography_font_weight": "600",
+              "background_gradient_notice": "",
+              "button_background_hover_gradient_notice": "",
+              "_position_description": "",
+              "jkit_transform_rotate": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_transform_rotate_tablet": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_transform_rotate_mobile": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_glass_blur_level": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_glass_blur_level_tablet": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_glass_blur_level_mobile": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "_background_gradient_notice": "",
+              "_background_hover_gradient_notice": ""
+            },
+            "elements": [],
+            "widgetType": "button"
+          },
+          {
+            "id": "3145b17",
+            "elType": "widget",
+            "settings": {
+              "title": "Ready to be part of something that matters?",
+              "__globals__": {
+                "title_color": "globals/colors?id=146fe6d",
+                "typography_typography": ""
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": ""
+              },
+              "_position_description": "",
+              "jkit_transform_rotate": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_transform_rotate_tablet": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_transform_rotate_mobile": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_glass_blur_level": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_glass_blur_level_tablet": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_glass_blur_level_mobile": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "_background_gradient_notice": "",
+              "_background_hover_gradient_notice": ""
+            },
+            "elements": [],
+            "widgetType": "heading"
+          },
+          {
+            "id": "6a215f0",
+            "elType": "widget",
+            "settings": {
+              "editor": "<p>Send us your resume and tell us how you'd like to contribute. We review applications on a rolling basis.</p>",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "20",
+                "left": "0",
+                "isLinked": false
+              },
+              "__globals__": {
+                "text_color": "globals/colors?id=146fe6d",
+                "typography_typography": ""
+              },
+              "_padding": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": ""
+              },
+              "_padding_mobile": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": ""
+              },
+              "_margin_tablet": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": ""
+              },
+              "_padding_tablet": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": ""
+              },
+              "_position_description": "",
+              "jkit_transform_rotate": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_transform_rotate_tablet": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_transform_rotate_mobile": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_glass_blur_level": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_glass_blur_level_tablet": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_glass_blur_level_mobile": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "_background_gradient_notice": "",
+              "_background_hover_gradient_notice": ""
+            },
+            "elements": [],
+            "widgetType": "text-editor"
+          },
+          {
+            "id": "55ec0eb",
+            "elType": "widget",
+            "settings": {
+              "icon_list": [
+                {
+                  "text": "careers@bmiil.com",
+                  "selected_icon": {
+                    "value": "far fa-envelope-open",
+                    "library": "fa-regular"
+                  },
+                  "_id": "722f307"
+                },
+                {
+                  "_id": "0af6cbc",
+                  "text": "Bareilly International University, Pilibhit Bypass road, Bareilly 243006",
+                  "selected_icon": {
+                    "value": "fas fa-map-pin",
+                    "library": "fa-solid"
+                  }
+                }
+              ],
+              "space_between": {
+                "unit": "px",
+                "size": 10,
+                "sizes": []
+              },
+              "icon_size": {
+                "unit": "px",
+                "size": 26,
+                "sizes": []
+              },
+              "text_indent": {
+                "unit": "px",
+                "size": 10,
+                "sizes": []
+              },
+              "icon_typography_typography": "custom",
+              "icon_typography_font_family": "Source Sans Pro",
+              "icon_typography_font_size": {
+                "unit": "px",
+                "size": "18",
+                "sizes": []
+              },
+              "icon_typography_font_size_tablet": {
+                "unit": "px",
+                "size": "17",
+                "sizes": []
+              },
+              "icon_typography_font_size_mobile": {
+                "unit": "px",
+                "size": "16",
+                "sizes": []
+              },
+              "icon_typography_font_weight": "400",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "20",
+                "left": "0",
+                "isLinked": false
+              },
+              "__globals__": {
+                "icon_typography_typography": "",
+                "icon_color": "globals/colors?id=accent",
+                "icon_color_hover": "globals/colors?id=accent",
+                "text_color_hover": "",
+                "text_color": "globals/colors?id=146fe6d"
+              },
+              "_position_description": "",
+              "jkit_transform_rotate": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_transform_rotate_tablet": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_transform_rotate_mobile": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_glass_blur_level": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_glass_blur_level_tablet": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_glass_blur_level_mobile": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "_background_gradient_notice": "",
+              "_background_hover_gradient_notice": ""
+            },
+            "elements": [],
+            "widgetType": "icon-list"
+          }
+        ],
+        "isInner": false
+      },
+      {
+        "id": "844f405",
+        "elType": "column",
+        "settings": {
+          "_column_size": 50,
+          "_inline_size": null,
+          "margin": {
+            "unit": "px",
+            "top": "20",
+            "right": "40",
+            "bottom": "20",
+            "left": "20",
+            "isLinked": false
+          },
+          "margin_mobile": {
+            "unit": "px",
+            "top": "30",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          },
+          "background_background": "classic",
+          "border_border": "solid",
+          "border_radius": {
+            "unit": "px",
+            "top": "10",
+            "right": "10",
+            "bottom": "10",
+            "left": "10",
+            "isLinked": true
+          },
+          "__globals__": {
+            "background_color": "",
+            "border_color": "globals/colors?id=text"
+          },
+          "border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": true
+          },
+          "margin_tablet": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": true
+          },
+          "padding_tablet": {
+            "unit": "px",
+            "top": "25",
+            "right": "25",
+            "bottom": "25",
+            "left": "25",
+            "isLinked": true
+          },
+          "background_gradient_notice": "",
+          "background_hover_gradient_notice": "",
+          "background_overlay_gradient_notice": "",
+          "background_overlay_hover_gradient_notice": "",
+          "jkit_glass_blur_level": {
+            "unit": "px",
+            "size": "",
+            "sizes": []
+          },
+          "jkit_glass_blur_level_tablet": {
+            "unit": "px",
+            "size": "",
+            "sizes": []
+          },
+          "jkit_glass_blur_level_mobile": {
+            "unit": "px",
+            "size": "",
+            "sizes": []
+          },
+          "jkit_sticky_section": "",
+          "jkit_sticky_device": [
+            "desktop",
+            "tablet",
+            "mobile"
+          ],
+          "jkit_sticky_trigger": "down",
+          "jkit_sticky_position": "sticky",
+          "jkit_sticky_top_position": {
+            "unit": "px",
+            "size": 0,
+            "sizes": []
+          },
+          "jkit_sticky_bottom_position": {
+            "unit": "px",
+            "size": 0,
+            "sizes": []
+          },
+          "jkit_sticky_background_color": "",
+          "jkit_sticky_hide_on_scroll": "",
+          "jkit_sticky_hide_threshold": "",
+          "jkit_sticky_x_axis_animation": {
+            "unit": "px",
+            "size": "",
+            "sizes": []
+          },
+          "jkit_sticky_y_axis_animation": {
+            "unit": "px",
+            "size": "",
+            "sizes": []
+          },
+          "jkit_sticky_transition": {
+            "unit": "px",
+            "size": 0.1,
+            "sizes": []
+          },
+          "jkit_sticky_zindex": 100,
+          "jkit_sticky_shadow_box_shadow_type": "",
+          "jkit_sticky_shadow_box_shadow": {
+            "horizontal": 0,
+            "vertical": 0,
+            "blur": 10,
+            "spread": 0,
+            "color": "rgba(0,0,0,0.5)"
+          },
+          "jkit_sticky_shadow_box_shadow_position": " "
+        },
+        "elements": [
+          {
+            "id": "8ca7697",
+            "elType": "widget",
+            "settings": {
+              "form_name": "New Form",
+              "form_fields": [
+                {
+                  "custom_id": "name",
+                  "placeholder": "First Name",
+                  "dynamic": {
+                    "active": true
+                  },
+                  "_id": "f81ae2d",
+                  "required": "true",
+                  "width": "50"
+                },
+                {
+                  "custom_id": "field_ea33468",
+                  "placeholder": "Last Name",
+                  "dynamic": {
+                    "active": true
+                  },
+                  "width": "50",
+                  "_id": "ea33468"
+                },
+                {
+                  "custom_id": "email",
+                  "field_type": "email",
+                  "required": "true",
+                  "placeholder": "Email Address",
+                  "_id": "59c192e"
+                },
+                {
+                  "custom_id": "field_e875709",
+                  "required": "true",
+                  "placeholder": "Mobile No.",
+                  "_id": "e875709"
+                },
+                {
+                  "custom_id": "message",
+                  "field_type": "textarea",
+                  "placeholder": "Tell us about yourself",
+                  "_id": "62dcaf8"
+                },
+                {
+                  "custom_id": "field_605fcc4",
+                  "field_type": "upload",
+                  "placeholder": "Tell us about yourself",
+                  "field_label": "Attach Resume (Only PDF file less than 1Mb)",
+                  "required": "true",
+                  "_id": "605fcc4"
+                }
+              ],
+              "step_next_label": "Next",
+              "step_previous_label": "Previous",
+              "button_text": "Send Message",
+              "email_to": "careers@bmiil.com",
+              "email_subject": "New message from \"Bareilly Medtech Incubation &amp; Innovation Labs\"",
+              "email_content": "[all-fields]",
+              "email_from": "email@bmiil.com",
+              "email_from_name": "Bareilly Medtech Incubation &amp; Innovation Labs",
+              "email_to_2": "biubareilly1000@gmail.com",
+              "email_subject_2": "New message from \"Bareilly Medtech Incubation &amp; Innovation Labs\"",
+              "email_content_2": "[all-fields]",
+              "email_from_2": "email@bmiil.com",
+              "email_from_name_2": "Bareilly Medtech Incubation &amp; Innovation Labs",
+              "email_reply_to_2": "biubareilly1000@gmail.com",
+              "activecampaign_fields_map": [],
+              "convertkit_fields_map": [],
+              "drip_fields_map": [],
+              "getresponse_fields_map": [],
+              "mailchimp_fields_map": [],
+              "mailerlite_fields_map": [],
+              "success_message": "Your submission was successful.",
+              "error_message": "Your submission failed because of an error.",
+              "server_message": "Your submission failed because of a server error.",
+              "invalid_message": "Your submission failed because the form is invalid.",
+              "required_field_message": "This field is required.",
+              "__globals__": {
+                "label_color": "globals/colors?id=146fe6d",
+                "previous_button_text_color": "globals/colors?id=cf4575c",
+                "button_background_color": "globals/colors?id=d10daa4",
+                "button_typography_typography": "globals/typography?id=primary",
+                "html_color": "",
+                "field_border_color": "globals/colors?id=text",
+                "field_background_color": "globals/colors?id=146fe6d",
+                "field_text_color": "globals/colors?id=primary"
+              },
+              "column_gap": {
+                "unit": "px",
+                "size": 12,
+                "sizes": []
+              },
+              "row_gap": {
+                "unit": "px",
+                "size": 21,
+                "sizes": []
+              },
+              "label_color": "#E2F6EA",
+              "html_color": "#F3FFFE",
+              "field_text_color": "#F3FFFE",
+              "button_typography_typography": "custom",
+              "button_typography_font_family": "Lato",
+              "button_typography_font_weight": "600",
+              "button_background_color": "#FB912B",
+              "previous_button_text_color": "#1C2A4D",
+              "button_text_padding": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": true
+              },
+              "submissions_action_message": "",
+              "activecampaign_api_key_msg": "",
+              "convertkit_api_key_msg": "",
+              "drip_api_key_msg": "",
+              "getresponse_api_key_msg": "",
+              "mailchimp_api_key_msg": "",
+              "mailerlite_api_key_msg": "",
+              "label_spacing": {
+                "unit": "px",
+                "size": 8,
+                "sizes": []
+              },
+              "_position_description": "",
+              "jkit_transform_rotate": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_transform_rotate_tablet": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_transform_rotate_mobile": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_glass_blur_level": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_glass_blur_level_tablet": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "jkit_glass_blur_level_mobile": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+              },
+              "_background_gradient_notice": "",
+              "_background_hover_gradient_notice": ""
+            },
+            "elements": [],
+            "widgetType": "form"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  }
+]
