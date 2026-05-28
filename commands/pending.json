@@ -1,11 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "update_page_elementor",
-      "id": "about-padding",
-      "page_id": 1008,
-      "payload_path": "staging/about-fixes.json"
-    }
-  ],
-  "last_updated": "2026-05-28T12:28:56.399685+00:00"
+  "commands": [],
+  "last_updated": "2026-05-28T12:29:08.349063"
 }
