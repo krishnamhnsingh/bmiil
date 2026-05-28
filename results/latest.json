@@ -2,21 +2,21 @@
   "results": [
     {
       "action": "update_page_elementor",
-      "id": "pad-1008",
-      "timestamp": "2026-05-28T12:44:24.451428",
+      "id": "pad-2004",
+      "timestamp": "2026-05-28T12:44:50.891915",
       "result": {
         "success": true,
         "data": {
-          "id": 1008,
+          "id": 2004,
           "updated": [
             "elementor_data"
           ],
-          "url": "https://test.bmiil.com/about/"
+          "url": "https://test.bmiil.com/careers/"
         }
       }
     }
   ],
-  "last_run": "2026-05-28T12:44:26.533057",
+  "last_run": "2026-05-28T12:44:52.408013",
   "status": "completed",
   "commands_run": 1
 }
