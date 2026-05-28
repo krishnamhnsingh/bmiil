@@ -1,21 +1,22 @@
 {
   "results": [
     {
-      "action": "ping",
-      "id": "ping",
-      "timestamp": "2026-05-28T13:23:41.703122",
+      "action": "update_page_elementor",
+      "id": "inv-q3",
+      "timestamp": "2026-05-28T13:24:32.569475",
       "result": {
         "success": true,
         "data": {
-          "message": "BMIIL Connector v1.4 active",
-          "site": "https://test.bmiil.com",
-          "wp_version": "7.0",
-          "time": "2026-05-28 13:23:42"
+          "id": 1100,
+          "updated": [
+            "elementor_data"
+          ],
+          "url": "https://test.bmiil.com/investor-deck/"
         }
       }
     }
   ],
-  "last_run": "2026-05-28T13:23:42.889253",
+  "last_run": "2026-05-28T13:24:34.138972",
   "status": "completed",
   "commands_run": 1
 }
