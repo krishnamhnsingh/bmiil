@@ -1,26 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "search_replace",
-      "id": "sr-quote",
-      "search": "[Add a genuine quote here from your Vice Chancellor",
-      "replace": "\u201cIf it takes more than a sentence to explain what you are doing, it\u2019s almost always a sign that what you are doing is too complicated.\u201d",
-      "dry_run": false
-    },
-    {
-      "action": "search_replace",
-      "id": "sr-attr",
-      "search": "[Name], [Title]",
-      "replace": "Sam Altman",
-      "dry_run": false
-    },
-    {
-      "action": "search_replace",
-      "id": "sr-org",
-      "search": "Bareilly International University / [Organisation]",
-      "replace": "CEO, OpenAI",
-      "dry_run": false
-    }
-  ],
-  "last_updated": "2026-05-28T13:22:29.147663+00:00"
+  "commands": [],
+  "last_updated": "2026-05-28T13:22:40.530751"
 }
