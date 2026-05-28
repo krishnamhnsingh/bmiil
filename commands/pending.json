@@ -1,20 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "get_page",
-      "id": "apply",
-      "page_id": 2018
-    },
-    {
-      "action": "get_page",
-      "id": "events",
-      "page_id": 1919
-    },
-    {
-      "action": "get_page",
-      "id": "sfunds",
-      "page_id": 2052
-    }
-  ],
-  "last_updated": "2026-05-28T12:56:26.674509+00:00"
+  "commands": [],
+  "last_updated": "2026-05-28T12:56:44.590306"
 }
