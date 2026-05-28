@@ -1,16 +1,21 @@
 {
   "results": [
     {
-      "action": "get_template",
-      "id": "footer",
-      "timestamp": "2026-05-28T13:27:12.883973",
+      "action": "update_template",
+      "id": "footer-name",
+      "timestamp": "2026-05-28T13:28:09.463814",
       "result": {
-        "success": false,
-        "error": "HTTP Error 403: Forbidden"
+        "success": true,
+        "data": {
+          "id": 1229,
+          "updated": [
+            "elementor_data"
+          ]
+        }
       }
     }
   ],
-  "last_run": "2026-05-28T13:27:12.983163",
+  "last_run": "2026-05-28T13:28:10.824881",
   "status": "completed",
   "commands_run": 1
 }
