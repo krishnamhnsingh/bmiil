@@ -1,22 +1,99 @@
 {
   "results": [
     {
-      "action": "update_page_elementor",
-      "id": "team-hover-scale",
-      "timestamp": "2026-05-27T13:31:46.831684",
+      "action": "search_replace",
+      "id": "fix-faculty",
+      "timestamp": "2026-05-28T12:07:16.198149",
       "result": {
         "success": true,
         "data": {
-          "id": 1117,
-          "updated": [
-            "elementor_data"
+          "search": "200+ Research Faculty",
+          "replace": "600+ Research Faculty",
+          "dry_run": false,
+          "affected": [
+            {
+              "post_id": "1031",
+              "title": "About",
+              "count": 1
+            },
+            {
+              "post_id": "1063",
+              "title": "About",
+              "count": 1
+            },
+            {
+              "post_id": "1064",
+              "title": "About",
+              "count": 1
+            },
+            {
+              "post_id": "1065",
+              "title": "About",
+              "count": 1
+            },
+            {
+              "post_id": "1066",
+              "title": "About",
+              "count": 1
+            },
+            {
+              "post_id": "1067",
+              "title": "About",
+              "count": 1
+            },
+            {
+              "post_id": "1068",
+              "title": "About",
+              "count": 1
+            },
+            {
+              "post_id": "1253",
+              "title": "About \u2014 BMIIL",
+              "count": 1
+            },
+            {
+              "post_id": "1254",
+              "title": "About \u2014 BMIIL",
+              "count": 1
+            },
+            {
+              "post_id": "1255",
+              "title": "About",
+              "count": 1
+            },
+            {
+              "post_id": "1256",
+              "title": "About",
+              "count": 1
+            },
+            {
+              "post_id": "1257",
+              "title": "About",
+              "count": 1
+            },
+            {
+              "post_id": "1258",
+              "title": "About",
+              "count": 1
+            },
+            {
+              "post_id": "1259",
+              "title": "About",
+              "count": 1
+            },
+            {
+              "post_id": "1260",
+              "title": "About",
+              "count": 1
+            }
           ],
-          "url": "https://test.bmiil.com/team/"
+          "count": 15,
+          "message": "15 updated."
         }
       }
     }
   ],
-  "last_run": "2026-05-27T13:31:49.206904",
+  "last_run": "2026-05-28T12:07:17.605984",
   "status": "completed",
   "commands_run": 1
 }
