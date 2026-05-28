@@ -1,0 +1,167 @@
+[
+  {
+    "id": "6f51d0bf",
+    "elType": "section",
+    "settings": {
+      "stretch_section": "section-stretched",
+      "content_width": {
+        "unit": "px",
+        "size": 1220
+      },
+      "padding": {
+        "unit": "px",
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0,
+        "isLinked": false
+      },
+      "gap": "no",
+      "layout": "full_width"
+    },
+    "elements": [
+      {
+        "id": "60109a65",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "content_width": {
+            "unit": "%",
+            "size": 100
+          },
+          "padding": {
+            "unit": "px",
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0,
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "55360d78",
+            "elType": "widget",
+            "settings": {
+              "html": "<div style=\"background:#08122A;padding:0 0 64px;border-bottom:1px solid rgba(196,154,42,0.15);position:relative;overflow:hidden;\">\n  <div style=\"position:absolute;inset:0;background-image:linear-gradient(rgba(196,154,42,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(196,154,42,0.03) 1px,transparent 1px);background-size:60px 60px;pointer-events:none;\"></div>\n  <div style=\"max-width:1220px;margin:0 auto;padding:0 2.5rem;position:relative;z-index:1;\">\n    \n    <div style=\"display:flex;align-items:center;gap:12px;margin-bottom:1.8rem;\"><div style=\"width:40px;height:1px;background:#C49A2A;flex-shrink:0;\"></div><span style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#C49A2A;\">Our Programs</span></div>\n    <h1 style=\"font-family:Cormorant Garamond;font-size:clamp(2.8rem,5vw,5rem);font-weight:300;line-height:1.04;color:#FFFFFF;margin:0 0 1.8rem;\">Three Programs.<br>One Mission.</h1>\n    <p style=\"font-size:1rem;line-height:1.7;color:rgba(255,255,255,0.5);max-width:600px;margin:1.5rem 0 0;\">Whether you're a clinician with an idea, an engineer solving a real problem, or a startup ready to scale \u2014 BMIIL has a structured program built for exactly where you are right now.</p>\n  </div>\n</div>"
+            },
+            "elements": [],
+            "widgetType": "html"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  },
+  {
+    "id": "70e34aa1",
+    "elType": "section",
+    "settings": {
+      "stretch_section": "section-stretched",
+      "content_width": {
+        "unit": "px",
+        "size": 1220
+      },
+      "padding": {
+        "unit": "px",
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0,
+        "isLinked": false
+      },
+      "gap": "no",
+      "layout": "full_width"
+    },
+    "elements": [
+      {
+        "id": "70819309",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "content_width": {
+            "unit": "%",
+            "size": 100
+          },
+          "padding": {
+            "unit": "px",
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0,
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "5a822e7c",
+            "elType": "widget",
+            "settings": {
+              "html": "<div style=\"background:#F7F3EC;padding:7rem 0;\">\n  <div style=\"max-width:1220px;margin:0 auto;padding:0 2.5rem;\">\n    <p style=\"display:inline-block;font-family:DM Mono;font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.08);margin:0 0 20px 0;\">Programs</p>\n    <h2 style=\"font-family:Cormorant Garamond;font-size:clamp(2.2rem,4vw,3.4rem);font-weight:300;color:#08122A;line-height:1.12;margin:0 0 3.5rem;\">Three tracks.<br><em style=\"font-style:italic;color:#C49A2A;\">All roads lead to impact.</em></h2>\n\n    <!-- Medtech -->\n    <div style=\"display:grid;grid-template-columns:1fr 1fr;margin-bottom:2rem;border:1px solid rgba(196,154,42,0.2);border-radius:4px;overflow:hidden;\">\n      <div style=\"background:#08122A;padding:3.5rem 3rem;\">\n        <p style=\"display:inline-block;font-family:DM Mono;font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.1);margin:0 0 20px 0;\">Core Track \u00b7 12 Months</p>\n        <h3 style=\"font-family:Cormorant Garamond;font-size:2rem;font-weight:700;color:#FFFFFF;margin:0 0 0.5rem;\">Medtech Incubation</h3>\n        <p style=\"font-size:14px;font-style:italic;color:rgba(255,255,255,0.5);margin:0 0 1.2rem;\">\"From clinical insight to validated product.\"</p>\n        <p style=\"font-size:14px;line-height:1.75;color:rgba(255,255,255,0.6);margin:0 0 2rem;\">Our flagship program. Built for healthcare, biotech, and medical device innovators who have identified a real clinical problem and are ready to build a solution with rigor \u2014 from prototyping through regulatory compliance to investor readiness.</p>\n        <a href=\"/programs/medtech-incubation/\" style=\"background:#C49A2A;color:#08122A;font-weight:600;font-size:13px;padding:12px 24px;border-radius:2px;text-decoration:none;display:inline-block;\">Full Program Details \u2192</a>\n      </div>\n      <div style=\"background:#0F1F45;padding:3.5rem 3rem;display:flex;flex-direction:column;justify-content:center;\">\n        <div style=\"display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:2rem;\">\n          <div style=\"text-align:center;padding:1.5rem;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.2);border-radius:4px;\"><div style=\"font-family:Cormorant Garamond;font-size:2rem;font-weight:700;color:#C49A2A;\">12</div><div style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;\">Months</div></div><div style=\"text-align:center;padding:1.5rem;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.2);border-radius:4px;\"><div style=\"font-family:Cormorant Garamond;font-size:2rem;font-weight:700;color:#C49A2A;\">10</div><div style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;\">Seats</div></div><div style=\"text-align:center;padding:1.5rem;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.2);border-radius:4px;\"><div style=\"font-family:Cormorant Garamond;font-size:2rem;font-weight:700;color:#C49A2A;\">4</div><div style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;\">Phases</div></div><div style=\"text-align:center;padding:1.5rem;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.2);border-radius:4px;\"><div style=\"font-family:Cormorant Garamond;font-size:2rem;font-weight:700;color:#C49A2A;\">500+</div><div style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;\">Bed Hospital</div></div>\n        </div>\n        <div><div style=\"display:flex;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.06);align-items:flex-start;\"><span style=\"color:#C49A2A;font-size:12px;flex-shrink:0;margin-top:1px;\">\u2713</span><span style=\"font-size:13px;color:rgba(255,255,255,0.65);\">Medical devices & diagnostics</span></div><div style=\"display:flex;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.06);align-items:flex-start;\"><span style=\"color:#C49A2A;font-size:12px;flex-shrink:0;margin-top:1px;\">\u2713</span><span style=\"font-size:13px;color:rgba(255,255,255,0.65);\">Digital health & HealthTech</span></div><div style=\"display:flex;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.06);align-items:flex-start;\"><span style=\"color:#C49A2A;font-size:12px;flex-shrink:0;margin-top:1px;\">\u2713</span><span style=\"font-size:13px;color:rgba(255,255,255,0.65);\">Biotech & life sciences</span></div><div style=\"display:flex;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.06);align-items:flex-start;\"><span style=\"color:#C49A2A;font-size:12px;flex-shrink:0;margin-top:1px;\">\u2713</span><span style=\"font-size:13px;color:rgba(255,255,255,0.65);\">Lab access & prototyping</span></div><div style=\"display:flex;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.06);align-items:flex-start;\"><span style=\"color:#C49A2A;font-size:12px;flex-shrink:0;margin-top:1px;\">\u2713</span><span style=\"font-size:13px;color:rgba(255,255,255,0.65);\">CDSCO & FDA pathway guidance</span></div><div style=\"display:flex;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.06);align-items:flex-start;\"><span style=\"color:#C49A2A;font-size:12px;flex-shrink:0;margin-top:1px;\">\u2713</span><span style=\"font-size:13px;color:rgba(255,255,255,0.65);\">Investor & hospital network</span></div></div>\n      </div>\n    </div>\n\n    <!-- Accelerator -->\n    <div style=\"display:grid;grid-template-columns:1fr 1fr;margin-bottom:2rem;border:1px solid rgba(196,154,42,0.2);border-radius:4px;overflow:hidden;\">\n      <div style=\"background:#08122A;padding:3.5rem 3rem;\">\n        <p style=\"display:inline-block;font-family:DM Mono;font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.1);margin:0 0 20px 0;\">Growth Stage \u00b7 6 Months</p>\n        <h3 style=\"font-family:Cormorant Garamond;font-size:2rem;font-weight:700;color:#FFFFFF;margin:0 0 0.5rem;\">Accelerator</h3>\n        <p style=\"font-size:14px;font-style:italic;color:rgba(255,255,255,0.5);margin:0 0 1.2rem;\">\"Built to scale. Built to close.\"</p>\n        <p style=\"font-size:14px;line-height:1.75;color:rgba(255,255,255,0.6);margin:0 0 2rem;\">For health and wellness startups that already have a product and early traction \u2014 and need structured support to reach the next order of magnitude. No theory, no generic workshops \u2014 focused execution across GTM, partnerships, and fundraising.</p>\n        <a href=\"/programs/accelerator/\" style=\"background:#C49A2A;color:#08122A;font-weight:600;font-size:13px;padding:12px 24px;border-radius:2px;text-decoration:none;display:inline-block;\">Full Program Details \u2192</a>\n      </div>\n      <div style=\"background:#0F1F45;padding:3.5rem 3rem;display:flex;flex-direction:column;justify-content:center;\">\n        <div style=\"display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:2rem;\">\n          <div style=\"text-align:center;padding:1.5rem;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.2);border-radius:4px;\"><div style=\"font-family:Cormorant Garamond;font-size:2rem;font-weight:700;color:#C49A2A;\">6</div><div style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;\">Months</div></div><div style=\"text-align:center;padding:1.5rem;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.2);border-radius:4px;\"><div style=\"font-family:Cormorant Garamond;font-size:2rem;font-weight:700;color:#C49A2A;\">8</div><div style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;\">Seats</div></div><div style=\"text-align:center;padding:1.5rem;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.2);border-radius:4px;\"><div style=\"font-family:Cormorant Garamond;font-size:2rem;font-weight:700;color:#C49A2A;\">2\u00d7</div><div style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;\">Demo Days</div></div><div style=\"text-align:center;padding:1.5rem;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.2);border-radius:4px;\"><div style=\"font-family:Cormorant Garamond;font-size:2rem;font-weight:700;color:#C49A2A;\">3</div><div style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;\">Sprints</div></div>\n        </div>\n        <div><div style=\"display:flex;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.06);align-items:flex-start;\"><span style=\"color:#C49A2A;font-size:12px;flex-shrink:0;margin-top:1px;\">\u2713</span><span style=\"font-size:13px;color:rgba(255,255,255,0.65);\">Early traction / paying customers</span></div><div style=\"display:flex;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.06);align-items:flex-start;\"><span style=\"color:#C49A2A;font-size:12px;flex-shrink:0;margin-top:1px;\">\u2713</span><span style=\"font-size:13px;color:rgba(255,255,255,0.65);\">Go-to-market strategy</span></div><div style=\"display:flex;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.06);align-items:flex-start;\"><span style=\"color:#C49A2A;font-size:12px;flex-shrink:0;margin-top:1px;\">\u2713</span><span style=\"font-size:13px;color:rgba(255,255,255,0.65);\">Investor pitch preparation</span></div><div style=\"display:flex;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.06);align-items:flex-start;\"><span style=\"color:#C49A2A;font-size:12px;flex-shrink:0;margin-top:1px;\">\u2713</span><span style=\"font-size:13px;color:rgba(255,255,255,0.65);\">Hospital B2B pilot access</span></div><div style=\"display:flex;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.06);align-items:flex-start;\"><span style=\"color:#C49A2A;font-size:12px;flex-shrink:0;margin-top:1px;\">\u2713</span><span style=\"font-size:13px;color:rgba(255,255,255,0.65);\">Demo days & investor introductions</span></div><div style=\"display:flex;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.06);align-items:flex-start;\"><span style=\"color:#C49A2A;font-size:12px;flex-shrink:0;margin-top:1px;\">\u2713</span><span style=\"font-size:13px;color:rgba(255,255,255,0.65);\">Post-cohort investor introductions</span></div></div>\n      </div>\n    </div>\n\n    <!-- Ayush -->\n    <div style=\"display:grid;grid-template-columns:1fr 1fr;border:1px solid rgba(196,154,42,0.2);border-radius:4px;overflow:hidden;\">\n      <div style=\"background:#08122A;padding:3.5rem 3rem;\">\n        <p style=\"display:inline-block;font-family:DM Mono;font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#C49A2A;border:1px solid rgba(196,154,42,0.25);padding:4px 12px;border-radius:2px;background:rgba(196,154,42,0.1);margin:0 0 20px 0;\">Unique Differentiator \u00b7 12 Months</p>\n        <h3 style=\"font-family:Cormorant Garamond;font-size:2rem;font-weight:700;color:#FFFFFF;margin:0 0 0.5rem;\">Ayush Incubation</h3>\n        <p style=\"font-size:14px;font-style:italic;color:rgba(255,255,255,0.5);margin:0 0 1.2rem;\">\"Ancient intelligence. Modern evidence.\"</p>\n        <p style=\"font-size:14px;line-height:1.75;color:rgba(255,255,255,0.6);margin:0 0 2rem;\">The only incubation track in North India dedicated to turning Ayurveda, herbal medicine, and traditional wellness knowledge into scientifically validated, commercially viable, globally competitive products.</p>\n        <a href=\"/programs/ayush/\" style=\"background:#C49A2A;color:#08122A;font-weight:600;font-size:13px;padding:12px 24px;border-radius:2px;text-decoration:none;display:inline-block;\">Full Program Details \u2192</a>\n      </div>\n      <div style=\"background:#0F1F45;padding:3.5rem 3rem;display:flex;flex-direction:column;justify-content:center;\">\n        <div style=\"display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:2rem;\">\n          <div style=\"text-align:center;padding:1.5rem;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.2);border-radius:4px;\"><div style=\"font-family:Cormorant Garamond;font-size:2rem;font-weight:700;color:#C49A2A;line-height:1.1;\">12</div><div style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;\">Months</div></div><div style=\"text-align:center;padding:1.5rem;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.2);border-radius:4px;\"><div style=\"font-family:Cormorant Garamond;font-size:2rem;font-weight:700;color:#C49A2A;line-height:1.1;\">8</div><div style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;\">Seats</div></div><div style=\"text-align:center;padding:1.5rem;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.2);border-radius:4px;\"><div style=\"font-family:Cormorant Garamond;font-size:1.3rem;font-weight:700;color:#C49A2A;line-height:1.1;\">$200B+</div><div style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;\">Global Market</div></div><div style=\"text-align:center;padding:1.5rem;background:rgba(196,154,42,0.08);border:1px solid rgba(196,154,42,0.2);border-radius:4px;\"><div style=\"font-family:Cormorant Garamond;font-size:1.3rem;font-weight:700;color:#C49A2A;line-height:1.1;\">9,000+</div><div style=\"font-family:DM Mono;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:4px;\">Medicinal Plants</div></div>\n        </div>\n        <div><div style=\"display:flex;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.06);align-items:flex-start;\"><span style=\"color:#C49A2A;font-size:12px;flex-shrink:0;margin-top:1px;\">\u2713</span><span style=\"font-size:13px;color:rgba(255,255,255,0.65);\">Herbal products & formulations</span></div><div style=\"display:flex;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.06);align-items:flex-start;\"><span style=\"color:#C49A2A;font-size:12px;flex-shrink:0;margin-top:1px;\">\u2713</span><span style=\"font-size:13px;color:rgba(255,255,255,0.65);\">AYUSH & WHO compliance pathways</span></div><div style=\"display:flex;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.06);align-items:flex-start;\"><span style=\"color:#C49A2A;font-size:12px;flex-shrink:0;margin-top:1px;\">\u2713</span><span style=\"font-size:13px;color:rgba(255,255,255,0.65);\">IP protection & patents</span></div><div style=\"display:flex;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.06);align-items:flex-start;\"><span style=\"color:#C49A2A;font-size:12px;flex-shrink:0;margin-top:1px;\">\u2713</span><span style=\"font-size:13px;color:rgba(255,255,255,0.65);\">Clinical validation standards</span></div><div style=\"display:flex;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.06);align-items:flex-start;\"><span style=\"color:#C49A2A;font-size:12px;flex-shrink:0;margin-top:1px;\">\u2713</span><span style=\"font-size:13px;color:rgba(255,255,255,0.65);\">Global nutraceutical market access</span></div><div style=\"display:flex;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.06);align-items:flex-start;\"><span style=\"color:#C49A2A;font-size:12px;flex-shrink:0;margin-top:1px;\">\u2713</span><span style=\"font-size:13px;color:rgba(255,255,255,0.65);\">Ayurveda + technology fusion</span></div></div>\n      </div>\n    </div>\n  </div>\n</div>"
+            },
+            "elements": [],
+            "widgetType": "html"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  },
+  {
+    "id": "1c878da5",
+    "elType": "section",
+    "settings": {
+      "stretch_section": "section-stretched",
+      "content_width": {
+        "unit": "px",
+        "size": 1220
+      },
+      "padding": {
+        "unit": "px",
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0,
+        "isLinked": false
+      },
+      "gap": "no",
+      "layout": "full_width"
+    },
+    "elements": [
+      {
+        "id": "5c8dadbe",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "content_width": {
+            "unit": "%",
+            "size": 100
+          },
+          "padding": {
+            "unit": "px",
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0,
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "2904ceed",
+            "elType": "widget",
+            "settings": {
+              "html": "<div style=\"background:#C49A2A;padding:5rem 0;\">\n  <div style=\"max-width:1220px;margin:0 auto;padding:0 2.5rem;text-align:center;\">\n    <h2 style=\"font-family:Cormorant Garamond;font-size:clamp(2rem,4vw,3rem);font-weight:300;color:#08122A;margin:0 0 1rem;\">Not sure which track is right for you?</h2>\n    <p style=\"font-size:15px;color:rgba(8,18,42,0.65);margin:0 0 2.5rem;max-width:500px;margin-left:auto;margin-right:auto;\">Answer a few quick questions and we'll point you to your best fit \u2014 or just reach out directly.</p>\n    <div style=\"display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;\">\n      <a href=\"/apply/\" style=\"background:#08122A;color:#FFFFFF;font-weight:600;font-size:13px;padding:13px 28px;border-radius:2px;text-decoration:none;\">Apply Now \u2192</a>\n      <a href=\"/contact/\" style=\"background:transparent;color:#08122A;font-weight:500;font-size:13px;padding:12px 24px;border:1px solid rgba(8,18,42,0.25);border-radius:2px;text-decoration:none;\">Talk to the Team</a>\n    </div>\n  </div>\n</div>"
+            },
+            "elements": [],
+            "widgetType": "html"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  }
+]
