@@ -83,7 +83,15 @@
           "color": "rgba(0,0,0,0.5)"
         },
         "jkit_sticky_shadow_box_shadow_position": " ",
-        "transform_sticky_notice": ""
+        "transform_sticky_notice": "",
+        "padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "0",
+          "bottom": "50",
+          "left": "0",
+          "isLinked": false
+        }
       },
       "elements": [
         {
