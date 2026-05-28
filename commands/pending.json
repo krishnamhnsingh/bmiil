@@ -1,11 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "update_page_elementor",
-      "id": "clean-1008",
-      "page_id": 1008,
-      "payload_path": "staging/page-1008-clean.json"
-    }
-  ],
-  "last_updated": "2026-05-28T12:37:46.385459+00:00"
+  "commands": [],
+  "last_updated": "2026-05-28T12:37:59.687581"
 }
