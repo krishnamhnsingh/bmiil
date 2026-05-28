@@ -1,12 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "search_replace",
-      "id": "fix-faculty",
-      "search": "200+ Research Faculty",
-      "replace": "600+ Research Faculty",
-      "dry_run": false
-    }
-  ],
-  "last_updated": "2026-05-28T12:07:06.917506+00:00"
+  "commands": [],
+  "last_updated": "2026-05-28T12:07:18.590321"
 }
