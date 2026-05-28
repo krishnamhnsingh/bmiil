@@ -1,4 +1,12 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-28T12:13:55.855902"
+  "commands": [
+    {
+      "action": "search_replace",
+      "id": "check-200",
+      "search": ">200+<",
+      "replace": ">200+<",
+      "dry_run": true
+    }
+  ],
+  "last_updated": "2026-05-28T12:14:22.822535+00:00"
 }
