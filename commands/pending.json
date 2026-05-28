@@ -1,11 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "update_page_elementor",
-      "id": "home-600",
-      "page_id": 1074,
-      "payload_path": "staging/home-fixes.json"
-    }
-  ],
-  "last_updated": "2026-05-28T12:13:43.325426+00:00"
+  "commands": [],
+  "last_updated": "2026-05-28T12:13:55.855902"
 }
