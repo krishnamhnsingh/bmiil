@@ -1,19 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "search_replace",
-      "id": "bc-3rem-dry",
-      "search": "font-family:DM Mono;font-size:10px;color:rgba(255,255,255,0.3);letter-spacing:0.12em;text-transform:uppercase;display:flex;align-items:center;gap:8px;margin-bottom:3rem;",
-      "replace": "font-family:DM Mono;font-size:10px;color:rgba(255,255,255,0.3);letter-spacing:0.12em;text-transform:uppercase;display:flex;align-items:center;gap:8px;margin-bottom:3rem;",
-      "dry_run": true
-    },
-    {
-      "action": "search_replace",
-      "id": "bc-2rem-dry",
-      "search": "font-family:DM Mono;font-size:10px;color:rgba(255,255,255,0.3);letter-spacing:0.12em;text-transform:uppercase;display:flex;align-items:center;gap:8px;margin-bottom:2rem;",
-      "replace": "font-family:DM Mono;font-size:10px;color:rgba(255,255,255,0.3);letter-spacing:0.12em;text-transform:uppercase;display:flex;align-items:center;gap:8px;margin-bottom:2rem;",
-      "dry_run": true
-    }
-  ],
-  "last_updated": "2026-05-28T12:35:17.755703+00:00"
+  "commands": [],
+  "last_updated": "2026-05-28T12:35:32.348190"
 }
