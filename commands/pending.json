@@ -1,4 +1,25 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-28T12:22:10.974462"
+  "commands": [
+    {
+      "action": "update_page_elementor",
+      "id": "fix-about",
+      "page_id": 1008,
+      "payload_path": "staging/about-fixes.json"
+    },
+    {
+      "action": "search_replace",
+      "id": "fix-padding-160",
+      "search": "padding:160px 0 80px",
+      "replace": "padding:140px 0 80px",
+      "dry_run": false
+    },
+    {
+      "action": "search_replace",
+      "id": "fix-padding-160b",
+      "search": "padding:160px 0 64px",
+      "replace": "padding:140px 0 64px",
+      "dry_run": false
+    }
+  ],
+  "last_updated": "2026-05-28T12:23:12.320754+00:00"
 }
