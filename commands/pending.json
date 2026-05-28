@@ -1,4 +1,11 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-28T12:56:44.590306"
+  "commands": [
+    {
+      "action": "update_page_elementor",
+      "id": "cp-2018",
+      "page_id": 2018,
+      "payload_path": "staging/page-2018-cpad.json"
+    }
+  ],
+  "last_updated": "2026-05-28T12:58:02.438799+00:00"
 }
