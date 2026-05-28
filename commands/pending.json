@@ -1,4 +1,11 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-28T13:19:11.796750"
+  "commands": [
+    {
+      "action": "update_page_elementor",
+      "id": "inv-quote",
+      "page_id": 1100,
+      "payload_path": "staging/investor-deck-v4.json"
+    }
+  ],
+  "last_updated": "2026-05-28T13:20:11.240671+00:00"
 }
