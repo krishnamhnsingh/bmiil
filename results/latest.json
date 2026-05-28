@@ -1,34 +1,21 @@
 {
   "results": [
     {
-      "action": "search_replace",
-      "id": "sr-quote",
-      "timestamp": "2026-05-28T13:22:38.889332",
+      "action": "ping",
+      "id": "ping",
+      "timestamp": "2026-05-28T13:23:41.703122",
       "result": {
-        "success": false,
-        "error": "HTTP Error 403: Forbidden"
-      }
-    },
-    {
-      "action": "search_replace",
-      "id": "sr-attr",
-      "timestamp": "2026-05-28T13:22:39.231588",
-      "result": {
-        "success": false,
-        "error": "HTTP Error 403: Forbidden"
-      }
-    },
-    {
-      "action": "search_replace",
-      "id": "sr-org",
-      "timestamp": "2026-05-28T13:22:39.391856",
-      "result": {
-        "success": false,
-        "error": "HTTP Error 403: Forbidden"
+        "success": true,
+        "data": {
+          "message": "BMIIL Connector v1.4 active",
+          "site": "https://test.bmiil.com",
+          "wp_version": "7.0",
+          "time": "2026-05-28 13:23:42"
+        }
       }
     }
   ],
-  "last_run": "2026-05-28T13:22:39.550807",
+  "last_run": "2026-05-28T13:23:42.889253",
   "status": "completed",
-  "commands_run": 3
+  "commands_run": 1
 }
