@@ -1,11 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "update_template",
-      "id": "fix-name",
-      "template_id": 1060,
-      "payload_path": "staging/footer-name-gdju.json"
-    }
-  ],
-  "last_updated": "2026-05-29T17:54:53.632429+00:00"
+  "commands": [],
+  "last_updated": "2026-05-29T17:55:05.260994"
 }
