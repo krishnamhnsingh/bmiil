@@ -1,11 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "update_template",
-      "id": "footer-ls",
-      "template_id": 1060,
-      "payload_path": "staging/footer-name-vidm.json"
-    }
-  ],
-  "last_updated": "2026-05-29T18:09:32.580999+00:00"
+  "commands": [],
+  "last_updated": "2026-05-29T18:09:44.670329"
 }
