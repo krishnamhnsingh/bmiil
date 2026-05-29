@@ -1,76 +1,217 @@
 {
   "results": [
     {
-      "action": "get_template",
-      "id": "footer",
-      "timestamp": "2026-05-29T17:44:06.879922",
+      "action": "get_templates",
+      "id": "templates",
+      "timestamp": "2026-05-29T17:44:46.131261",
       "result": {
         "success": true,
-        "data": {
-          "id": 1229,
-          "title": "BMIIL \u2014 Footer",
-          "slug": "bmiil-footer",
-          "status": "publish",
-          "template_type": "page",
-          "elementor_data": [
-            {
-              "id": "lygdppf",
-              "elType": "section",
-              "settings": {
-                "stretch_section": "section-stretched",
-                "content_width": {
-                  "unit": "px",
-                  "size": 1220
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": 0,
-                  "right": 0,
-                  "bottom": 0,
-                  "left": 0,
-                  "isLinked": false
-                },
-                "gap": "no"
-              },
-              "elements": [
-                {
-                  "id": "jumvkl5",
-                  "elType": "column",
-                  "settings": {
-                    "_column_size": 100,
-                    "content_width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "padding": {
-                      "unit": "px",
-                      "top": 0,
-                      "right": 0,
-                      "bottom": 0,
-                      "left": 0,
-                      "isLinked": false
-                    }
-                  },
-                  "elements": [
-                    {
-                      "id": "r219o0p",
-                      "elType": "widget",
-                      "widgetType": "html",
-                      "settings": {
-                        "html": "<footer style=\"background:#050D1C;padding:4rem 0 2.5rem;border-top:1px solid rgba(196,154,42,0.15);font-family:DM Sans,sans-serif;\">\n  <div style=\"max-width:1220px;margin:0 auto;padding:0 2.5rem;\">\n    <div style=\"display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:3rem;margin-bottom:3rem;padding-bottom:3rem;border-bottom:1px solid rgba(255,255,255,0.06);\">\n\n      <div>\n        <div style=\"display:flex;align-items:center;gap:14px;margin-bottom:1.2rem;\">\n          <img src=\"https://test.bmiil.com/wp-content/uploads/2026/05/BMIIL-LOGO.png\" alt=\"BMIIL Logo\" style=\"width:52px;height:52px;object-fit:contain;flex-shrink:0;display:block;\">\n          <div style=\"display:flex;flex-direction:column;line-height:1;gap:3px;\"><span style=\"font-family:'DM Sans',sans-serif;font-size:1.0rem;font-weight:700;color:#FFFFFF;letter-spacing:0.06em;text-transform:uppercase;\">Bareilly Medtech</span><span style=\"font-family:'DM Mono',monospace;font-size:0.55rem;font-weight:700;color:#FFFFFF;letter-spacing:0.06em;text-transform:uppercase;\">Incubation &amp; Innovation Labs</span></div>\n        </div>\n        <p style=\"font-size:13px;line-height:1.7;color:rgba(255,255,255,0.35);margin:0 0 1.2rem;\">Building the next generation of healthcare innovators from the heart of North India.</p>\n        <address style=\"font-size:12px;line-height:1.7;color:rgba(255,255,255,0.3);font-style:normal;\">\n          Bareilly International University<br>\n          Pilibhit Bypass Road, Bareilly \u2014 243006<br>\n          Uttar Pradesh, India<br><br>\n          <a href=\"mailto:info@bmiil.com\" style=\"color:#C49A2A;text-decoration:none;\">info@bmiil.com</a>\n        </address>\n      </div>\n\n      <div>\n        <h4 style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#C49A2A;margin:0 0 1.2rem;\">Programs</h4>\n        <ul style=\"list-style:none;padding:0;margin:0;\">\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/medtech-incubation/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Medtech Incubation</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/accelerator-program/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Accelerator Program</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/ayush-program/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Ayush Incubation</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/apply/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Apply Now</a></li>\n        </ul>\n      </div>\n\n      <div>\n        <h4 style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#C49A2A;margin:0 0 1.2rem;\">Resources</h4>\n        <ul style=\"list-style:none;padding:0;margin:0;\">\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/investor-deck/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Partners &amp; Investors</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/latest-events/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">News &amp; Events</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/programs/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Lab Facilities</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/medtech-incubation/#regulatory\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Regulatory Guidance</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/startup-funds/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Grants &amp; Funding</a></li>\n        </ul>\n      </div>\n\n      <div>\n        <h4 style=\"font-family:DM Mono;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#C49A2A;margin:0 0 1.2rem;\">Company</h4>\n        <ul style=\"list-style:none;padding:0;margin:0;\">\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/about/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">About Us</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/investor-deck/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Investor Deck</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/latest-events/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">News &amp; Events</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/careers/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Careers</a></li>\n          <li style=\"margin-bottom:0.7rem;\"><a href=\"https://test.bmiil.com/contact/\" style=\"font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;\">Contact</a></li>\n        </ul>\n      </div>\n    </div>\n\n    <div style=\"display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;\">\n      <p style=\"font-size:11px;color:rgba(255,255,255,0.2);margin:0;\">\u00a9 2026 BMIIL. Hosted by <a href=\"https://biu.edu.in\" target=\"_blank\" style=\"color:#C49A2A;text-decoration:none;\">Bareilly International University</a>. All rights reserved.</p>\n      <div style=\"display:flex;gap:1rem;\">\n        <a href=\"https://www.linkedin.com/company/bmiil/\" target=\"_blank\" rel=\"noopener\" style=\"width:32px;height:32px;border-radius:2px;border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.35);font-size:11px;text-decoration:none;font-weight:600;\">in</a>\n        <a href=\"https://test.bmiil.com/latest-events/\" style=\"width:32px;height:32px;border-radius:2px;border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.35);font-size:13px;text-decoration:none;\">\u2709</a>\n        <a href=\"mailto:info@bmiil.com\" style=\"width:32px;height:32px;border-radius:2px;border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.35);font-size:13px;text-decoration:none;\">@</a>\n      </div>\n    </div>\n  </div>\n</footer>"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "modified": "2026-05-10 16:15:05"
-        }
+        "data": [
+          {
+            "id": 1002,
+            "title": "About",
+            "slug": "about",
+            "status": "draft",
+            "template_type": "page",
+            "modified": "2026-05-01 00:00:00"
+          },
+          {
+            "id": 1253,
+            "title": "About \u2014 BMIIL",
+            "slug": "about-bmiil",
+            "status": "publish",
+            "template_type": "page",
+            "modified": "2026-05-10 16:47:42"
+          },
+          {
+            "id": 1037,
+            "title": "Accelerator \u2014 BMIIL",
+            "slug": "accelerator-bmiil",
+            "status": "publish",
+            "template_type": "page",
+            "modified": "2026-05-08 05:14:02"
+          },
+          {
+            "id": 1004,
+            "title": "Apply Now",
+            "slug": "apply-now",
+            "status": "draft",
+            "template_type": "page",
+            "modified": "2026-05-01 00:00:00"
+          },
+          {
+            "id": 1039,
+            "title": "Apply Now \u2014 BMIIL",
+            "slug": "apply-now-bmiil",
+            "status": "publish",
+            "template_type": "page",
+            "modified": "2026-05-08 05:14:02"
+          },
+          {
+            "id": 1041,
+            "title": "Ayush Incubation \u2014 BMIIL",
+            "slug": "ayush-incubation-bmiil",
+            "status": "publish",
+            "template_type": "page",
+            "modified": "2026-05-08 05:14:02"
+          },
+          {
+            "id": 1229,
+            "title": "BMIIL \u2014 Footer",
+            "slug": "bmiil-footer",
+            "status": "publish",
+            "template_type": "page",
+            "modified": "2026-05-10 16:15:05"
+          },
+          {
+            "id": 1991,
+            "title": "BMIIL \u2014 Header v7 (logo sized)",
+            "slug": "bmiil-header-v7-logo-sized",
+            "status": "publish",
+            "template_type": "page",
+            "modified": "2026-05-15 11:01:15"
+          },
+          {
+            "id": 1000,
+            "title": "BMIIL Kit \u2014 Global Settings",
+            "slug": "bmiil-kit",
+            "status": "draft",
+            "template_type": "kit",
+            "modified": "2026-05-01 00:00:00"
+          },
+          {
+            "id": 1003,
+            "title": "Contact",
+            "slug": "contact",
+            "status": "draft",
+            "template_type": "page",
+            "modified": "2026-05-01 00:00:00"
+          },
+          {
+            "id": 1043,
+            "title": "Contact \u2014 BMIIL",
+            "slug": "contact-bmiil",
+            "status": "publish",
+            "template_type": "page",
+            "modified": "2026-05-08 05:14:02"
+          },
+          {
+            "id": 9,
+            "title": "Default Kit",
+            "slug": "default-kit",
+            "status": "publish",
+            "template_type": "kit",
+            "modified": "2026-05-12 12:17:37"
+          },
+          {
+            "id": 1060,
+            "title": "Elementor Footer #1060",
+            "slug": "elementor-footer-1060",
+            "status": "publish",
+            "template_type": "footer",
+            "modified": "2026-05-27 10:34:53"
+          },
+          {
+            "id": 1033,
+            "title": "Elementor Header #1033",
+            "slug": "elementor-header-1033",
+            "status": "publish",
+            "template_type": "header",
+            "modified": "2026-05-22 16:21:18"
+          },
+          {
+            "id": 1961,
+            "title": "Elementor Single Post #1961",
+            "slug": "elementor-single-post-1961",
+            "status": "publish",
+            "template_type": "single-post",
+            "modified": "2026-05-12 12:29:52"
+          },
+          {
+            "id": 1001,
+            "title": "Home",
+            "slug": "home",
+            "status": "draft",
+            "template_type": "page",
+            "modified": "2026-05-01 00:00:00"
+          },
+          {
+            "id": 1996,
+            "title": "Home \u2014 BMIIL",
+            "slug": "home-bmiil",
+            "status": "publish",
+            "template_type": "page",
+            "modified": "2026-05-15 11:10:59"
+          },
+          {
+            "id": 1007,
+            "title": "Investors & Partners",
+            "slug": "investors",
+            "status": "draft",
+            "template_type": "page",
+            "modified": "2026-05-01 00:00:00"
+          },
+          {
+            "id": 1051,
+            "title": "Investors & Partners \u2014 BMIIL",
+            "slug": "investors-partners-bmiil",
+            "status": "publish",
+            "template_type": "page",
+            "modified": "2026-05-08 05:14:02"
+          },
+          {
+            "id": 1053,
+            "title": "Medtech Incubation \u2014 BMIIL",
+            "slug": "medtech-incubation-bmiil",
+            "status": "publish",
+            "template_type": "page",
+            "modified": "2026-05-08 05:14:02"
+          },
+          {
+            "id": 1005,
+            "title": "Programs",
+            "slug": "programs",
+            "status": "draft",
+            "template_type": "page",
+            "modified": "2026-05-01 00:00:00"
+          },
+          {
+            "id": 1055,
+            "title": "Programs \u2014 BMIIL",
+            "slug": "programs-bmiil",
+            "status": "publish",
+            "template_type": "page",
+            "modified": "2026-05-08 05:14:02"
+          },
+          {
+            "id": 1959,
+            "title": "Single Post Template",
+            "slug": "single-post-template",
+            "status": "publish",
+            "template_type": null,
+            "modified": "2026-05-12 11:46:01"
+          },
+          {
+            "id": 1006,
+            "title": "Team & Leadership",
+            "slug": "team",
+            "status": "draft",
+            "template_type": "page",
+            "modified": "2026-05-01 00:00:00"
+          },
+          {
+            "id": 1986,
+            "title": "Team & Leadership \u2014 BMIIL",
+            "slug": "team-leadership-bmiil",
+            "status": "publish",
+            "template_type": "page",
+            "modified": "2026-05-15 10:56:16"
+          }
+        ]
       }
     }
   ],
-  "last_run": "2026-05-29T17:44:08.597022",
+  "last_run": "2026-05-29T17:44:47.518941",
   "status": "completed",
   "commands_run": 1
 }
