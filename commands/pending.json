@@ -1,11 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "update_template",
-      "id": "footer-exact",
-      "template_id": 1060,
-      "payload_path": "staging/footer-name-julu.json"
-    }
-  ],
-  "last_updated": "2026-05-29T18:14:14.704828+00:00"
+  "commands": [],
+  "last_updated": "2026-05-29T18:14:27.216940"
 }
