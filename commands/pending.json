@@ -1,4 +1,11 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-29T17:55:05.260994"
+  "commands": [
+    {
+      "action": "update_template",
+      "id": "fix-bm-size",
+      "template_id": 1060,
+      "payload_path": "staging/footer-name-cdaz.json"
+    }
+  ],
+  "last_updated": "2026-05-29T17:55:50.679607+00:00"
 }
