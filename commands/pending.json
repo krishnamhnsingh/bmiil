@@ -1,4 +1,19 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-29T17:46:40.203108"
+  "commands": [
+    {
+      "action": "search_replace",
+      "id": "cc-body-text",
+      "search": "Our college catalysts are BMIIL",
+      "replace": "Our campus catalysts are BMIIL",
+      "dry_run": false
+    },
+    {
+      "action": "search_replace",
+      "id": "cc-lower",
+      "search": "college catalysts are BMIIL",
+      "replace": "campus catalysts are BMIIL",
+      "dry_run": false
+    }
+  ],
+  "last_updated": "2026-05-29T17:47:06.529440+00:00"
 }
