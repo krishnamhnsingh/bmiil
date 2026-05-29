@@ -1,4 +1,11 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-29T17:58:41.052822"
+  "commands": [
+    {
+      "action": "update_template",
+      "id": "footer-widths",
+      "template_id": 1060,
+      "payload_path": "staging/footer-name-kvlx.json"
+    }
+  ],
+  "last_updated": "2026-05-29T17:58:55.973608+00:00"
 }
