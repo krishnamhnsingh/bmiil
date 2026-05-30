@@ -2,15 +2,21 @@
   "results": [
     {
       "action": "update_page_elementor",
-      "id": "prog-1079",
-      "timestamp": "2026-05-30T17:34:08.796707",
+      "id": "prog-1089",
+      "timestamp": "2026-05-30T17:34:33.294372",
       "result": {
-        "success": false,
-        "error": "HTTP Error 403: Forbidden"
+        "success": true,
+        "data": {
+          "id": 1089,
+          "updated": [
+            "elementor_data"
+          ],
+          "url": "https://test.bmiil.com/ayush-program/"
+        }
       }
     }
   ],
-  "last_run": "2026-05-30T17:34:09.155253",
+  "last_run": "2026-05-30T17:34:34.361839",
   "status": "completed",
   "commands_run": 1
 }
