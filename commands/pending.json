@@ -1,4 +1,17 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-30T10:05:58.456310"
+  "commands": [
+    {
+      "action": "update_page_elementor",
+      "id": "home-h1fix",
+      "page_id": 1074,
+      "payload_path": "staging/home-mobile.json"
+    },
+    {
+      "action": "update_page_elementor",
+      "id": "team-arjun",
+      "page_id": 1117,
+      "payload_path": "staging/team-arjun.json"
+    }
+  ],
+  "last_updated": "2026-05-30T10:06:53.437613+00:00"
 }
