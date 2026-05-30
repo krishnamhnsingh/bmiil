@@ -1,4 +1,11 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-30T09:54:42.268911"
+  "commands": [
+    {
+      "action": "update_page_elementor",
+      "id": "home-h1",
+      "page_id": 1074,
+      "payload_path": "staging/home-fixes.json"
+    }
+  ],
+  "last_updated": "2026-05-30T09:55:27.915794+00:00"
 }
