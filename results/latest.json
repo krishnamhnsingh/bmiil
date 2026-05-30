@@ -2,21 +2,21 @@
   "results": [
     {
       "action": "update_page_elementor",
-      "id": "p2-1079",
-      "timestamp": "2026-05-30T17:24:39.383856",
+      "id": "p2-1089",
+      "timestamp": "2026-05-30T17:25:05.349057",
       "result": {
         "success": true,
         "data": {
-          "id": 1079,
+          "id": 1089,
           "updated": [
             "elementor_data"
           ],
-          "url": "https://test.bmiil.com/accelerator-program/"
+          "url": "https://test.bmiil.com/ayush-program/"
         }
       }
     }
   ],
-  "last_run": "2026-05-30T17:24:40.408248",
+  "last_run": "2026-05-30T17:25:06.274365",
   "status": "completed",
   "commands_run": 1
 }
