@@ -1,11 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "update_page_elementor",
-      "id": "home-h1-clamp",
-      "page_id": 1074,
-      "payload_path": "staging/home-h1-dfsq.json"
-    }
-  ],
-  "last_updated": "2026-05-30T17:53:09.222336+00:00"
+  "commands": [],
+  "last_updated": "2026-05-30T17:53:18.427024"
 }
