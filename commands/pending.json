@@ -1,4 +1,11 @@
 {
-  "commands": [],
-  "last_updated": "2026-05-30T10:19:38.339290"
+  "commands": [
+    {
+      "action": "update_page_elementor",
+      "id": "home-align",
+      "page_id": 1074,
+      "payload_path": "staging/home-align.json"
+    }
+  ],
+  "last_updated": "2026-05-30T10:19:54.591164+00:00"
 }
