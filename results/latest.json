@@ -2,21 +2,15 @@
   "results": [
     {
       "action": "update_page_elementor",
-      "id": "prog-1112",
-      "timestamp": "2026-05-30T17:33:42.357444",
+      "id": "prog-1079",
+      "timestamp": "2026-05-30T17:34:08.796707",
       "result": {
-        "success": true,
-        "data": {
-          "id": 1112,
-          "updated": [
-            "elementor_data"
-          ],
-          "url": "https://test.bmiil.com/programs/"
-        }
+        "success": false,
+        "error": "HTTP Error 403: Forbidden"
       }
     }
   ],
-  "last_run": "2026-05-30T17:33:43.758184",
+  "last_run": "2026-05-30T17:34:09.155253",
   "status": "completed",
   "commands_run": 1
 }
