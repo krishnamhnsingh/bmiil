@@ -2,21 +2,21 @@
   "results": [
     {
       "action": "update_page_elementor",
-      "id": "p2-1106",
-      "timestamp": "2026-05-30T17:25:31.379550",
+      "id": "p2-2004",
+      "timestamp": "2026-05-30T17:25:49.887865",
       "result": {
         "success": true,
         "data": {
-          "id": 1106,
+          "id": 2004,
           "updated": [
             "elementor_data"
           ],
-          "url": "https://test.bmiil.com/medtech-incubation/"
+          "url": "https://test.bmiil.com/careers/"
         }
       }
     }
   ],
-  "last_run": "2026-05-30T17:25:32.557859",
+  "last_run": "2026-05-30T17:25:51.484397",
   "status": "completed",
   "commands_run": 1
 }
