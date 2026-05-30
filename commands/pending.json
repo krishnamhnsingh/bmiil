@@ -1,11 +1,4 @@
 {
-  "commands": [
-    {
-      "action": "update_page_elementor",
-      "id": "align-1095",
-      "page_id": 1095,
-      "payload_path": "staging/align-1095.json"
-    }
-  ],
-  "last_updated": "2026-05-30T10:09:46.121873+00:00"
+  "commands": [],
+  "last_updated": "2026-05-30T10:09:54.634882"
 }
