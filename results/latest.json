@@ -2,21 +2,21 @@
   "results": [
     {
       "action": "update_page_elementor",
-      "id": "align-1008",
-      "timestamp": "2026-05-30T10:09:28.395945",
+      "id": "align-1095",
+      "timestamp": "2026-05-30T10:09:53.048582",
       "result": {
         "success": true,
         "data": {
-          "id": 1008,
+          "id": 1095,
           "updated": [
             "elementor_data"
           ],
-          "url": "https://test.bmiil.com/about/"
+          "url": "https://test.bmiil.com/contact/"
         }
       }
     }
   ],
-  "last_run": "2026-05-30T10:09:30.507704",
+  "last_run": "2026-05-30T10:09:54.069426",
   "status": "completed",
   "commands_run": 1
 }
